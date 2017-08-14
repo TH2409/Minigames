@@ -1,0 +1,1325 @@
+﻿Log file open, 08/11/17 15:49:55
+LogInit:Display: Running engine for game: MinigameTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-641644721) SRandInit(-641644721).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 1.373145
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.17.0(build = 424315) feature version = 0. Client runs version (prod = 1).1.17.0(build = 424315) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: E:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.11-14.49.57:037][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-14.49.57:037][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.11-14.49.57:100][  0]LogInit: Computer: RAMSAY
+[2017.08.11-14.49.57:100][  0]LogInit: User: Tom
+[2017.08.11-14.49.57:100][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.11-14.49.57:100][  0]LogInit: High frequency timer resolution =3.903985 MHz
+[2017.08.11-14.49.57:101][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.11-14.49.57:101][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.11-14.49.57:101][  0]LogMemory: Process Physical Memory: 279.61 MB used, 279.61 MB peak
+[2017.08.11-14.49.57:101][  0]LogMemory: Process Virtual Memory: 264.40 MB used, 264.40 MB peak
+[2017.08.11-14.49.57:101][  0]LogMemory: Physical Memory: 6293.86 MB used,  10032.22 MB free, 16326.08 MB total
+[2017.08.11-14.49.57:101][  0]LogMemory: Virtual Memory: 666.09 MB used,  10032.22 MB free, 134217728.00 MB total
+[2017.08.11-14.49.57:674][  0]LogInit: Using OS detected language (en-US).
+[2017.08.11-14.49.57:674][  0]LogInit: Using OS detected locale (en-GB).
+[2017.08.11-14.49.57:818][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.11-14.49.59:732][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.11-14.50.00:235][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.08.11-14.50.00:235][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.11-14.50.00:237][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.11-14.50.00:237][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.11-14.50.00:237][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.11-14.50.00:242][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.11-14.50.00:242][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.11-14.50.00:242][  0]LogWindows: EnumDisplayDevices:
+[2017.08.11-14.50.00:242][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.08.11-14.50.00:242][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.08.11-14.50.00:242][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.11-14.50.00:243][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.11-14.50.00:243][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.11-14.50.00:243][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.08.11-14.50.00:243][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.11-14.50.00:243][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.11-14.50.00:243][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.11-14.50.00:785][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.11-14.50.00:945][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.11-14.50.01:044][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Intermediate/Shaders/WorkingDirectory/9364/).
+[2017.08.11-14.50.01:044][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/AA806C61430F36EC151AAB8C55AF93F1/'.
+[2017.08.11-14.50.01:062][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.11-14.50.04:701][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.11-14.50.04:738][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.11-14.50.04:777][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.11-14.50.04:815][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.11-14.50.04:878][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.11-14.50.04:916][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.11-14.50.04:954][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.11-14.50.04:993][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.11-14.50.05:027][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.11-14.50.05:086][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.11-14.50.05:126][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.11-14.50.05:164][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.11-14.50.05:202][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.11-14.50.05:244][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.11-14.50.05:284][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.11-14.50.05:367][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.11-14.50.05:367][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.11-14.50.05:402][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.11-14.50.05:551][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.11-14.50.05:581][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.11-14.50.05:631][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.11-14.50.05:672][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.11-14.50.05:710][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.11-14.50.05:761][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.11-14.50.05:761][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.11-14.50.06:794][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.11-14.50.07:213][  0]LogDerivedDataCache: Loaded boot cache 0.42s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.11-14.50.07:213][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.11-14.50.07:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.11-14.50.07:214][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.11-14.50.07:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.11-14.50.07:214][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.11-14.50.07:270][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.11-14.50.07:283][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.11-14.50.07:322][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.11-14.50.07:360][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.11-14.50.07:391][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-14.50.07:391][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-14.50.11:210][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-14.50.11:797][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.11-14.50.12:193][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.11-14.50.12:325][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.11-14.50.12:387][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.11-14.50.12:387][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.11-14.50.12:387][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.11-14.50.15:284][  0]LogNetVersion: MinigameTest , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2853374125)
+[2017.08.11-14.50.15:453][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.08.11-14.50.15:527][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.059830 seconds
+[2017.08.11-14.50.15:531][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.11-14.50.15:531][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.11-14.50.15:531][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.11-14.50.15:583][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.11-14.50.36:147][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.11-14.50.36:200][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.11-14.50.37:421][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.11-14.50.38:034][  0]SourceControl: Info Source control is disabled
+[2017.08.11-14.50.38:602][  0]SourceControl: Info Source control is disabled
+[2017.08.11-14.50.38:688][  0]SourceControl: Info Source control is disabled
+[2017.08.11-14.50.38:755][  0]SourceControl: Info Source control is disabled
+[2017.08.11-14.50.39:993][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.11-14.50.40:998][  0]LogEngine: Initializing Engine...
+[2017.08.11-14.50.48:325][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.08.11-14.50.48:326][  0]LogHMD: Oculus plugin initialized. Version: 4.16.2-3514769+++UE4+Release-4.16, LibOVR: 1.17.0, SDK: 1.12.0, built Jun 29 2017, 02:10:56
+[2017.08.11-14.50.50:690][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.11-14.50.50:690][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.11-14.50.51:350][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.11-14.50.51:514][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-14.50.51:533][  0]LogInit: FAudioDevice initialized.
+[2017.08.11-14.50.51:580][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.11-14.50.51:590][  0]LogInit: Texture streaming: Enabled
+[2017.08.11-14.50.51:896][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.11-14.50.52:358][  0]LogInit: Transaction tracking system initialized
+[2017.08.11-14.50.52:768][  0]BlueprintLog: New page: Editor Load
+[2017.08.11-14.50.54:234][  0]LocalizationService: Info Localization service is disabled
+[2017.08.11-14.50.55:198][  0]LogConsoleResponse:Display: 
+[2017.08.11-14.50.56:517][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/' took 0.02s
+[2017.08.11-14.50.56:517][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.11-14.50.56:517][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.11-14.50.58:700][  0]SourceControl: Info Source control is disabled
+[2017.08.11-14.50.58:700][  0]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.11-14.50.58:712][  0]LightingResults: New page: Lighting Build
+[2017.08.11-14.50.58:832][  0]MapCheck: New page: Map Check
+[2017.08.11-14.50.58:832][  0]LightingResults: New page: Lighting Build
+[2017.08.11-14.50.59:840][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.11-14.51.00:122][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.11-14.51.00:164][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.11-14.51.00:217][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.59ms to complete.
+[2017.08.11-14.51.00:217][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.517
+[2017.08.11-14.51.00:383][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.11-14.51.00:726][  0]LogCollectionManager: Loaded 0 collections in 0.001553 seconds
+[2017.08.11-14.51.00:818][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Collections/' took 0.01s
+[2017.08.11-14.51.00:818][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Developers/Tom/Collections/' took 0.01s
+[2017.08.11-14.51.00:818][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Collections/' took 0.01s
+[2017.08.11-14.51.00:818][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.08.11-14.51.00:826][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2329 classes and 491 folders.
+[2017.08.11-14.51.00:865][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.11-14.51.01:575][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.11-14.51.01:653][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.11-14.51.01:829][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.11-14.51.01:856][  0]LogSlate: Took 0.009108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-14.51.01:866][  0]LogSlate: Took 0.008235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.11-14.51.01:897][  0]LogSlate: Took 0.012009 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.11-14.51.02:195][  0]LogRenderer: Reallocating scene render targets to support 1116x600 NumSamples 1 (Frame:1).
+[2017.08.11-14.51.02:481][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.11-14.51.02:556][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.11-14.51.02:556][  0]LogLoad: (Engine Initialization) Total time: 72.72 seconds
+[2017.08.11-14.51.02:556][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.30 seconds
+[2017.08.11-14.51.02:556][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.11-14.51.02:556][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.11-14.51.02:580][  0]LogOcInput: OculusInput pre-init called
+[2017.08.11-14.51.02:591][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.17.0
+[2017.08.11-14.51.02:591][  0]LogHMD: Starting GearVRController plugin
+[2017.08.11-14.51.02:650][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.11-14.51.02:813][  0]LogSlate: Took 0.017031 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-14.51.02:870][  2]LogAssetRegistry: Asset discovery search completed in 47.4394 seconds
+[2017.08.11-14.51.02:873][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.11-14.51.02:873][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2017.08.11-14.51.08:335][619]LogMaterial: Missing cached shader map for material M_FoodJelliedEelTrans, compiling. 
+[2017.08.11-14.51.08:492][619]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-14.51.08:987][619]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-14.51.09:330][619]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.08.11-14.51.10:465][619]LogSlate: Took 0.016110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.11-14.51.12:998][799]LogSlate: Took 0.009463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.11-14.51.46:075][224]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-14.51.49:367][607]LogStaticMesh: Building static mesh SM_FoodJelliedEelStatic...
+[2017.08.11-14.51.49:440][607]LogStaticMesh: Built static mesh [0.07s] /Game/EnvironmentArt/SM_FoodJelliedEelStatic.SM_FoodJelliedEelStatic
+[2017.08.11-14.51.50:400][705]LogRenderer: Reallocating scene render targets to support 1144x744 NumSamples 1 (Frame:1).
+[2017.08.11-14.52.07:244][678]BlueprintLog: New page: Compile BP_Eels
+[2017.08.11-14.52.14:481][407]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.BP_Eels_C_2.StaticMesh) Not currently registered. Aborting.
+[2017.08.11-14.52.14:482][407]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.BP_Eels_C_2.StaticMesh) Not currently registered. Aborting.
+[2017.08.11-14.52.15:432][519]BlueprintLog: New page: Compile BP_Eels
+[2017.08.11-14.52.24:291][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.11-14.52.29:679][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_Eels" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_Eels.uasset" SILENT=true
+[2017.08.11-14.52.29:750][878]LogSavePackage: Save=24.36ms
+[2017.08.11-14.52.29:750][878]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_Eels8B27E70645299C60F98D14974956C6FC.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_Eels.uasset'
+[2017.08.11-14.52.29:770][878]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_Eels.uasset
+[2017.08.11-14.52.29:773][878]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.11-14.52.29:784][878]LightingResults: New page: Lighting Build
+[2017.08.11-14.52.29:785][878]LoadErrors: New page: Loading map: Eating.umap
+[2017.08.11-14.52.29:797][878]MapCheck: New page: Map Check
+[2017.08.11-14.52.29:797][878]LightingResults: New page: Lighting Build
+[2017.08.11-14.52.30:670][878]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-14.52.30:715][878]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.11-14.52.30:773][878]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.11-14.52.30:859][878]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.936ms to complete.
+[2017.08.11-14.52.30:859][878]LogFileHelpers: Loading map 'Eating' took 1.087
+[2017.08.11-14.52.35:190][315]LogEditorViewport: Clicking on Actor (LMB): BP_Spawner_C (BP_Spawner)
+[2017.08.11-14.52.52:995][395]BlueprintLog: New page: Compile BP_Spawner
+[2017.08.11-14.52.55:194][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.52.55:194][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-14.52.55:195][631]PIE: New page: SIE session: Eating (11 Aug 2017 16:52:55)
+[2017.08.11-14.52.55:195][631]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-14.52.55:200][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005348s)
+[2017.08.11-14.52.55:201][631]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-14.52.55:201][631]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2017.08.11-14.52.55:201][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.006492s)
+[2017.08.11-14.52.55:228][631]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-14.52.55:238][631]LogInit: FAudioDevice initialized.
+[2017.08.11-14.52.55:304][631]LogLoad: Game class is 'newmode_C'
+[2017.08.11-14.52.55:319][631]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-15.52.55
+[2017.08.11-14.52.55:330][631]LogWorld: Bringing up level for play took: 0.013548
+[2017.08.11-14.52.55:331][631]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.11-14.52.55:371][631]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.11-14.52.55:373][631]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 0.605
+[2017.08.11-14.52.55:438][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.52.55:439][631]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-14.52.55:439][631]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-14.52.55:439][631]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-14.53.02:629][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.53.02:677][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.53.10:456][150]BlueprintLog: New page: Compile BP_Eels
+[2017.08.11-14.53.11:800][296]LogTemp: Repeting last play command: Simulate
+[2017.08.11-14.53.11:818][296]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.53.11:818][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-14.53.11:818][296]PIE: New page: SIE session: Eating (11 Aug 2017 16:53:11)
+[2017.08.11-14.53.11:818][296]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-14.53.11:824][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005546s)
+[2017.08.11-14.53.11:824][296]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-14.53.11:824][296]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2017.08.11-14.53.11:825][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.006430s)
+[2017.08.11-14.53.11:850][296]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-14.53.11:859][296]LogInit: FAudioDevice initialized.
+[2017.08.11-14.53.11:894][296]LogLoad: Game class is 'newmode_C'
+[2017.08.11-14.53.11:897][296]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-15.53.11
+[2017.08.11-14.53.11:898][296]LogWorld: Bringing up level for play took: 0.003016
+[2017.08.11-14.53.11:898][296]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.11-14.53.11:899][296]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating -0.869
+[2017.08.11-14.53.11:905][296]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.53.11:906][296]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-14.53.11:906][296]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-14.53.11:906][296]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-14.53.28:322][208]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.53.28:361][208]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.53.33:641][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.11-14.55.05:891][996]BlueprintLog: New page: Compile C_Eating
+[2017.08.11-14.55.05:964][996]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Levels/Eating.Eating:PersistentLevel.C_Eating2.CollisionCylinder is already used by CapsuleComponent /Game/Levels/Eating.Eating:PersistentLevel.REINST_C_Eating_C_4.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.11-14.55.05:964][996]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Levels/Eating.Eating:PersistentLevel.C_Eating2.Arrow is already used by ArrowComponent /Game/Levels/Eating.Eating:PersistentLevel.REINST_C_Eating_C_4.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.11-14.55.05:964][996]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Levels/Eating.Eating:PersistentLevel.C_Eating2.CharMoveComp is already used by CharacterMovementComponent /Game/Levels/Eating.Eating:PersistentLevel.REINST_C_Eating_C_4.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.11-14.55.05:964][996]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Levels/Eating.Eating:PersistentLevel.C_Eating2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Levels/Eating.Eating:PersistentLevel.REINST_C_Eating_C_4.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.11-14.55.13:959][819]LogEditorViewport: Clicking on Actor (LMB): BP_EatingChad_C (BP_EatingChad)
+[2017.08.11-14.55.40:673][736]BlueprintLog: New page: Compile BP_EatingNewbury
+[2017.08.11-14.55.59:284][866]BlueprintLog: New page: Compile BP_EatingNewbury
+[2017.08.11-14.56.34:076][851]BlueprintLog: New page: Compile BP_EatingNewbury
+[2017.08.11-14.56.35:776][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:ExecuteUbergraph_BP_EatingNewbury' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:Box' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:StaticMesh' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:Timeline_1' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:Box' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:Timeline_1' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:Timeline_0' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:Name' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:points' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:Timeline_0' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:Name' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:StaticMesh' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.SKEL_BP_EatingNewbury_C:points' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:370][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:371][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:ExecuteUbergraph_BP_EatingNewbury' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:371][685]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EatingNewbury.BP_EatingNewbury_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Drinking/BP_EatingNewbury.PackageMetaData'
+[2017.08.11-14.56.43:388][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_EatingNewbury" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingNewbury.uasset" SILENT=true
+[2017.08.11-14.56.43:439][685]LogSavePackage: Save=48.71ms
+[2017.08.11-14.56.43:439][685]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_EatingNewburyA9C46DF54309B082092D239741F28DF7.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingNewbury.uasset'
+[2017.08.11-14.56.43:443][685]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingNewbury.uasset
+[2017.08.11-14.57.09:129][508]BlueprintLog: New page: Compile BP_EatingNewbury
+[2017.08.11-14.57.36:567][543]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.57.36:567][543]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.11-14.57.36:567][543]LogPlayLevel: [PlayLevel] Compiling BP_Eels before play...
+[2017.08.11-14.57.36:645][543]LogPlayLevel: [PlayLevel] Compiling C_Eating before play...
+[2017.08.11-14.57.36:767][543]LogPlayLevel: [PlayLevel] Compiling Eating before play...
+[2017.08.11-14.57.36:852][543]LogPlayLevel: PlayLevel: Blueprint regeneration took 284 ms (3 blueprints)
+[2017.08.11-14.57.36:852][543]PIE: New page: PIE session: Eating (11 Aug 2017 16:57:36)
+[2017.08.11-14.57.36:852][543]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-14.57.36:858][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006255s)
+[2017.08.11-14.57.36:859][543]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-14.57.36:859][543]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2017.08.11-14.57.36:859][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.007161s)
+[2017.08.11-14.57.36:878][543]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-14.57.36:889][543]LogInit: FAudioDevice initialized.
+[2017.08.11-14.57.36:921][543]LogLoad: Game class is 'newmode_C'
+[2017.08.11-14.57.36:925][543]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-15.57.36
+[2017.08.11-14.57.36:925][543]LogWorld: Bringing up level for play took: 0.003821
+[2017.08.11-14.57.36:946][543]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 0.178
+[2017.08.11-14.57.36:946][543]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.57.36:948][543]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-14.57.36:948][543]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-14.57.36:948][543]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-14.57.37:933][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.57.37:972][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.57.39:077][777]LogEditorViewport: Clicking on Actor (LMB): BP_EatingNewbury_C (BP_EatingNewbury)
+[2017.08.11-14.57.43:818][289]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-14.57.43:834][289]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.57.43:834][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-14.57.43:834][289]PIE: New page: PIE session: Eating (11 Aug 2017 16:57:43)
+[2017.08.11-14.57.43:835][289]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-14.57.43:839][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004755s)
+[2017.08.11-14.57.43:840][289]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-14.57.43:840][289]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2017.08.11-14.57.43:840][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.005682s)
+[2017.08.11-14.57.43:864][289]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-14.57.43:877][289]LogInit: FAudioDevice initialized.
+[2017.08.11-14.57.43:907][289]LogLoad: Game class is 'newmode_C'
+[2017.08.11-14.57.43:911][289]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-15.57.43
+[2017.08.11-14.57.43:911][289]LogWorld: Bringing up level for play took: 0.003174
+[2017.08.11-14.57.43:912][289]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating -0.855
+[2017.08.11-14.57.43:913][289]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.57.43:914][289]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-14.57.43:914][289]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-14.57.43:914][289]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-14.57.45:677][497]Cmd: LevelEditor.ToggleImmersive
+[2017.08.11-14.57.45:817][498]LogRenderer: Reallocating scene render targets to support 1472x812 NumSamples 1 (Frame:210).
+[2017.08.11-14.57.45:862][499]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:212).
+[2017.08.11-14.57.47:570][658]LogBlueprintUserMessages: [BP_EatingChad_207] -300
+[2017.08.11-14.57.49:030][795]LogBlueprintUserMessages: [BP_EatingChad_207] -200
+[2017.08.11-14.57.59:635][805]LogBlueprintUserMessages: [BP_EatingChad_207] -100
+[2017.08.11-14.58.01:378][970]LogBlueprintUserMessages: [BP_EatingChad_207] 0
+[2017.08.11-14.58.03:085][131]LogBlueprintUserMessages: [BP_EatingChad_207] 100
+[2017.08.11-14.58.04:256][241]LogBlueprintUserMessages: [BP_EatingChad_207] 200
+[2017.08.11-14.58.05:383][348]LogBlueprintUserMessages: [BP_EatingChad_207] 300
+[2017.08.11-14.58.06:482][451]LogBlueprintUserMessages: [BP_EatingChad_207] 400
+[2017.08.11-14.58.07:581][555]LogBlueprintUserMessages: [BP_EatingChad_207] 500
+[2017.08.11-14.58.08:607][652]LogBlueprintUserMessages: [BP_EatingChad_207] 600
+[2017.08.11-14.58.10:571][837]LogBlueprintUserMessages: [BP_EatingChad_207] 700
+[2017.08.11-14.58.11:639][938]LogBlueprintUserMessages: [BP_EatingChad_207] 800
+[2017.08.11-14.58.13:575][120]LogBlueprintUserMessages: [BP_EatingChad_207] 900
+[2017.08.11-14.58.14:227][182]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.58.14:300][182]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.58.17:298][445]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-14.58.17:317][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.58.17:317][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-14.58.17:317][445]PIE: New page: PIE session: Eating (11 Aug 2017 16:58:17)
+[2017.08.11-14.58.17:317][445]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-14.58.17:322][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005462s)
+[2017.08.11-14.58.17:323][445]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-14.58.17:323][445]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2017.08.11-14.58.17:323][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.006346s)
+[2017.08.11-14.58.17:348][445]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-14.58.17:358][445]LogInit: FAudioDevice initialized.
+[2017.08.11-14.58.17:394][445]LogLoad: Game class is 'newmode_C'
+[2017.08.11-14.58.17:397][445]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-15.58.17
+[2017.08.11-14.58.17:398][445]LogWorld: Bringing up level for play took: 0.003131
+[2017.08.11-14.58.17:398][445]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 0.631
+[2017.08.11-14.58.17:399][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.58.17:399][445]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-14.58.17:399][445]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-14.58.17:399][445]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-14.58.19:798][685]LogBlueprintUserMessages: [BP_EatingChad_207] -300
+[2017.08.11-14.58.20:870][793]LogBlueprintUserMessages: [BP_EatingChad_207] -600
+[2017.08.11-14.58.22:025][907]LogBlueprintUserMessages: [BP_EatingChad_207] -500
+[2017.08.11-14.58.23:820][ 85]LogBlueprintUserMessages: [BP_EatingChad_207] -400
+[2017.08.11-14.58.24:803][183]LogBlueprintUserMessages: [BP_EatingChad_207] -300
+[2017.08.11-14.58.25:934][296]LogBlueprintUserMessages: [BP_EatingChad_207] -200
+[2017.08.11-14.58.26:509][354]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.58.26:557][354]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-14.58.30:236][670]LogEditorViewport: Clicking on Actor (LMB): BP_EatingChad_C (BP_EatingChad)
+[2017.08.11-14.58.32:212][871]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.32:316][871]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.104 s
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: 
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: Stack: 
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000428CE256
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004267B862
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000042691E26
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000342F7556
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000003135D27B
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000303524AA
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000301F72CC
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000301FA6D9
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000030318035
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000003560DB57
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000035614B61
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000358348D3
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000003566F604
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000035669170
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000035668A55
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor.exe!0x000000007666ED59
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor.exe!0x000000007665F0B0
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor.exe!0x000000007665F12A
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor.exe!0x0000000076670CF9
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: UE4Editor.exe!0x00000000766725F7
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: KERNEL32.DLL!0x00000000939F2774
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: ntdll.dll!0x0000000094780D51
+[2017.08.11-14.58.32:316][871]LogOutputDevice:Error: 
+[2017.08.11-14.58.32:324][871]LogStats:                SubmitErrorReport -  0.000 s
+[2017.08.11-14.58.32:831][871]LogStats:                    SendNewReport -  0.507 s
+[2017.08.11-14.58.32:831][871]LogStats:             FDebug::EnsureFailed -  0.619 s
+[2017.08.11-14.58.34:423][ 62]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.34:423][ 62]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.34:680][ 93]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.34:680][ 93]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.39:207][633]LogEditorViewport: Clicking on Actor (LMB): C_Eating_C (C_Eating)
+[2017.08.11-14.58.59:896][ 16]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.59:896][ 16]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.59:897][ 16]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.59:898][ 16]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.59:899][ 16]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.59:904][ 17]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.59:906][ 17]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.59:912][ 18]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.59:914][ 18]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.59:921][ 19]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.58.59:923][ 19]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:897][370]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:906][371]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:914][372]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:923][373]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:931][374]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:939][375]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:947][376]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:956][377]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:964][378]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:973][379]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:981][380]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:989][381]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.02:997][382]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.03:247][412]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.03:256][413]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.03:264][414]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.03:272][415]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.03:272][415]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.03:314][420]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.03:322][421]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.03:322][421]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:082][511]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:091][512]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:098][513]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:099][513]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:182][523]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:182][523]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:183][523]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:184][523]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:191][524]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:192][524]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:198][525]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:199][525]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.04:200][525]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.14:572][736]BlueprintLog: New page: Compile BP_EatingChad
+[2017.08.11-14.59.22:377][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.11-14.59.25:581][906]LogEditorViewport: Clicking on Actor (LMB): BP_EatingDiana_C (BP_EatingDiana)
+[2017.08.11-14.59.27:997][157]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.28:006][158]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.28:014][159]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.28:023][160]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.28:030][161]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.28:030][161]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.41:339][720]BlueprintLog: New page: Compile BP_EatingDiana
+[2017.08.11-14.59.43:642][968]LogEditorViewport: Clicking on Actor (LMB): BP_EatingJeremiah_C (BP_EatingJeremiah)
+[2017.08.11-14.59.52:207][929]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.52:207][929]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.52:208][929]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.52:210][929]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.52:216][930]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.52:218][930]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.52:224][931]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.52:226][931]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.52:240][932]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:514][ 83]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:523][ 84]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:530][ 85]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:539][ 86]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:547][ 87]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:556][ 88]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:564][ 89]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:572][ 90]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:580][ 91]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:589][ 92]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:597][ 93]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:606][ 94]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:614][ 95]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:623][ 96]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:630][ 97]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:639][ 98]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:647][ 99]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:655][100]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:664][101]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:672][102]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:680][103]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:680][103]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:681][103]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:682][103]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:689][104]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:691][104]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:697][105]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:698][105]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:705][106]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:707][106]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:713][107]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:722][108]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:722][108]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:723][108]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:725][108]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:730][109]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:731][109]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:739][110]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:740][110]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:746][111]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:747][111]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:748][111]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:796][117]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:796][117]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:797][117]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:799][117]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:806][118]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.53:808][118]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-14.59.58:155][634]BlueprintLog: New page: Compile BP_EatingJeremiah
+[2017.08.11-14.59.59:993][825]LogEditorViewport: Clicking on Actor (LMB): BP_EatingNewbury_C (BP_EatingNewbury)
+[2017.08.11-15.00.06:972][600]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.06:973][600]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.06:975][600]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.06:976][600]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.06:981][601]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.06:981][601]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.06:982][601]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.06:990][602]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.06:991][602]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.06:998][603]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.06:999][603]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:006][604]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:008][604]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:265][635]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:273][636]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:281][637]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:290][638]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:298][639]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:306][640]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:315][641]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:323][642]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:331][643]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:340][644]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:348][645]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:356][646]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:690][684]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:697][685]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:706][686]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:714][687]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:723][688]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:730][689]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:740][690]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:747][691]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:756][692]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:764][693]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:772][694]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:780][695]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:789][696]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:797][697]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:805][698]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:813][699]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:823][700]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:830][701]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:839][702]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:847][703]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:855][704]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:863][705]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:872][706]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:880][707]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:888][708]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:897][709]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.07:906][710]LogUObjectArray:Warning: Other object in slot
+[2017.08.11-15.00.13:623][385]BlueprintLog: New page: Compile BP_EatingNewbury
+[2017.08.11-15.00.15:656][572]LogEditorViewport: Clicking on Actor (LMB): BP_EatingYvonne_C (BP_EatingYvonne)
+[2017.08.11-15.00.31:197][369]BlueprintLog: New page: Compile BP_EatingYvonne
+[2017.08.11-15.00.34:018][640]LogEditorViewport: Clicking on Actor (LMB): BP_EatingReginald_C (BP_EatingReginald)
+[2017.08.11-15.00.36:274][874]LogUObjectBase:Warning: Object is not registered
+[2017.08.11-15.00.36:274][874]LogUObjectBase:Warning: Object is not registered
+[2017.08.11-15.00.36:275][874]LogUObjectBase:Warning: Object is not registered
+[2017.08.11-15.00.36:276][874]LogUObjectBase:Warning: Object is not registered
+[2017.08.11-15.00.36:280][875]LogUObjectBase:Warning: Object is not registered
+[2017.08.11-15.00.36:282][875]LogUObjectBase:Warning: Object is not registered
+[2017.08.11-15.00.36:289][876]LogUObjectBase:Warning: Object is not registered
+[2017.08.11-15.00.36:291][876]LogUObjectBase:Warning: Object is not registered
+[2017.08.11-15.00.46:355][ 42]BlueprintLog: New page: Compile BP_EatingReginald
+[2017.08.11-15.00.48:376][259]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-15.00.48:394][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.00.48:394][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-15.00.48:394][259]PIE: New page: PIE session: Eating (11 Aug 2017 17:00:48)
+[2017.08.11-15.00.48:394][259]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-15.00.48:399][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004495s)
+[2017.08.11-15.00.48:399][259]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-15.00.48:399][259]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2017.08.11-15.00.48:399][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.005204s)
+[2017.08.11-15.00.48:428][259]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-15.00.48:438][259]LogInit: FAudioDevice initialized.
+[2017.08.11-15.00.48:473][259]LogLoad: Game class is 'newmode_C'
+[2017.08.11-15.00.48:476][259]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-16.00.48
+[2017.08.11-15.00.48:477][259]LogWorld: Bringing up level for play took: 0.002963
+[2017.08.11-15.00.48:478][259]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating -0.289
+[2017.08.11-15.00.48:478][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.00.48:480][259]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-15.00.48:480][259]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-15.00.48:480][259]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-15.00.50:810][531]LogBlueprintUserMessages: [BP_EatingChad_207] -300
+[2017.08.11-15.00.51:769][646]LogBlueprintUserMessages: [BP_EatingChad_207] -600
+[2017.08.11-15.00.52:802][770]LogBlueprintUserMessages: [BP_EatingChad_207] -900
+[2017.08.11-15.00.54:052][920]LogBlueprintUserMessages: [BP_EatingChad_207] -1200
+[2017.08.11-15.00.55:161][ 53]LogBlueprintUserMessages: [BP_EatingChad_207] -1500
+[2017.08.11-15.00.55:919][144]LogBlueprintUserMessages: [BP_EatingChad_207] -1800
+[2017.08.11-15.00.56:886][260]LogBlueprintUserMessages: [BP_EatingChad_207] -2100
+[2017.08.11-15.00.58:919][504]LogBlueprintUserMessages: [BP_EatingChad_207] -2000
+[2017.08.11-15.00.59:894][621]LogBlueprintUserMessages: [BP_EatingChad_207] -2300
+[2017.08.11-15.01.01:695][837]LogBlueprintUserMessages: [BP_EatingChad_207] -2600
+[2017.08.11-15.01.02:990][992]LogBlueprintUserMessages: [BP_EatingChad_207] -2900
+[2017.08.11-15.01.03:948][107]LogBlueprintUserMessages: [BP_EatingChad_207] -3200
+[2017.08.11-15.01.04:950][227]LogBlueprintUserMessages: [BP_EatingChad_207] -3500
+[2017.08.11-15.01.05:858][336]LogBlueprintUserMessages: [BP_EatingChad_207] -3800
+[2017.08.11-15.01.06:928][463]LogBlueprintUserMessages: [BP_EatingChad_207] -4100
+[2017.08.11-15.01.07:977][587]LogBlueprintUserMessages: [BP_EatingChad_207] -4000
+[2017.08.11-15.01.08:982][706]LogBlueprintUserMessages: [BP_EatingChad_207] -4300
+[2017.08.11-15.01.10:002][827]LogBlueprintUserMessages: [BP_EatingChad_207] -4600
+[2017.08.11-15.01.10:972][942]LogBlueprintUserMessages: [BP_EatingChad_207] -4900
+[2017.08.11-15.01.12:016][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.01.12:055][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.01.16:182][536]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-15.01.16:199][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.01.16:199][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-15.01.16:199][536]PIE: New page: PIE session: Eating (11 Aug 2017 17:01:16)
+[2017.08.11-15.01.16:199][536]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-15.01.16:205][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005321s)
+[2017.08.11-15.01.16:206][536]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-15.01.16:206][536]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2017.08.11-15.01.16:206][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.006585s)
+[2017.08.11-15.01.16:228][536]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-15.01.16:238][536]LogInit: FAudioDevice initialized.
+[2017.08.11-15.01.16:273][536]LogLoad: Game class is 'newmode_C'
+[2017.08.11-15.01.16:276][536]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-16.01.16
+[2017.08.11-15.01.16:277][536]LogWorld: Bringing up level for play took: 0.002883
+[2017.08.11-15.01.16:278][536]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating -0.49
+[2017.08.11-15.01.16:278][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.01.16:280][536]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-15.01.16:280][536]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-15.01.16:280][536]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-15.01.22:256][248]LogBlueprintUserMessages: [BP_EatingChad_207] 100
+[2017.08.11-15.01.23:841][438]LogBlueprintUserMessages: [BP_EatingChad_207] -200
+[2017.08.11-15.01.24:777][550]LogBlueprintUserMessages: [BP_EatingChad_207] -100
+[2017.08.11-15.01.25:618][651]LogBlueprintUserMessages: [BP_EatingChad_207] 0
+[2017.08.11-15.01.26:518][759]LogBlueprintUserMessages: [BP_EatingChad_207] -300
+[2017.08.11-15.01.27:003][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.01.27:041][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.01.33:402][553]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-15.01.33:420][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.01.33:420][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-15.01.33:420][553]PIE: New page: PIE session: Eating (11 Aug 2017 17:01:33)
+[2017.08.11-15.01.33:420][553]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-15.01.33:426][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005888s)
+[2017.08.11-15.01.33:427][553]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-15.01.33:427][553]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2017.08.11-15.01.33:427][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.007085s)
+[2017.08.11-15.01.33:449][553]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-15.01.33:460][553]LogInit: FAudioDevice initialized.
+[2017.08.11-15.01.33:488][553]LogLoad: Game class is 'newmode_C'
+[2017.08.11-15.01.33:491][553]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-16.01.33
+[2017.08.11-15.01.33:492][553]LogWorld: Bringing up level for play took: 0.003732
+[2017.08.11-15.01.33:493][553]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 0.726
+[2017.08.11-15.01.33:493][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.01.33:495][553]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-15.01.33:495][553]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-15.01.33:495][553]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-15.01.36:039][851]LogBlueprintUserMessages: [BP_EatingChad_207] 100
+[2017.08.11-15.01.36:876][951]LogBlueprintUserMessages: [BP_EatingChad_207] -200
+[2017.08.11-15.01.37:777][ 59]LogBlueprintUserMessages: [BP_EatingChad_207] -500
+[2017.08.11-15.01.38:805][182]LogBlueprintUserMessages: [BP_EatingChad_207] -800
+[2017.08.11-15.01.40:519][384]LogBlueprintUserMessages: [BP_EatingChad_207] -1100
+[2017.08.11-15.01.41:872][543]LogBlueprintUserMessages: [BP_EatingChad_207] -1400
+[2017.08.11-15.01.42:739][646]LogBlueprintUserMessages: [BP_EatingChad_207] -1700
+[2017.08.11-15.01.43:776][770]LogBlueprintUserMessages: [BP_EatingChad_207] -2000
+[2017.08.11-15.01.44:659][876]LogBlueprintUserMessages: [BP_EatingChad_207] -2300
+[2017.08.11-15.01.45:760][  6]LogBlueprintUserMessages: [BP_EatingChad_207] -2600
+[2017.08.11-15.01.47:989][271]LogBlueprintUserMessages: [BP_EatingChad_207] -2900
+[2017.08.11-15.01.48:919][382]LogBlueprintUserMessages: [BP_EatingChad_207] -3200
+[2017.08.11-15.01.49:914][501]LogBlueprintUserMessages: [BP_EatingChad_207] -3100
+[2017.08.11-15.01.51:511][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.01.51:547][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.02.18:300][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Eating" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.11-15.02.18:540][861]LogSavePackage: Save=194.80ms
+[2017.08.11-15.02.18:540][861]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/EatingFBD1BC8F447F67606712C1AA8FCFEC24.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap'
+[2017.08.11-15.02.18:544][861]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap
+[2017.08.11-15.02.36:998][ 58]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Tread01)
+[2017.08.11-15.02.38:943][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Eating" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.11-15.02.39:190][271]LogSavePackage: Save=201.92ms
+[2017.08.11-15.02.39:190][271]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Eating37D7805C444B5F3F44550BA3F7D7C437.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap'
+[2017.08.11-15.02.39:192][271]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap
+[2017.08.11-15.02.43:302][729]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-15.02.43:319][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.02.43:320][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-15.02.43:320][729]PIE: New page: PIE session: Eating (11 Aug 2017 17:02:43)
+[2017.08.11-15.02.43:320][729]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-15.02.43:326][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005900s)
+[2017.08.11-15.02.43:326][729]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-15.02.43:326][729]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2017.08.11-15.02.43:326][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.006708s)
+[2017.08.11-15.02.43:349][729]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-15.02.43:359][729]LogInit: FAudioDevice initialized.
+[2017.08.11-15.02.43:393][729]LogLoad: Game class is 'newmode_C'
+[2017.08.11-15.02.43:396][729]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-16.02.43
+[2017.08.11-15.02.43:397][729]LogWorld: Bringing up level for play took: 0.002998
+[2017.08.11-15.02.43:397][729]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 0.63
+[2017.08.11-15.02.43:398][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.02.43:400][729]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-15.02.43:400][729]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-15.02.43:400][729]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-15.02.48:290][307]LogBlueprintUserMessages: [BP_EatingChad_207] -300
+[2017.08.11-15.02.50:417][562]LogBlueprintUserMessages: [BP_EatingChad_207] -200
+[2017.08.11-15.02.51:869][736]LogBlueprintUserMessages: [BP_EatingChad_207] -500
+[2017.08.11-15.02.53:026][875]LogBlueprintUserMessages: [BP_EatingChad_207] -400
+[2017.08.11-15.02.54:153][ 10]LogBlueprintUserMessages: [BP_EatingChad_207] -700
+[2017.08.11-15.02.55:228][139]LogBlueprintUserMessages: [BP_EatingChad_207] -1000
+[2017.08.11-15.02.56:155][248]LogBlueprintUserMessages: [BP_EatingChad_207] -900
+[2017.08.11-15.02.57:161][367]LogBlueprintUserMessages: [BP_EatingChad_207] -800
+[2017.08.11-15.02.58:101][478]LogBlueprintUserMessages: [BP_EatingChad_207] -1100
+[2017.08.11-15.02.59:213][610]LogBlueprintUserMessages: [BP_EatingChad_207] -1400
+[2017.08.11-15.03.00:139][720]LogBlueprintUserMessages: [BP_EatingChad_207] -1700
+[2017.08.11-15.03.01:139][839]LogBlueprintUserMessages: [BP_EatingChad_207] -2000
+[2017.08.11-15.03.02:168][962]LogBlueprintUserMessages: [BP_EatingChad_207] -2300
+[2017.08.11-15.03.03:313][ 99]LogBlueprintUserMessages: [BP_EatingChad_207] -2600
+[2017.08.11-15.03.05:753][389]LogBlueprintUserMessages: [BP_EatingChad_207] -2900
+[2017.08.11-15.03.06:743][504]LogBlueprintUserMessages: [BP_EatingChad_207] -3200
+[2017.08.11-15.03.11:095][ 23]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.03.11:139][ 23]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.03.12:889][222]LogEditorViewport: Clicking on Actor (LMB): C_Eating_C (C_Eating)
+[2017.08.11-15.04.06:613][357]BlueprintLog: New page: Compile C_Eating
+[2017.08.11-15.04.07:952][476]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-15.04.07:971][476]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.04.07:971][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-15.04.07:971][476]PIE: New page: PIE session: Eating (11 Aug 2017 17:04:07)
+[2017.08.11-15.04.07:971][476]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-15.04.07:978][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006809s)
+[2017.08.11-15.04.07:979][476]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-15.04.07:979][476]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2017.08.11-15.04.07:979][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.007595s)
+[2017.08.11-15.04.08:005][476]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-15.04.08:020][476]LogInit: FAudioDevice initialized.
+[2017.08.11-15.04.08:052][476]LogLoad: Game class is 'newmode_C'
+[2017.08.11-15.04.08:056][476]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-16.04.08
+[2017.08.11-15.04.08:057][476]LogWorld: Bringing up level for play took: 0.003785
+[2017.08.11-15.04.08:058][476]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating -0.709
+[2017.08.11-15.04.08:058][476]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.04.08:060][476]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-15.04.08:060][476]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-15.04.08:060][476]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-15.04.15:113][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.04.15:186][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.04.28:771][904]BlueprintLog: New page: Compile C_Eating
+[2017.08.11-15.04.29:480][965]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-15.04.29:500][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.04.29:500][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-15.04.29:500][965]PIE: New page: PIE session: Eating (11 Aug 2017 17:04:29)
+[2017.08.11-15.04.29:500][965]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-15.04.29:505][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005364s)
+[2017.08.11-15.04.29:506][965]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-15.04.29:506][965]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2017.08.11-15.04.29:506][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.006467s)
+[2017.08.11-15.04.29:533][965]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-15.04.29:544][965]LogInit: FAudioDevice initialized.
+[2017.08.11-15.04.29:595][965]LogLoad: Game class is 'newmode_C'
+[2017.08.11-15.04.29:598][965]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-16.04.29
+[2017.08.11-15.04.29:599][965]LogWorld: Bringing up level for play took: 0.003362
+[2017.08.11-15.04.29:599][965]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.11-15.04.29:606][965]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 0.838
+[2017.08.11-15.04.29:606][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.04.29:609][965]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-15.04.29:609][965]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-15.04.29:609][965]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-15.04.32:731][332]LogBlueprintUserMessages: [BP_EatingChad_207] -300
+[2017.08.11-15.04.35:040][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.04.35:140][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.07.28:941][ 88]BlueprintLog: New page: Compile C_Eating
+[2017.08.11-15.07.29:698][155]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-15.07.29:718][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.07.29:718][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-15.07.29:718][155]PIE: New page: PIE session: Eating (11 Aug 2017 17:07:29)
+[2017.08.11-15.07.29:718][155]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-15.07.29:724][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005974s)
+[2017.08.11-15.07.29:725][155]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-15.07.29:725][155]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2017.08.11-15.07.29:725][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.007029s)
+[2017.08.11-15.07.29:754][155]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-15.07.29:765][155]LogInit: FAudioDevice initialized.
+[2017.08.11-15.07.29:815][155]LogLoad: Game class is 'newmode_C'
+[2017.08.11-15.07.29:819][155]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-16.07.29
+[2017.08.11-15.07.29:820][155]LogWorld: Bringing up level for play took: 0.003593
+[2017.08.11-15.07.29:820][155]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.11-15.07.29:826][155]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 1.059
+[2017.08.11-15.07.29:827][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.07.29:829][155]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-15.07.29:829][155]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-15.07.29:829][155]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-15.07.35:363][803]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors of length 0!
+[2017.08.11-15.07.35:363][803]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2
+	C_Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.C_Eating_94
+	Function /Game/Characters/C_Eating.C_Eating_C:ExecuteUbergraph_C_Eating:0B18
+[2017.08.11-15.07.35:364][803]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2 from function: 'ExecuteUbergraph_C_Eating' from node: Set Simulate Physics in graph: EventGraph in object: C_Eating with description: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2
+[2017.08.11-15.07.35:364][803]LogScript:Warning: Accessed None
+	C_Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.C_Eating_94
+	Function /Game/Characters/C_Eating.C_Eating_C:ExecuteUbergraph_C_Eating:0B2D
+[2017.08.11-15.07.35:364][803]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_C_Eating' from node: Set Simulate Physics in graph: EventGraph in object: C_Eating with description: Accessed None
+[2017.08.11-15.07.35:364][803]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors of length 0!
+[2017.08.11-15.07.35:364][803]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2
+	C_Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.C_Eating_94
+	Function /Game/Characters/C_Eating.C_Eating_C:ExecuteUbergraph_C_Eating:0BEA
+[2017.08.11-15.07.35:364][803]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2 from function: 'ExecuteUbergraph_C_Eating' from node: Set Actor Enable Collision in graph: EventGraph in object: C_Eating with description: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2
+[2017.08.11-15.07.36:097][891]LogBlueprintUserMessages: [BP_EatingChad_207] 100
+[2017.08.11-15.07.37:556][ 66]LogBlueprintUserMessages: [BP_EatingChad_207] -200
+[2017.08.11-15.07.38:407][168]LogBlueprintUserMessages: [BP_EatingChad_207] -500
+[2017.08.11-15.07.39:399][287]LogBlueprintUserMessages: [BP_EatingChad_207] -800
+[2017.08.11-15.07.40:376][403]LogBlueprintUserMessages: [BP_EatingChad_207] -1100
+[2017.08.11-15.07.40:966][474]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2
+	C_Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.C_Eating_94
+	Function /Game/Characters/C_Eating.C_Eating_C:ExecuteUbergraph_C_Eating:0A59
+[2017.08.11-15.07.40:966][474]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2 from function: 'ExecuteUbergraph_C_Eating' from node: DetachFromActor in graph: EventGraph in object: C_Eating with description: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2
+[2017.08.11-15.07.40:966][474]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2
+	C_Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.C_Eating_94
+	Function /Game/Characters/C_Eating.C_Eating_C:ExecuteUbergraph_C_Eating:0B18
+[2017.08.11-15.07.40:966][474]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2 from function: 'ExecuteUbergraph_C_Eating' from node: Set Simulate Physics in graph: EventGraph in object: C_Eating with description: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2
+[2017.08.11-15.07.40:966][474]LogScript:Warning: Accessed None
+	C_Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.C_Eating_94
+	Function /Game/Characters/C_Eating.C_Eating_C:ExecuteUbergraph_C_Eating:0B2D
+[2017.08.11-15.07.40:967][474]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_C_Eating' from node: Set Simulate Physics in graph: EventGraph in object: C_Eating with description: Accessed None
+[2017.08.11-15.07.40:967][474]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2
+	C_Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.C_Eating_94
+	Function /Game/Characters/C_Eating.C_Eating_C:ExecuteUbergraph_C_Eating:0BEA
+[2017.08.11-15.07.40:967][474]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2 from function: 'ExecuteUbergraph_C_Eating' from node: Set Actor Enable Collision in graph: EventGraph in object: C_Eating with description: Accessed None trying to read property K2Node_DynamicCast_AsBP_Lobster2
+[2017.08.11-15.07.42:735][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.07.42:827][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.09.13:013][443]BlueprintLog: New page: Compile C_Eating
+[2017.08.11-15.09.14:168][557]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-15.09.14:187][557]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.09.14:187][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-15.09.14:187][557]PIE: New page: PIE session: Eating (11 Aug 2017 17:09:14)
+[2017.08.11-15.09.14:187][557]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-15.09.14:192][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005171s)
+[2017.08.11-15.09.14:193][557]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-15.09.14:193][557]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2017.08.11-15.09.14:193][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.006132s)
+[2017.08.11-15.09.14:220][557]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-15.09.14:230][557]LogInit: FAudioDevice initialized.
+[2017.08.11-15.09.14:277][557]LogLoad: Game class is 'newmode_C'
+[2017.08.11-15.09.14:280][557]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-16.09.14
+[2017.08.11-15.09.14:281][557]LogWorld: Bringing up level for play took: 0.003195
+[2017.08.11-15.09.14:281][557]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.11-15.09.14:287][557]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating -0.48
+[2017.08.11-15.09.14:287][557]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.09.14:290][557]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-15.09.14:290][557]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-15.09.14:290][557]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-15.09.22:478][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.09.22:575][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.15.09:626][ 95]BlueprintLog: New page: Compile C_Eating
+[2017.08.11-15.15.11:439][256]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-15.15.11:457][256]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.15.11:457][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-15.15.11:458][256]PIE: New page: PIE session: Eating (11 Aug 2017 17:15:11)
+[2017.08.11-15.15.11:458][256]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.11-15.15.11:463][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005698s)
+[2017.08.11-15.15.11:464][256]LogAIModule: Creating AISystem for world Eating
+[2017.08.11-15.15.11:464][256]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2017.08.11-15.15.11:464][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.006792s)
+[2017.08.11-15.15.11:493][256]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-15.15.11:503][256]LogInit: FAudioDevice initialized.
+[2017.08.11-15.15.11:539][256]LogLoad: Game class is 'newmode_C'
+[2017.08.11-15.15.11:542][256]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.11-16.15.11
+[2017.08.11-15.15.11:543][256]LogWorld: Bringing up level for play took: 0.002764
+[2017.08.11-15.15.11:543][256]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 0.776
+[2017.08.11-15.15.11:544][256]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.15.11:545][256]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.11-15.15.11:545][256]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.11-15.15.11:545][256]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.11-15.15.18:228][ 47]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.18:228][ 47]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.18:228][ 47]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.19:086][150]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.20:021][260]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.21:110][386]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.21:110][386]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.21:903][478]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.21:903][478]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.22:667][568]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors2 of length 0!
+[2017.08.11-15.15.22:667][568]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors3 of length 0!
+[2017.08.11-15.15.22:667][568]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.22:667][568]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.22:667][568]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.25:119][862]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors3 of length 0!
+[2017.08.11-15.15.25:120][862]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.25:120][862]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.25:120][862]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.26:028][971]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.28:254][238]LogBlueprintUserMessages: [BP_EatingChad_207] 100
+[2017.08.11-15.15.29:059][334]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.29:059][334]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.29:999][444]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.31:020][564]LogBlueprintUserMessages: [BP_EatingChad_207] -200
+[2017.08.11-15.15.32:020][683]LogBlueprintUserMessages: [BP_EatingChad_207] -500
+[2017.08.11-15.15.33:049][806]LogBlueprintUserMessages: [BP_EatingChad_207] -800
+[2017.08.11-15.15.34:103][932]LogBlueprintUserMessages: [BP_EatingChad_207] -1100
+[2017.08.11-15.15.37:828][372]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.37:828][372]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.37:828][372]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.38:791][486]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors2 of length 0!
+[2017.08.11-15.15.38:791][486]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors3 of length 0!
+[2017.08.11-15.15.38:791][486]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.38:791][486]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.38:791][486]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.40:179][651]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors2 of length 0!
+[2017.08.11-15.15.40:179][651]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors3 of length 0!
+[2017.08.11-15.15.40:179][651]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.40:179][651]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.40:179][651]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.41:082][757]LogBlueprintUserMessages: [BP_EatingChad_207] -1000
+[2017.08.11-15.15.41:870][851]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors3 of length 0!
+[2017.08.11-15.15.41:870][851]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.41:870][851]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.41:870][851]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.42:756][955]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.44:136][119]LogBlueprintUserMessages: [BP_EatingChad_207] -1300
+[2017.08.11-15.15.46:003][343]LogBlueprintUserMessages: [BP_EatingChad_207] -1600
+[2017.08.11-15.15.46:561][410]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.46:561][410]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.49:127][715]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.49:127][715]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.49:127][715]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.49:912][807]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.49:912][807]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.49:912][807]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.52:168][ 73]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors3 of length 0!
+[2017.08.11-15.15.52:168][ 73]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.52:168][ 73]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.52:168][ 73]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.52:902][161]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors3 of length 0!
+[2017.08.11-15.15.52:902][161]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.52:902][161]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.52:902][161]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.54:153][308]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors4 of length 0!
+[2017.08.11-15.15.54:153][308]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.11-15.15.54:153][308]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.11-15.15.56:501][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.15.56:564][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.11-15.15.59:348][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Eating" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.11-15.15.59:590][901]LogSavePackage: Save=195.25ms
+[2017.08.11-15.15.59:590][901]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Eating60056EAB4BA3EA93EAEBE1BDE52F61E8.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap'
+[2017.08.11-15.15.59:595][901]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap
+[2017.08.11-15.16.06:513][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Eating" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.11-15.16.06:751][712]LogSavePackage: Save=194.38ms
+[2017.08.11-15.16.06:751][712]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Eating8CB6CC90448B42BD77E3568210C10CCE.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap'
+[2017.08.11-15.16.06:754][712]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap
+[2017.08.11-15.16.10:742][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_EatingChad" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingChad.uasset" SILENT=true
+[2017.08.11-15.16.10:825][ 12]LogSavePackage: Save=53.69ms
+[2017.08.11-15.16.10:825][ 12]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_EatingChad856F7F364385BD9D65C747B3EE5AC278.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingChad.uasset'
+[2017.08.11-15.16.10:829][ 12]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingChad.uasset
+[2017.08.11-15.16.10:847][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_EatingDiana" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingDiana.uasset" SILENT=true
+[2017.08.11-15.16.10:924][ 12]LogSavePackage: Save=51.86ms
+[2017.08.11-15.16.10:924][ 12]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_EatingDianaEDECBBB2461BC0787BF63F8C22105C95.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingDiana.uasset'
+[2017.08.11-15.16.10:928][ 12]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingDiana.uasset
+[2017.08.11-15.16.10:945][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_EatingJeremiah" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingJeremiah.uasset" SILENT=true
+[2017.08.11-15.16.11:025][ 12]LogSavePackage: Save=54.01ms
+[2017.08.11-15.16.11:025][ 12]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_EatingJeremiahF6CC93C540C3E2CB952ACE8BE5E25D66.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingJeremiah.uasset'
+[2017.08.11-15.16.11:029][ 12]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingJeremiah.uasset
+[2017.08.11-15.16.11:035][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_EatingNewbury" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingNewbury.uasset" SILENT=true
+[2017.08.11-15.16.11:108][ 12]LogSavePackage: Save=47.48ms
+[2017.08.11-15.16.11:108][ 12]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_EatingNewbury7FBDE747449A9AE42AC4B3B0A8AEDE62.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingNewbury.uasset'
+[2017.08.11-15.16.11:112][ 12]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingNewbury.uasset
+[2017.08.11-15.16.11:126][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_EatingReginald" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingReginald.uasset" SILENT=true
+[2017.08.11-15.16.11:202][ 12]LogSavePackage: Save=51.20ms
+[2017.08.11-15.16.11:202][ 12]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_EatingReginald15A6E8764A934F1216F34190E2FBC221.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingReginald.uasset'
+[2017.08.11-15.16.11:207][ 12]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingReginald.uasset
+[2017.08.11-15.16.11:224][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_EatingYvonne" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingYvonne.uasset" SILENT=true
+[2017.08.11-15.16.11:299][ 12]LogSavePackage: Save=51.04ms
+[2017.08.11-15.16.11:299][ 12]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_EatingYvonne8299591749908094C3C6A9B231A2441F.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingYvonne.uasset'
+[2017.08.11-15.16.11:303][ 12]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EatingYvonne.uasset
+[2017.08.11-15.16.11:319][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_Eels" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_Eels.uasset" SILENT=true
+[2017.08.11-15.16.11:356][ 12]LogSavePackage: Save=12.61ms
+[2017.08.11-15.16.11:356][ 12]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_Eels5A1AA6CC44F2656EF2071BB14D1B173D.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_Eels.uasset'
+[2017.08.11-15.16.11:359][ 12]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_Eels.uasset
+[2017.08.11-15.16.11:381][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/C_Eating" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Characters/C_Eating.uasset" SILENT=true
+[2017.08.11-15.16.11:556][ 12]LogSavePackage: Save=151.08ms
+[2017.08.11-15.16.11:556][ 12]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/C_Eating97625C3E44AE21BD49964B888548F5D3.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Characters/C_Eating.uasset'
+[2017.08.11-15.16.11:559][ 12]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Characters/C_Eating.uasset
+[2017.08.11-15.16.11:850][ 13]Cmd: QUIT_EDITOR
+[2017.08.11-15.16.12:342][ 13]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.11-15.16.12:351][ 13]LogExit: Preparing to exit.
+[2017.08.11-15.16.12:811][ 13]LogExit: Editor shut down
+[2017.08.11-15.16.12:814][ 13]LogExit: Transaction tracking system shut down
+[2017.08.11-15.16.12:963][ 13]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.11-15.16.12:963][ 13]LogExit: Object subsystem successfully closed.
+[2017.08.11-15.16.12:997][ 13]LogD3D11RHI: Shutdown
+[2017.08.11-15.16.12:997][ 13]LogD3D11RHI: CleanupD3DDevice
+[2017.08.11-15.16.13:152][ 13]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.11-15.16.13:160][ 13]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.08.11-15.16.13:160][ 13]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2017.08.11-15.16.13:160][ 13]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.11-15.16.13:160][ 13]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.11-15.16.13:160][ 13]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.11-15.16.13:160][ 13]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.11-15.16.13:160][ 13]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.11-15.16.13:160][ 13]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.11-15.16.13:160][ 13]LogDirectoryWatcher: A directory notification for 'E:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.11-15.16.13:161][ 13]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Collections/' was aborted.
+[2017.08.11-15.16.13:161][ 13]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Developers/Tom/Collections/' was aborted.
+[2017.08.11-15.16.13:161][ 13]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Collections/' was aborted.
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.11-15.16.13:161][ 13]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.11-15.16.13:162][ 13]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.11-15.16.13:178][ 13]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.11-15.16.13:178][ 13]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.11-15.16.13:178][ 13]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.11-15.16.13:178][ 13]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.11-15.16.13:178][ 13]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.11-15.16.13:215][ 13]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.11-15.16.13:268][ 13]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.11-15.16.13:268][ 13]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.11-15.16.13:268][ 13]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.11-15.16.13:268][ 13]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.11-15.16.13:268][ 13]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.11-15.16.13:268][ 13]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.11-15.16.13:268][ 13]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.11-15.16.13:268][ 13]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.11-15.16.13:268][ 13]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.11-15.16.13:268][ 13]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.11-15.16.13:276][ 13]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.11-15.16.13:277][ 13]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.11-15.16.13:277][ 13]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.11-15.16.13:277][ 13]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.11-15.16.13:277][ 13]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.11-15.16.13:277][ 13]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.11-15.16.13:277][ 13]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.11-15.16.13:277][ 13]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.11-15.16.13:278][ 13]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.11-15.16.13:361][ 13]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.11-15.16.13:362][ 13]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.11-15.16.13:362][ 13]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.11-15.16.13:362][ 13]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.11-15.16.13:362][ 13]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.11-15.16.13:362][ 13]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.11-15.16.13:362][ 13]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.11-15.16.13:362][ 13]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.11-15.16.13:362][ 13]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.11-15.16.13:362][ 13]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.11-15.16.13:362][ 13]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.11-15.16.13:363][ 13]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.11-15.16.13:363][ 13]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.11-15.16.13:363][ 13]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.11-15.16.13:363][ 13]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.11-15.16.13:363][ 13]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.11-15.16.13:363][ 13]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.11-15.16.13:464][ 13]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.11-15.16.13:613][ 13]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.11-15.16.13:613][ 13]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.11-15.16.13:613][ 13]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.11-15.16.13:613][ 13]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.11-15.16.13:613][ 13]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.11-15.16.13:613][ 13]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.11-15.16.13:614][ 13]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.11-15.16.13:627][ 13]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.11-15.16.13:627][ 13]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.11-15.16.13:627][ 13]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.11-15.16.13:627][ 13]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.11-15.16.13:627][ 13]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.11-15.16.13:627][ 13]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.11-15.16.13:627][ 13]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.11-15.16.13:628][ 13]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.11-15.16.13:628][ 13]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.11-15.16.13:628][ 13]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.11-15.16.13:628][ 13]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.11-15.16.13:628][ 13]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.11-15.16.13:628][ 13]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.11-15.16.13:736][ 13]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.11-15.16.13:736][ 13]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/' was aborted.
+[2017.08.11-15.16.13:736][ 13]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.11-15.16.13:736][ 13]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.11-15.16.13:739][ 13]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.11-15.16.13:739][ 13]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.11-15.16.13:739][ 13]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.11-15.16.13:739][ 13]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.11-15.16.13:739][ 13]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.11-15.16.13:739][ 13]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.11-15.16.13:739][ 13]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.11-15.16.13:739][ 13]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.11-15.16.13:739][ 13]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.11-15.16.13:833][ 13]LogDerivedDataCache: Shutdown
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.11-15.16.13:833][ 13]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.11-15.16.13:834][ 13]LogHMD: Oculus shutdown.
+[2017.08.11-15.16.13:834][ 13]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.11-15.16.13:834][ 13]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.11-15.16.13:834][ 13]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.11-15.16.13:834][ 13]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.11-15.16.13:834][ 13]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.11-15.16.13:834][ 13]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.11-15.16.13:834][ 13]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.11-15.16.13:834][ 13]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.11-15.16.13:834][ 13]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.11-15.16.13:834][ 13]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B79CE6782-429B-4630-A711-ACA8861D6850%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=9507d6a347edc37d65474c8629981c28%7Ccdc8881e81874f7b9309baf36bcfe432%7Cf9f02938-7094-4537-917c-c69c45de1e4a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.11-15.16.13:856][ 13]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.11-15.16.13:857][ 13]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.11-15.16.13:857][ 13]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.11-15.16.13:857][ 13]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.11-15.16.13:857][ 13]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.11-15.16.13:857][ 13]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.11-15.16.13:857][ 13]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.11-15.16.13:857][ 13]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.11-15.16.13:857][ 13]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.11-15.16.13:859][ 13]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.11-15.16.13:859][ 13]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.11-15.16.13:859][ 13]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.11-15.16.13:859][ 13]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.11-15.16.13:859][ 13]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.11-15.16.13:859][ 13]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.11-15.16.13:859][ 13]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.11-15.16.13:859][ 13]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.11-15.16.13:859][ 13]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.11-15.16.13:859][ 13]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.11-15.16.13:860][ 13]LogExit: Exiting.
+[2017.08.11-15.16.13:874][ 13]Log file closed, 08/11/17 16:16:13
