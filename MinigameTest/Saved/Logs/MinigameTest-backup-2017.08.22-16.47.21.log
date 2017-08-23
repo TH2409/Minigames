@@ -1,0 +1,1354 @@
+﻿Log file open, 08/17/17 17:28:50
+LogInit:Display: Running engine for game: MinigameTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(577728090) SRandInit(577728090).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081210
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.17.0(build = 424315) feature version = 0. Client runs version (prod = 1).1.17.0(build = 424315) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: E:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.17-16.28.51:342][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-16.28.51:342][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.17-16.28.51:350][  0]LogInit: Computer: RAMSAY
+[2017.08.17-16.28.51:350][  0]LogInit: User: Tom
+[2017.08.17-16.28.51:350][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.17-16.28.51:350][  0]LogInit: High frequency timer resolution =3.903991 MHz
+[2017.08.17-16.28.51:350][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.17-16.28.51:350][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.17-16.28.51:350][  0]LogMemory: Process Physical Memory: 279.71 MB used, 279.71 MB peak
+[2017.08.17-16.28.51:350][  0]LogMemory: Process Virtual Memory: 264.55 MB used, 264.55 MB peak
+[2017.08.17-16.28.51:350][  0]LogMemory: Physical Memory: 4613.92 MB used,  11712.16 MB free, 16326.08 MB total
+[2017.08.17-16.28.51:350][  0]LogMemory: Virtual Memory: 666.09 MB used,  11712.16 MB free, 134217728.00 MB total
+[2017.08.17-16.28.51:393][  0]LogInit: Using OS detected language (en-US).
+[2017.08.17-16.28.51:393][  0]LogInit: Using OS detected locale (en-GB).
+[2017.08.17-16.28.51:396][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.17-16.28.52:185][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.17-16.28.52:719][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.08.17-16.28.52:719][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.17-16.28.52:720][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.17-16.28.52:720][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.17-16.28.52:720][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.17-16.28.52:726][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.17-16.28.52:726][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.17-16.28.52:726][  0]LogWindows: EnumDisplayDevices:
+[2017.08.17-16.28.52:726][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.08.17-16.28.52:726][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.08.17-16.28.52:726][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.17-16.28.52:726][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.17-16.28.52:727][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.17-16.28.52:727][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.08.17-16.28.52:727][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.17-16.28.52:727][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.17-16.28.52:727][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.17-16.28.53:231][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.17-16.28.53:257][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.17-16.28.53:306][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Intermediate/Shaders/WorkingDirectory/14096/).
+[2017.08.17-16.28.53:306][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/897859B94A7A142389FC2B8FCECF0C52/'.
+[2017.08.17-16.28.53:307][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.17-16.28.54:180][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.17-16.28.54:212][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.17-16.28.54:245][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.17-16.28.54:281][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.17-16.28.54:326][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.17-16.28.54:360][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.17-16.28.54:394][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.17-16.28.54:428][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.17-16.28.54:458][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.17-16.28.54:491][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.17-16.28.54:524][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.17-16.28.54:559][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.17-16.28.54:597][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.17-16.28.54:631][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.17-16.28.54:664][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.17-16.28.54:734][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.17-16.28.54:734][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.17-16.28.54:759][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.17-16.28.54:829][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.17-16.28.54:850][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.17-16.28.54:885][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.17-16.28.54:919][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.17-16.28.54:955][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.17-16.28.54:988][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.17-16.28.54:988][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.17-16.28.55:306][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.17-16.28.55:389][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.17-16.28.55:389][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.17-16.28.55:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.17-16.28.55:389][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.17-16.28.55:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.17-16.28.55:389][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.17-16.28.55:405][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.17-16.28.55:417][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.17-16.28.55:424][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.17-16.28.55:425][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.17-16.28.55:425][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-16.28.55:425][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-16.28.55:700][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-16.28.55:761][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.17-16.28.55:879][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.17-16.28.55:907][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.17-16.28.55:941][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.17-16.28.55:941][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.17-16.28.55:941][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.17-16.28.56:348][  0]LogNetVersion: MinigameTest , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2853374125)
+[2017.08.17-16.28.56:399][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2017.08.17-16.28.56:451][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.037957 seconds
+[2017.08.17-16.28.56:456][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.17-16.28.56:456][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.17-16.28.56:456][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.17-16.28.56:493][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.17-16.28.58:264][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.17-16.28.58:293][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.17-16.28.58:664][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.17-16.28.58:947][  0]SourceControl: Info Source control is disabled
+[2017.08.17-16.28.59:006][  0]SourceControl: Info Source control is disabled
+[2017.08.17-16.28.59:038][  0]SourceControl: Info Source control is disabled
+[2017.08.17-16.28.59:069][  0]SourceControl: Info Source control is disabled
+[2017.08.17-16.28.59:520][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.17-16.28.59:927][  0]LogEngine: Initializing Engine...
+[2017.08.17-16.28.59:953][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.08.17-16.28.59:953][  0]LogHMD: Oculus plugin initialized. Version: 4.16.2-3514769+++UE4+Release-4.16, LibOVR: 1.17.0, SDK: 1.12.0, built Jun 29 2017, 02:10:56
+[2017.08.17-16.29.00:134][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.17-16.29.00:134][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.17-16.29.00:227][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.17-16.29.00:240][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.29.00:270][  0]LogInit: FAudioDevice initialized.
+[2017.08.17-16.29.00:316][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.17-16.29.00:326][  0]LogInit: Texture streaming: Enabled
+[2017.08.17-16.29.00:389][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.17-16.29.00:548][  0]LogInit: Transaction tracking system initialized
+[2017.08.17-16.29.00:755][  0]BlueprintLog: New page: Editor Load
+[2017.08.17-16.29.01:323][  0]LocalizationService: Info Localization service is disabled
+[2017.08.17-16.29.01:746][  0]LogConsoleResponse:Display: 
+[2017.08.17-16.29.01:855][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.17-16.29.01:855][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.17-16.29.02:492][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/' took 0.02s
+[2017.08.17-16.29.02:492][  0]SourceControl: Info Source control is disabled
+[2017.08.17-16.29.02:492][  0]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.17-16.29.02:493][  0]LightingResults: New page: Lighting Build
+[2017.08.17-16.29.02:518][  0]MapCheck: New page: Map Check
+[2017.08.17-16.29.02:518][  0]LightingResults: New page: Lighting Build
+[2017.08.17-16.29.02:779][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.17-16.29.02:785][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.17-16.29.02:794][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.17-16.29.02:839][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.579ms to complete.
+[2017.08.17-16.29.02:839][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.347
+[2017.08.17-16.29.02:955][  0]LogCollectionManager: Loaded 0 collections in 0.001117 seconds
+[2017.08.17-16.29.03:022][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Collections/' took 0.01s
+[2017.08.17-16.29.03:022][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Developers/Tom/Collections/' took 0.01s
+[2017.08.17-16.29.03:022][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Collections/' took 0.01s
+[2017.08.17-16.29.03:022][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.17-16.29.03:029][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2329 classes and 491 folders.
+[2017.08.17-16.29.03:069][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.17-16.29.03:104][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.17-16.29.03:131][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.17-16.29.03:157][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.17-16.29.03:161][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.17-16.29.03:162][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.17-16.29.03:166][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.17-16.29.03:242][  0]LogRenderer: Reallocating scene render targets to support 1116x600 NumSamples 1 (Frame:1).
+[2017.08.17-16.29.03:342][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.17-16.29.03:392][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.17-16.29.03:393][  0]LogLoad: (Engine Initialization) Total time: 13.96 seconds
+[2017.08.17-16.29.03:393][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.08.17-16.29.03:393][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.17-16.29.03:393][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.17-16.29.03:732][  0]LogOcInput: OculusInput pre-init called
+[2017.08.17-16.29.03:743][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.17.0
+[2017.08.17-16.29.03:743][  0]LogHMD: Starting GearVRController plugin
+[2017.08.17-16.29.03:762][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.17-16.29.03:802][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-16.29.04:083][  1]LogAssetRegistry: Asset discovery search completed in 7.7060 seconds
+[2017.08.17-16.29.04:085][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.17-16.29.04:085][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.08.17-16.29.23:303][541]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Painting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.17-16.29.23:309][541]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-16.29.23:316][541]LightingResults: New page: Lighting Build
+[2017.08.17-16.29.23:316][541]LoadErrors: New page: Loading map: Painting.umap
+[2017.08.17-16.29.23:318][541]MapCheck: New page: Map Check
+[2017.08.17-16.29.23:318][541]LightingResults: New page: Lighting Build
+[2017.08.17-16.29.23:802][541]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.29.23:833][541]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.17-16.29.23:882][541]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.17-16.29.23:952][541]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.982ms to complete.
+[2017.08.17-16.29.23:952][541]LogFileHelpers: Loading map 'Painting' took 0.650
+[2017.08.17-16.29.26:908][863]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.30.25:228][427]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Tom\Desktop\SM_PaintPaletteQuarter.fbx)
+[2017.08.17-16.30.25:341][427]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.17-16.30.25:341][427]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.08.17-16.30.25:341][427]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.08.17-16.30.25:341][427]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.08.17-16.30.25:341][427]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.17-16.30.25:341][427]LogFbx: ItemName: Model, ItemCount : 1
+[2017.08.17-16.30.25:361][427]LogFbx: Loading FBX Scene from C:\Users\Tom\Desktop\SM_PaintPaletteQuarter.fbx
+[2017.08.17-16.30.25:373][427]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.17-16.30.27:471][427]LogFbx: Loading FBX Scene from C:\Users\Tom\Desktop\SM_PaintPaletteQuarter.fbx
+[2017.08.17-16.30.27:480][427]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.17-16.30.27:483][427]LogLinker: Can't find file '/Game/EnvironmentArt/lambert2'
+[2017.08.17-16.30.27:483][427]LogLinker: Can't find file '/Game/EnvironmentArt/lambert2'
+[2017.08.17-16.30.27:528][427]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.08.17-16.30.27:563][427]LogFbx:Warning: Triangulating static mesh pCylinder4
+[2017.08.17-16.30.27:648][427]LogStaticMesh: Building static mesh SM_PaintPaletteQuarter...
+[2017.08.17-16.30.27:653][427]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_PaintPaletteQuarter.SM_PaintPaletteQuarter
+[2017.08.17-16.30.32:334][828]LogRenderer: Reallocating scene render targets to support 1432x964 NumSamples 1 (Frame:1).
+[2017.08.17-16.30.34:632][ 20]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.17-16.30.44:011][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnvironmentArt/SM_PaintPaletteQuarter" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/EnvironmentArt/SM_PaintPaletteQuarter.uasset" SILENT=true
+[2017.08.17-16.30.44:021][111]LogSavePackage: Save=8.79ms
+[2017.08.17-16.30.44:021][111]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/SM_PaintPaletteQuarter612F79FB43A8C091E79C6AB51B18BB84.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/EnvironmentArt/SM_PaintPaletteQuarter.uasset'
+[2017.08.17-16.30.44:025][111]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/EnvironmentArt/SM_PaintPaletteQuarter.uasset
+[2017.08.17-16.30.48:510][617]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.30.51:899][974]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.08.17-16.30.52:373][974]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.17-16.30.55:245][300]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.17-16.31.02:114][ 71]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_459.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.31.04:183][303]LogEditorTransaction: Undo Edit Static Mesh
+[2017.08.17-16.31.06:193][526]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_463.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.34.07:243][244]LogEditorTransaction: Undo Remove Components
+[2017.08.17-16.34.07:250][244]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_468.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.34.11:037][689]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_474.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.34.17:311][394]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_480.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.34.22:295][990]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_485.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.34.26:240][454]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_491.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.34.45:790][751]BlueprintLog: New page: Compile BP_BlueEasle
+[2017.08.17-16.34.45:798][751]LogWorld: --- Actors Currently in /Game/Levels/Painting.Painting:PersistentLevel ---
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.WorldSettings_1
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Brush_1
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.LightSource
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.InstancedFoliageActor_0
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.AtmosphericFog_1
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Floor
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.SkySphere
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.AbstractNavData-Default
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.CameraActor_1
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Floor2
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Floor3
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_SpinningEasle_534
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_PlayerEasle_285
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.SkyLight_1
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_PlayerEasle2
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_PlayerEasle3
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_PlayerEasle4
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_PlayerEasle5
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_PlayerEasle6
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_Chad
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_ChadPoints
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_Jeremiah
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_JeremiahPoints
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_Newbury
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_NewburyPoints
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_Yvonne
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_YvonnePoints
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_Reginald
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_ReginaldPoints
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_Diana
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Text_DianaPoints
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_CurtainsOpen_366
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_CurtainsOpen2
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.C_Painting_35
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.C_Painting2
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.C_Painting3
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.C_Painting4
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.C_Painting5
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.C_Painting6
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Painting_C_1
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.DefaultPhysicsVolume_0
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Floor4
+[2017.08.17-16.34.45:798][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.Floor5
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:798][751]LogWorld:   NONE
+[2017.08.17-16.34.45:799][751]LogWorld:   NONE
+[2017.08.17-16.34.45:799][751]LogWorld:   NONE
+[2017.08.17-16.34.45:799][751]LogWorld:   NONE
+[2017.08.17-16.34.45:799][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_GreenEasle_GEN_VARIABLE_BP_GreenEasle_C_CAT_546
+[2017.08.17-16.34.45:799][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_RedEasle_GEN_VARIABLE_BP_RedEasle_C_CAT_806
+[2017.08.17-16.34.45:799][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_YellowEasle_GEN_VARIABLE_BP_YellowEasle_C_CAT_458
+[2017.08.17-16.34.45:799][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_BlueEasle_GEN_VARIABLE_BP_BlueEasle_C_CAT_492
+[2017.08.17-16.34.45:799][751]LogWorld:   /Game/Levels/Painting.Painting:PersistentLevel.BP_BlueEasle_GEN_VARIABLE_BP_BlueEasle_C_CAT_454
+[2017.08.17-16.34.46:050][751]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.231 s
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: 
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1502]
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: Could not remove actor /Game/Levels/Painting.Painting:PersistentLevel.REINST_BP_BlueEasle_C_0 from world (check level is /Game/Levels/Painting.Painting:PersistentLevel)
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: Stack: 
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DDB2E256
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DD8DB862
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DD8F1E26
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000CA207B96
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C98FA8E3
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C9900353
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C7FBD79B
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C7FBC228
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C7FB751A
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C7FB8672
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C7F8B9E3
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000C6A60EAA
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000C6AB0991
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000C6AB55D6
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3DCEB7F
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3EC7EF2
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3E33DD2
+[2017.08.17-16.34.46:050][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3E35079
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3EA7C05
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3F58F57
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3F85D7B
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3DA9E9C
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3D79835
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3E1E5E2
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3E0720F
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E3DF8391
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DDB216FB
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DDB0B771
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DDB2337B
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DDB07AC2
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: USER32.dll!0x0000000029E5BC50
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: USER32.dll!0x0000000029E5B5CF
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DDB23C86
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor.exe!0x000000003DF8DB44
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor.exe!0x000000003DF7F0B0
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor.exe!0x000000003DF7F12A
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor.exe!0x000000003DF90CF9
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: UE4Editor.exe!0x000000003DF925F7
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: KERNEL32.DLL!0x000000002C2A2774
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: ntdll.dll!0x000000002C960D51
+[2017.08.17-16.34.46:051][751]LogOutputDevice:Error: 
+[2017.08.17-16.34.46:052][751]LogStats:                SubmitErrorReport -  0.000 s
+[2017.08.17-16.34.50:643][751]LogStats:                    SendNewReport -  4.591 s
+[2017.08.17-16.34.50:643][751]LogStats:             FDebug::EnsureFailed -  4.845 s
+[2017.08.17-16.34.50:940][751]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_493.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.35.04:787][374]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.35.14:041][394]BlueprintLog: New page: Compile BP_BlueEasle
+[2017.08.17-16.35.14:125][394]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_503.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.35.40:810][485]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.35.54:537][ 51]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_575.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.35.57:630][411]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_577.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.36.00:688][775]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_579.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.36.11:998][ 81]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_581.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.36.14:631][386]BlueprintLog: New page: Compile BP_GreenEasle
+[2017.08.17-16.36.14:842][386]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_547.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.36.22:420][263]BlueprintLog: New page: Compile BP_GreenEasle
+[2017.08.17-16.36.22:504][263]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_550.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.36.34:657][677]BlueprintLog: New page: Compile BP_GreenEasle
+[2017.08.17-16.36.34:747][677]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_549.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.36.46:415][968]BlueprintLog: New page: Compile BP_GreenEasle
+[2017.08.17-16.36.46:498][968]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_549.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.36.48:166][154]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.36.57:843][270]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_RedEasle_C_CHILDACTOR_857.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.36.59:185][425]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_RedEasle_C_CHILDACTOR_859.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.37.01:761][732]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_RedEasle_C_CHILDACTOR_861.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.37.16:123][410]BlueprintLog: New page: Compile BP_RedEasle
+[2017.08.17-16.37.16:330][410]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_RedEasle_C_CHILDACTOR_807.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.37.18:059][606]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_RedEasle_C_CHILDACTOR_809.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.37.22:092][ 48]BlueprintLog: New page: Compile BP_RedEasle
+[2017.08.17-16.37.22:294][ 48]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_RedEasle_C_CHILDACTOR_807.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.37.23:796][214]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.37.31:284][ 68]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_523.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.37.32:793][243]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_525.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.37.38:013][867]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_527.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.37.50:631][350]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_529.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.37.51:539][456]BlueprintLog: New page: Compile BP_YellowEasle
+[2017.08.17-16.37.51:749][456]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_459.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.38.01:554][573]LogActor:Warning: BP_BlueEasle_C /Game/Levels/Painting.Painting:PersistentLevel.BP_BlueEasle_GEN_VARIABLE_BP_BlueEasle_C_CAT_454 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.08.17-16.39.01:828][563]BlueprintLog: New page: Compile BP_SpinningEasle
+[2017.08.17-16.39.01:831][563]LogBlueprint:Error: [Compiler BP_SpinningEasle] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.17-16.39.02:011][563]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.08.17-16.39.02:011][563]LogBlueprint:Warning: [Compiler BP_SpinningEasle] Warning [0612.58] Compile of BP_SpinningEasle failed. 1 Fatal Issue(s) 0 Warning(s) [in 183 ms] (/Game/Blueprints/Painting/BP_SpinningEasle.BP_SpinningEasle)
+[2017.08.17-16.39.15:847][164]BlueprintLog: New page: Compile BP_SpinningEasle
+[2017.08.17-16.39.50:737][  1]LogStaticMesh: Building static mesh SM_PlayerBrush...
+[2017.08.17-16.39.50:754][  1]LogStaticMesh: Built static mesh [0.02s] /Game/EnvironmentArt/SM_PlayerBrush.SM_PlayerBrush
+[2017.08.17-16.39.50:851][  8]LogActorFactory: Actor Factory created SM_PlayerBrush
+[2017.08.17-16.39.51:775][114]LogActorFactory: Actor Factory created SM_PlayerBrush
+[2017.08.17-16.39.55:575][510]Cmd: DELETE
+[2017.08.17-16.39.55:575][510]Cmd: ACTOR DELETE
+[2017.08.17-16.39.55:576][510]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.39.55:589][510]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.08.17-16.40.18:877][962]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.40.24:178][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Painting" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Painting_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.17-16.40.24:642][507]LogSavePackage: Save=417.79ms
+[2017.08.17-16.40.24:642][507]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Painting_Auto12E6686984AFC79F1FAD2E3BC26E400CE.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Painting_Auto1.umap'
+[2017.08.17-16.40.24:645][507]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Painting_Auto1.umap
+[2017.08.17-16.40.24:647][507]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Painting' took 0.512
+[2017.08.17-16.40.24:647][507]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.512
+[2017.08.17-16.40.24:649][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Painting/BP_BlueEasle] ([1] browsable assets)...
+[2017.08.17-16.40.24:667][507]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Painting/BP_BlueEasle.BP_BlueEasle]
+[2017.08.17-16.40.24:667][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Painting/BP_BlueEasle]
+[2017.08.17-16.40.24:735][507]LogSavePackage: Save=22.54ms
+[2017.08.17-16.40.24:735][507]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_BlueEasle_Auto174C0DCA741E38898F7EC008947C43BE1.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Painting/BP_BlueEasle_Auto1.uasset'
+[2017.08.17-16.40.24:737][507]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Painting/BP_BlueEasle_Auto1.uasset
+[2017.08.17-16.40.24:739][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Painting/BP_GreenEasle] ([1] browsable assets)...
+[2017.08.17-16.40.24:759][507]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Painting/BP_GreenEasle.BP_GreenEasle]
+[2017.08.17-16.40.24:759][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Painting/BP_GreenEasle]
+[2017.08.17-16.40.24:826][507]LogSavePackage: Save=22.61ms
+[2017.08.17-16.40.24:826][507]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_GreenEasle_Auto17164C7364E35E36026D1948C7A89142D.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Painting/BP_GreenEasle_Auto1.uasset'
+[2017.08.17-16.40.24:828][507]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Painting/BP_GreenEasle_Auto1.uasset
+[2017.08.17-16.40.24:830][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Painting/BP_RedEasle] ([1] browsable assets)...
+[2017.08.17-16.40.24:847][507]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Painting/BP_RedEasle.BP_RedEasle]
+[2017.08.17-16.40.24:847][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Painting/BP_RedEasle]
+[2017.08.17-16.40.24:916][507]LogSavePackage: Save=22.81ms
+[2017.08.17-16.40.24:916][507]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_RedEasle_Auto14C5693D64CEDF4E9F7D46BB053FA84FD.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Painting/BP_RedEasle_Auto1.uasset'
+[2017.08.17-16.40.24:918][507]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Painting/BP_RedEasle_Auto1.uasset
+[2017.08.17-16.40.24:920][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Painting/BP_SpinningEasle] ([1] browsable assets)...
+[2017.08.17-16.40.24:938][507]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Painting/BP_SpinningEasle.BP_SpinningEasle]
+[2017.08.17-16.40.24:938][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Painting/BP_SpinningEasle]
+[2017.08.17-16.40.25:002][507]LogSavePackage: Save=18.53ms
+[2017.08.17-16.40.25:002][507]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_SpinningEasle_Auto1A34A5CCD4B24F1199EFA078E1DA9A81B.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Painting/BP_SpinningEasle_Auto1.uasset'
+[2017.08.17-16.40.25:005][507]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Painting/BP_SpinningEasle_Auto1.uasset
+[2017.08.17-16.40.25:006][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Painting/BP_YellowEasle] ([1] browsable assets)...
+[2017.08.17-16.40.25:024][507]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Painting/BP_YellowEasle.BP_YellowEasle]
+[2017.08.17-16.40.25:024][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Painting/BP_YellowEasle]
+[2017.08.17-16.40.25:095][507]LogSavePackage: Save=24.96ms
+[2017.08.17-16.40.25:095][507]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_YellowEasle_Auto123BA2CBB4CA654625D4FC2AF3A539D59.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Painting/BP_YellowEasle_Auto1.uasset'
+[2017.08.17-16.40.25:097][507]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Painting/BP_YellowEasle_Auto1.uasset
+[2017.08.17-16.40.25:098][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/EnvironmentArt/lambert2] ([1] browsable assets)...
+[2017.08.17-16.40.25:110][507]OBJ SavePackage:     Rendered thumbnail for [Material /Game/EnvironmentArt/lambert2.lambert2]
+[2017.08.17-16.40.25:110][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/EnvironmentArt/lambert2]
+[2017.08.17-16.40.25:121][507]LogSavePackage: Save=9.32ms
+[2017.08.17-16.40.25:121][507]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/lambert2_Auto1F099CECA44DC69F5EB8D9D97D8223BDC.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/EnvironmentArt/lambert2_Auto1.uasset'
+[2017.08.17-16.40.25:123][507]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/EnvironmentArt/lambert2_Auto1.uasset
+[2017.08.17-16.40.25:123][507]LogFileHelpers: Auto-saving content packages took 0.475
+[2017.08.17-16.40.32:827][405]BlueprintLog: New page: Compile BP_SpinningEasle
+[2017.08.17-16.40.33:979][523]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.40.43:301][614]LogEditorTransaction: Undo Modify Component(s)
+[2017.08.17-16.40.44:472][751]BlueprintLog: New page: Compile BP_SpinningEasle
+[2017.08.17-16.40.46:200][912]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.40.56:455][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.17-16.41.00:465][480]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.41.04:142][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.17-16.41.06:828][114]LogActorFactory: Actor Factory created SM_PaintCanvasRack
+[2017.08.17-16.41.08:150][270]LogActorFactory: Actor Factory created SM_PaintCanvasRack
+[2017.08.17-16.41.14:937][912]LogActorFactory: Actor Factory created SM_Floor
+[2017.08.17-16.41.16:536][ 98]LogActorFactory: Actor Factory created SM_Floor
+[2017.08.17-16.41.22:146][713]Cmd: TRANSACTION UNDO
+[2017.08.17-16.41.22:146][713]LogEditorTransaction: Undo Scale Actors
+[2017.08.17-16.41.22:412][738]Cmd: TRANSACTION UNDO
+[2017.08.17-16.41.22:412][738]LogEditorTransaction: Undo Scale Actors
+[2017.08.17-16.41.32:849][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.17-16.41.33:427][895]Cmd: DELETE
+[2017.08.17-16.41.33:427][895]Cmd: ACTOR DELETE
+[2017.08.17-16.41.33:428][895]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.41.33:447][895]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.08.17-16.41.36:958][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2017.08.17-16.42.00:509][840]Cmd: DELETE
+[2017.08.17-16.42.00:509][840]Cmd: ACTOR DELETE
+[2017.08.17-16.42.00:510][840]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.42.00:528][840]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.08.17-16.42.01:710][926]LogActorFactory: Actor Factory created SM_DrinkingWall
+[2017.08.17-16.42.02:366][  3]LogActorFactory: Actor Factory created SM_DrinkingWall
+[2017.08.17-16.42.45:494][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.17-16.42.45:928][677]Cmd: DELETE
+[2017.08.17-16.42.45:928][677]Cmd: ACTOR DELETE
+[2017.08.17-16.42.45:929][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.42.45:946][677]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.08.17-16.42.46:257][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.17-16.42.46:380][723]Cmd: DELETE
+[2017.08.17-16.42.46:380][723]Cmd: ACTOR DELETE
+[2017.08.17-16.42.46:381][723]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.42.46:398][723]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.08.17-16.42.47:005][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DrinkingWall)
+[2017.08.17-16.43.07:217][ 85]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-16.43.07:354][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.43.07:371][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.43.07:432][ 85]PIE: New page: PIE session: Painting (17 Aug 2017 18:43:07)
+[2017.08.17-16.43.07:442][ 85]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-16.43.07:480][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038096s)
+[2017.08.17-16.43.07:480][ 85]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.43.07:480][ 85]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2017.08.17-16.43.07:496][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.054239s)
+[2017.08.17-16.43.07:541][ 85]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.43.07:552][ 85]LogInit: FAudioDevice initialized.
+[2017.08.17-16.43.07:627][ 85]LogLoad: Game class is 'newmode_C'
+[2017.08.17-16.43.07:715][ 85]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-17.43.07
+[2017.08.17-16.43.07:865][ 85]LogWorld: Bringing up level for play took: 0.162480
+[2017.08.17-16.43.07:924][ 85]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.17-16.43.07:938][ 85]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting -0.145
+[2017.08.17-16.43.07:938][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.43.07:953][ 85]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-16.43.07:953][ 85]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-16.43.07:953][ 85]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-16.43.15:408][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.43.15:454][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.43.26:660][134]LogStaticMesh: Building static mesh SM_Door...
+[2017.08.17-16.43.26:680][134]LogStaticMesh: Built static mesh [0.02s] /Game/EnvironmentArt/SM_Door.SM_Door
+[2017.08.17-16.43.26:739][136]LogActorFactory: Actor Factory created SM_Door
+[2017.08.17-16.43.27:350][206]LogActorFactory: Actor Factory created SM_Door
+[2017.08.17-16.43.38:742][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2017.08.17-16.43.40:834][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.08.17-16.43.43:498][  3]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.17-16.43.47:590][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.08.17-16.43.49:917][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2017.08.17-16.44.05:132][325]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-16.44.05:151][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.44.05:151][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.44.05:152][325]PIE: New page: PIE session: Painting (17 Aug 2017 18:44:05)
+[2017.08.17-16.44.05:152][325]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-16.44.05:159][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007177s)
+[2017.08.17-16.44.05:159][325]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.44.05:159][325]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2017.08.17-16.44.05:160][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.008059s)
+[2017.08.17-16.44.05:183][325]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.44.05:193][325]LogInit: FAudioDevice initialized.
+[2017.08.17-16.44.05:226][325]LogLoad: Game class is 'newmode_C'
+[2017.08.17-16.44.05:230][325]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-17.44.05
+[2017.08.17-16.44.05:231][325]LogWorld: Bringing up level for play took: 0.003274
+[2017.08.17-16.44.05:231][325]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting -0.851
+[2017.08.17-16.44.05:232][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.44.05:234][325]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-16.44.05:234][325]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-16.44.05:234][325]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-16.44.10:466][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.44.10:509][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.44.14:921][389]LogTexture:Display: Building textures: T_CanvasDeco_D (AutoDXT, 2048X2048)
+[2017.08.17-16.44.15:463][389]LogTexture:Display: Building textures: T_CanvasDeco_N (BC5, 2048X2048)
+[2017.08.17-16.44.15:773][389]LogStaticMesh: Building static mesh SM_CanvasDeco01...
+[2017.08.17-16.44.15:793][389]LogStaticMesh: Built static mesh [0.02s] /Game/EnvironmentArt/SM_CanvasDeco01.SM_CanvasDeco01
+[2017.08.17-16.44.15:815][389]LogTexture:Display: Building textures: T_CanvasDeco_ORM (AutoDXT, 2048X2048)
+[2017.08.17-16.44.16:217][389]LogMaterial: Missing cached shader map for material M_CanvasDeco, compiling. 
+[2017.08.17-16.44.16:250][389]LogActorFactory: Actor Factory created SM_CanvasDeco01
+[2017.08.17-16.44.16:454][410]LogActorFactory: Actor Factory created SM_CanvasDeco01
+[2017.08.17-16.44.20:014][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PaintCanvasRack)
+[2017.08.17-16.44.20:497][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PaintCanvasRack)
+[2017.08.17-16.44.27:276][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CanvasDeco01)
+[2017.08.17-16.44.39:795][ 41]Cmd: MODE GRID=0
+[2017.08.17-16.44.40:376][107]Cmd: MODE ROTGRID=0
+[2017.08.17-16.44.45:635][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DrinkingWall)
+[2017.08.17-16.44.47:435][860]LogStaticMesh: Building static mesh SM_CanvasDeco03...
+[2017.08.17-16.44.47:445][860]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_CanvasDeco03.SM_CanvasDeco03
+[2017.08.17-16.44.47:514][865]LogActorFactory: Actor Factory created SM_CanvasDeco03
+[2017.08.17-16.44.47:831][901]LogActorFactory: Actor Factory created SM_CanvasDeco03
+[2017.08.17-16.44.59:311][ 99]LogStaticMesh: Building static mesh SM_CanvasDeco04...
+[2017.08.17-16.44.59:321][ 99]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_CanvasDeco04.SM_CanvasDeco04
+[2017.08.17-16.44.59:375][100]LogActorFactory: Actor Factory created SM_CanvasDeco04
+[2017.08.17-16.44.59:893][160]LogActorFactory: Actor Factory created SM_CanvasDeco04
+[2017.08.17-16.45.14:333][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CanvasDeco01)
+[2017.08.17-16.45.20:086][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CanvasDeco03)
+[2017.08.17-16.45.24:871][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CanvasDeco01)
+[2017.08.17-16.45.27:589][128]LogStaticMesh: Building static mesh SM_CanvasDeco02...
+[2017.08.17-16.45.27:598][128]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_CanvasDeco02.SM_CanvasDeco02
+[2017.08.17-16.45.27:645][129]LogActorFactory: Actor Factory created SM_CanvasDeco02
+[2017.08.17-16.45.28:099][181]LogActorFactory: Actor Factory created SM_CanvasDeco02
+[2017.08.17-16.45.52:111][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CanvasDeco02)
+[2017.08.17-16.45.53:701][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2017.08.17-16.45.56:031][166]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-16.45.56:051][166]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.45.56:051][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.45.56:052][166]PIE: New page: PIE session: Painting (17 Aug 2017 18:45:56)
+[2017.08.17-16.45.56:052][166]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-16.45.56:060][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008066s)
+[2017.08.17-16.45.56:060][166]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.45.56:061][166]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2017.08.17-16.45.56:061][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.009087s)
+[2017.08.17-16.45.56:086][166]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.45.56:097][166]LogInit: FAudioDevice initialized.
+[2017.08.17-16.45.56:131][166]LogLoad: Game class is 'newmode_C'
+[2017.08.17-16.45.56:134][166]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-17.45.56
+[2017.08.17-16.45.56:135][166]LogWorld: Bringing up level for play took: 0.003325
+[2017.08.17-16.45.56:136][166]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting 0.053
+[2017.08.17-16.45.56:136][166]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.45.56:137][166]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-16.45.56:137][166]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-16.45.56:137][166]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-16.45.59:937][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.45.59:980][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.46.08:304][449]LogStaticMesh: Building static mesh SM_PaintWashingPot...
+[2017.08.17-16.46.08:319][449]LogStaticMesh: Built static mesh [0.02s] /Game/EnvironmentArt/SM_PaintWashingPot.SM_PaintWashingPot
+[2017.08.17-16.46.08:369][450]LogActorFactory: Actor Factory created SM_PaintWashingPot
+[2017.08.17-16.46.09:064][531]LogActorFactory: Actor Factory created SM_PaintWashingPot
+[2017.08.17-16.46.10:731][661]LogStaticMesh: Building static mesh SM_PaintRoller...
+[2017.08.17-16.46.10:746][661]LogStaticMesh: Built static mesh [0.02s] /Game/EnvironmentArt/SM_PaintRoller.SM_PaintRoller
+[2017.08.17-16.46.10:799][665]LogActorFactory: Actor Factory created SM_PaintRoller
+[2017.08.17-16.46.11:852][785]LogActorFactory: Actor Factory created SM_PaintRoller
+[2017.08.17-16.46.15:217][ 74]LogStaticMesh: Building static mesh SM_PaintPaletteKnife...
+[2017.08.17-16.46.15:228][ 74]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_PaintPaletteKnife.SM_PaintPaletteKnife
+[2017.08.17-16.46.15:365][ 87]LogActorFactory: Actor Factory created SM_PaintPaletteKnife
+[2017.08.17-16.46.15:837][142]LogActorFactory: Actor Factory created SM_PaintPaletteKnife
+[2017.08.17-16.46.26:584][ 97]LogActorFactory: Actor Factory created SM_PlayerBrush
+[2017.08.17-16.46.27:323][181]LogActorFactory: Actor Factory created SM_PlayerBrush
+[2017.08.17-16.46.28:797][351]Cmd: DELETE
+[2017.08.17-16.46.28:797][351]Cmd: ACTOR DELETE
+[2017.08.17-16.46.28:797][351]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.46.28:811][351]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.08.17-16.46.30:561][463]LogActorFactory: Actor Factory created SM_MainCanvas
+[2017.08.17-16.46.30:852][496]LogActorFactory: Actor Factory created SM_MainCanvas
+[2017.08.17-16.46.31:695][593]Cmd: DELETE
+[2017.08.17-16.46.31:695][593]Cmd: ACTOR DELETE
+[2017.08.17-16.46.31:695][593]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.46.31:708][593]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.08.17-16.46.33:326][765]LogEditorViewport: Clicking on Actor (LMB): BP_PlayerEasle_C (BP_PlayerEasle4)
+[2017.08.17-16.47.07:160][572]BlueprintLog: New page: Compile BP_PlayerEasle
+[2017.08.17-16.47.12:634][ 97]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-16.47.12:653][ 97]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.47.12:666][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.47.12:666][ 97]PIE: New page: PIE session: Painting (17 Aug 2017 18:47:12)
+[2017.08.17-16.47.12:666][ 97]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-16.47.12:673][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007141s)
+[2017.08.17-16.47.12:673][ 97]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.47.12:674][ 97]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2017.08.17-16.47.12:674][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.008002s)
+[2017.08.17-16.47.12:696][ 97]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.47.12:705][ 97]LogInit: FAudioDevice initialized.
+[2017.08.17-16.47.12:741][ 97]LogLoad: Game class is 'newmode_C'
+[2017.08.17-16.47.12:745][ 97]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-17.47.12
+[2017.08.17-16.47.12:746][ 97]LogWorld: Bringing up level for play took: 0.004185
+[2017.08.17-16.47.12:747][ 97]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting 0.664
+[2017.08.17-16.47.12:747][ 97]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.47.12:749][ 97]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-16.47.12:749][ 97]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-16.47.12:749][ 97]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-16.47.19:240][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.47.19:277][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.47.24:286][311]LogStaticMesh: Building static mesh SM_PaintbrushDeco...
+[2017.08.17-16.47.24:298][311]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_PaintbrushDeco.SM_PaintbrushDeco
+[2017.08.17-16.47.24:370][314]LogActorFactory: Actor Factory created SM_PaintbrushDeco
+[2017.08.17-16.47.24:959][383]LogActorFactory: Actor Factory created SM_PaintbrushDeco
+[2017.08.17-16.47.32:671][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2017.08.17-16.47.33:356][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PaintRoller)
+[2017.08.17-16.47.41:927][234]LogActorFactory: Actor Factory created SM_PaintPaletteKnife
+[2017.08.17-16.47.43:418][405]LogActorFactory: Actor Factory created SM_PaintPaletteKnife
+[2017.08.17-16.47.49:851][114]LogStaticMesh: Building static mesh SM_PaintingWall...
+[2017.08.17-16.47.49:859][114]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_PaintingWall.SM_PaintingWall
+[2017.08.17-16.47.49:908][117]LogActorFactory: Actor Factory created SM_PaintingWall
+[2017.08.17-16.47.50:344][167]LogActorFactory: Actor Factory created SM_PaintingWall
+[2017.08.17-16.47.53:880][563]Cmd: DELETE
+[2017.08.17-16.47.53:880][563]Cmd: ACTOR DELETE
+[2017.08.17-16.47.53:881][563]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.47.53:898][563]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.08.17-16.47.59:527][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PaintRoller)
+[2017.08.17-16.48.00:105][261]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_PaintbrushDeco)
+[2017.08.17-16.48.01:162][383]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_PaintPaletteKnife2)
+[2017.08.17-16.48.24:809][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PaintWashingPot)
+[2017.08.17-16.48.51:341][950]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-16.48.51:361][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.48.51:361][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.48.51:361][950]PIE: New page: PIE session: Painting (17 Aug 2017 18:48:51)
+[2017.08.17-16.48.51:361][950]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-16.48.51:369][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008265s)
+[2017.08.17-16.48.51:370][950]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.48.51:370][950]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.08.17-16.48.51:370][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.009115s)
+[2017.08.17-16.48.51:391][950]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.48.51:402][950]LogInit: FAudioDevice initialized.
+[2017.08.17-16.48.51:435][950]LogLoad: Game class is 'newmode_C'
+[2017.08.17-16.48.51:439][950]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-17.48.51
+[2017.08.17-16.48.51:441][950]LogWorld: Bringing up level for play took: 0.004584
+[2017.08.17-16.48.51:442][950]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting -0.641
+[2017.08.17-16.48.51:442][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.48.51:445][950]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-16.48.51:445][950]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-16.48.51:445][950]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-16.48.54:488][312]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.48.54:536][312]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.49.10:253][430]LogStaticMesh: Building static mesh SM_PlayerStand...
+[2017.08.17-16.49.10:266][430]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_PlayerStand.SM_PlayerStand
+[2017.08.17-16.49.10:276][430]LogMaterial: Missing cached shader map for material M_PlayerStandRed, compiling. 
+[2017.08.17-16.49.10:364][435]LogActorFactory: Actor Factory created SM_PlayerStand
+[2017.08.17-16.49.10:644][463]LogActorFactory: Actor Factory created SM_PlayerStand
+[2017.08.17-16.49.13:839][795]Cmd: DELETE
+[2017.08.17-16.49.13:839][795]Cmd: ACTOR DELETE
+[2017.08.17-16.49.13:840][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.49.13:854][795]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.08.17-16.49.18:631][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2017.08.17-16.49.21:851][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2017.08.17-16.49.27:214][262]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-16.49.27:239][262]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.49.27:240][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.49.27:240][262]PIE: New page: PIE session: Painting (17 Aug 2017 18:49:27)
+[2017.08.17-16.49.27:240][262]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-16.49.27:254][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013891s)
+[2017.08.17-16.49.27:254][262]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.49.27:255][262]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2017.08.17-16.49.27:255][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.014939s)
+[2017.08.17-16.49.27:284][262]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.49.27:293][262]LogInit: FAudioDevice initialized.
+[2017.08.17-16.49.27:323][262]LogLoad: Game class is 'newmode_C'
+[2017.08.17-16.49.27:327][262]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-17.49.27
+[2017.08.17-16.49.27:328][262]LogWorld: Bringing up level for play took: 0.003833
+[2017.08.17-16.49.27:329][262]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting -0.754
+[2017.08.17-16.49.27:329][262]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.49.27:331][262]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-16.49.27:331][262]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-16.49.27:331][262]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-16.49.30:402][627]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.49.30:453][627]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.49.32:385][816]LogEditorViewport: Clicking on Actor (LMB): BP_SpinningEasle_C (BP_SpinningEasle)
+[2017.08.17-16.49.44:834][257]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_627.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.44:835][257]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_742.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.46:926][506]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_762.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.46:929][506]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_631.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.47:364][556]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_782.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.47:366][556]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_635.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.48:396][679]BlueprintLog: New page: Compile BP_YellowEasle
+[2017.08.17-16.49.48:491][679]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_515.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.48:493][679]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_BP_YellowEasle_C_CHILDACTOR_393.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.51:228][991]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-16.49.57:325][680]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_BP_RedEasle_C_CHILDACTOR_763.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.57:327][680]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_RedEasle_C_CHILDACTOR_1003.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.58:251][791]BlueprintLog: New page: Compile BP_RedEasle
+[2017.08.17-16.49.58:343][791]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_RedEasle_C_CHILDACTOR_875.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.49.58:345][791]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_BP_RedEasle_C_CHILDACTOR_399.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.50.04:833][520]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_736.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.50.04:835][520]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_773.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.50.05:657][619]BlueprintLog: New page: Compile BP_BlueEasle
+[2017.08.17-16.50.05:749][619]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_401.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.50.05:752][619]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_BlueEasle_C_CHILDACTOR_600.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.50.15:966][760]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_771.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.50.15:968][760]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_769.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.50.16:938][876]BlueprintLog: New page: Compile BP_GreenEasle
+[2017.08.17-16.50.17:030][876]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Painting.Painting:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_625.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.50.17:032][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_BP_GreenEasle_C_CHILDACTOR_391.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.17-16.50.18:569][ 45]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-16.50.18:590][ 45]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.50.18:590][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.50.18:590][ 45]PIE: New page: PIE session: Painting (17 Aug 2017 18:50:18)
+[2017.08.17-16.50.18:590][ 45]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-16.50.18:599][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008394s)
+[2017.08.17-16.50.18:599][ 45]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.50.18:599][ 45]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2017.08.17-16.50.18:600][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.009539s)
+[2017.08.17-16.50.18:628][ 45]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.50.18:637][ 45]LogInit: FAudioDevice initialized.
+[2017.08.17-16.50.18:674][ 45]LogLoad: Game class is 'newmode_C'
+[2017.08.17-16.50.18:678][ 45]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-17.50.18
+[2017.08.17-16.50.18:679][ 45]LogWorld: Bringing up level for play took: 0.004123
+[2017.08.17-16.50.18:680][ 45]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting 0.597
+[2017.08.17-16.50.18:680][ 45]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.50.18:682][ 45]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-16.50.18:682][ 45]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-16.50.18:682][ 45]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-16.50.22:361][483]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.50.22:401][483]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.50.31:335][292]LogActorFactory: Actor Factory created SM_DrinkingRug
+[2017.08.17-16.50.31:662][330]LogActorFactory: Actor Factory created SM_DrinkingRug
+[2017.08.17-16.50.33:211][492]Cmd: DELETE
+[2017.08.17-16.50.33:211][492]Cmd: ACTOR DELETE
+[2017.08.17-16.50.33:211][492]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.50.33:225][492]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.08.17-16.50.36:741][864]LogActorFactory: Actor Factory created SM_CanvasDeco01
+[2017.08.17-16.50.37:497][946]LogActorFactory: Actor Factory created SM_CanvasDeco01
+[2017.08.17-16.50.46:572][897]LogActorFactory: Actor Factory created SM_CanvasDeco03
+[2017.08.17-16.50.47:201][961]LogActorFactory: Actor Factory created SM_CanvasDeco03
+[2017.08.17-16.51.05:196][864]LogActorFactory: Actor Factory created SM_CanvasDeco01
+[2017.08.17-16.51.05:719][923]LogActorFactory: Actor Factory created SM_CanvasDeco01
+[2017.08.17-16.51.15:654][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DrinkingWall4)
+[2017.08.17-16.51.22:553][697]LogActorFactory: Actor Factory created SM_CanvasDeco04
+[2017.08.17-16.51.22:863][732]LogActorFactory: Actor Factory created SM_CanvasDeco04
+[2017.08.17-16.51.44:310][ 60]Cmd: DELETE
+[2017.08.17-16.51.44:310][ 60]Cmd: ACTOR DELETE
+[2017.08.17-16.51.44:311][ 60]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.51.44:329][ 60]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.08.17-16.51.45:178][109]LogActorFactory: Actor Factory created SM_CanvasDeco01
+[2017.08.17-16.51.45:841][185]LogActorFactory: Actor Factory created SM_CanvasDeco01
+[2017.08.17-16.52.07:013][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PaintCanvasRack)
+[2017.08.17-16.52.07:930][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CanvasDeco7)
+[2017.08.17-16.52.18:539][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DrinkingWall)
+[2017.08.17-16.52.19:462][ 17]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-16.52.19:481][ 17]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.52.19:481][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.52.19:482][ 17]PIE: New page: PIE session: Painting (17 Aug 2017 18:52:19)
+[2017.08.17-16.52.19:482][ 17]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-16.52.19:490][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008274s)
+[2017.08.17-16.52.19:490][ 17]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.52.19:491][ 17]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.08.17-16.52.19:491][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.009239s)
+[2017.08.17-16.52.19:514][ 17]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.52.19:524][ 17]LogInit: FAudioDevice initialized.
+[2017.08.17-16.52.19:553][ 17]LogLoad: Game class is 'newmode_C'
+[2017.08.17-16.52.19:557][ 17]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-17.52.19
+[2017.08.17-16.52.19:559][ 17]LogWorld: Bringing up level for play took: 0.004226
+[2017.08.17-16.52.19:560][ 17]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting -0.523
+[2017.08.17-16.52.19:560][ 17]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.52.19:562][ 17]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-16.52.19:562][ 17]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-16.52.19:562][ 17]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-16.52.23:471][483]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.52.23:517][483]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.52.26:111][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CanvasDeco7)
+[2017.08.17-16.52.26:812][821]Cmd: DELETE
+[2017.08.17-16.52.26:812][821]Cmd: ACTOR DELETE
+[2017.08.17-16.52.26:813][821]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.52.26:825][821]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.08.17-16.52.27:222][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CanvasDeco6)
+[2017.08.17-16.52.29:549][103]Cmd: DELETE
+[2017.08.17-16.52.29:549][103]Cmd: ACTOR DELETE
+[2017.08.17-16.52.29:550][103]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.17-16.52.29:564][103]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.08.17-16.52.30:482][157]LogActorFactory: Actor Factory created SM_CanvasDeco01
+[2017.08.17-16.52.31:307][255]LogActorFactory: Actor Factory created SM_CanvasDeco01
+[2017.08.17-16.53.14:157][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2017.08.17-16.53.42:467][527]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting)
+[2017.08.17-16.54.22:294][960]LogEditorTransaction: Undo Modify Component(s)
+[2017.08.17-16.54.22:319][960]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Painting.Painting:PersistentLevel.C_Painting3.CollisionCylinder) Component already registered.
+[2017.08.17-16.54.23:187][ 60]Cmd: MODE GRID=1
+[2017.08.17-16.54.23:597][107]Cmd: MODE ROTGRID=1
+[2017.08.17-16.55.27:725][561]Cmd: MODE GRID=0
+[2017.08.17-16.55.40:608][ 38]BlueprintLog: New page: Compile C_Painting
+[2017.08.17-16.55.40:717][ 38]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting_35.CollisionCylinder is already used by CapsuleComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:717][ 38]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting_35.Arrow is already used by ArrowComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:717][ 38]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting_35.CharMoveComp is already used by CharacterMovementComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:717][ 38]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting_35.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:749][ 38]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting2.CollisionCylinder is already used by CapsuleComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_6.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:749][ 38]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting2.Arrow is already used by ArrowComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_6.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:749][ 38]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting2.CharMoveComp is already used by CharacterMovementComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_6.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:749][ 38]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_6.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:753][ 38]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting5.CollisionCylinder is already used by CapsuleComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_24.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:753][ 38]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting5.Arrow is already used by ArrowComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_24.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:753][ 38]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting5.CharMoveComp is already used by CharacterMovementComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_24.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:753][ 38]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting5.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_24.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:755][ 38]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting6.CollisionCylinder is already used by CapsuleComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_30.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:755][ 38]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting6.Arrow is already used by ArrowComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_30.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:755][ 38]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting6.CharMoveComp is already used by CharacterMovementComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_30.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.55.40:755][ 38]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Levels/Painting.Painting:PersistentLevel.C_Painting6.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Levels/Painting.Painting:PersistentLevel.REINST_C_Painting_C_30.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.08.17-16.56.07:919][ 72]LogEditorTransaction: Undo Remove Components
+[2017.08.17-16.57.13:617][492]BlueprintLog: New page: Compile C_Painting
+[2017.08.17-16.57.15:611][605]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-16.57.15:630][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.57.15:630][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.57.15:631][605]PIE: New page: PIE session: Painting (17 Aug 2017 18:57:15)
+[2017.08.17-16.57.15:631][605]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-16.57.15:640][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009013s)
+[2017.08.17-16.57.15:640][605]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.57.15:641][605]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2017.08.17-16.57.15:641][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.010201s)
+[2017.08.17-16.57.15:667][605]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.57.15:678][605]LogInit: FAudioDevice initialized.
+[2017.08.17-16.57.15:744][605]LogLoad: Game class is 'newmode_C'
+[2017.08.17-16.57.15:749][605]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-17.57.15
+[2017.08.17-16.57.15:751][605]LogWorld: Bringing up level for play took: 0.005304
+[2017.08.17-16.57.15:751][605]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.17-16.57.15:753][605]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting -0.33
+[2017.08.17-16.57.15:753][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.57.15:755][605]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-16.57.15:755][605]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-16.57.15:755][605]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-16.57.23:608][540]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.57.23:689][540]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.57.46:869][192]LogEditorTransaction: Undo Modify Component(s)
+[2017.08.17-16.57.46:881][192]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Painting.Painting:PersistentLevel.C_Painting4.CollisionCylinder) Component already registered.
+[2017.08.17-16.57.58:364][515]BlueprintLog: New page: Compile C_Painting
+[2017.08.17-16.58.03:061][ 12]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-16.58.03:082][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.58.03:082][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-16.58.03:082][ 12]PIE: New page: PIE session: Painting (17 Aug 2017 18:58:03)
+[2017.08.17-16.58.03:082][ 12]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-16.58.03:092][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010108s)
+[2017.08.17-16.58.03:093][ 12]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-16.58.03:093][ 12]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2017.08.17-16.58.03:093][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.011072s)
+[2017.08.17-16.58.03:119][ 12]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-16.58.03:129][ 12]LogInit: FAudioDevice initialized.
+[2017.08.17-16.58.03:172][ 12]LogLoad: Game class is 'newmode_C'
+[2017.08.17-16.58.03:177][ 12]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-17.58.03
+[2017.08.17-16.58.03:178][ 12]LogWorld: Bringing up level for play took: 0.005594
+[2017.08.17-16.58.03:179][ 12]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.17-16.58.03:181][ 12]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting 1.099
+[2017.08.17-16.58.03:182][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.58.03:185][ 12]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-16.58.03:185][ 12]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-16.58.03:185][ 12]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-16.58.36:218][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.58.36:308][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-16.58.38:826][206]BlueprintLog: New page: Compile C_Painting
+[2017.08.17-16.59.26:801][156]BlueprintLog: New page: Compile BP_GreenPaint
+[2017.08.17-16.59.30:190][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-16.59.50:271][829]BlueprintLog: New page: Compile BP_RedPaint
+[2017.08.17-17.00.10:163][ 99]BlueprintLog: New page: Compile BP_YellowPaint
+[2017.08.17-17.00.19:967][145]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting3)
+[2017.08.17-17.00.24:167][592]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting4)
+[2017.08.17-17.00.27:795][998]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting6)
+[2017.08.17-17.00.31:989][484]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting5)
+[2017.08.17-17.00.49:205][431]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting)
+[2017.08.17-17.00.55:139][ 51]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-17.00.55:161][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-17.00.55:161][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-17.00.55:162][ 51]PIE: New page: PIE session: Painting (17 Aug 2017 19:00:55)
+[2017.08.17-17.00.55:162][ 51]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-17.00.55:171][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009237s)
+[2017.08.17-17.00.55:171][ 51]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-17.00.55:171][ 51]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2017.08.17-17.00.55:172][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.010078s)
+[2017.08.17-17.00.55:200][ 51]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-17.00.55:210][ 51]LogInit: FAudioDevice initialized.
+[2017.08.17-17.00.55:238][ 51]LogLoad: Game class is 'newmode_C'
+[2017.08.17-17.00.55:243][ 51]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-18.00.55
+[2017.08.17-17.00.55:244][ 51]LogWorld: Bringing up level for play took: 0.004926
+[2017.08.17-17.00.55:245][ 51]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting -0.838
+[2017.08.17-17.00.55:245][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-17.00.55:247][ 51]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-17.00.55:247][ 51]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-17.00.55:247][ 51]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-17.00.57:647][333]LogCharacterMovement: C_Painting_35 is stuck and failed to move! Velocity: X=0.00 Y=17.07 Z=0.00 Location: X=-695.82 Y=-612.56 Z=108.00 Normal: X=-0.88 Y=-0.47 Z=0.00 PenetrationDepth:18.405 Actor:SM_PaintWashingPot9 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2017.08.17-17.00.58:648][453]LogCharacterMovement: C_Painting_35 is stuck and failed to move! Velocity: X=-434.35 Y=42.57 Z=0.00 Location: X=-695.82 Y=-612.56 Z=108.00 Normal: X=0.18 Y=-0.98 Z=-0.00 PenetrationDepth:32.913 Actor:SM_PaintPaletteKnife5 Component:StaticMeshComponent0 BoneName:None (119 other events since notify)
+[2017.08.17-17.00.59:124][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-17.00.59:186][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-17.01.02:205][835]Cmd: TRANSACTION UNDO
+[2017.08.17-17.01.02:205][835]LogEditorTransaction: Undo Scale Actors
+[2017.08.17-17.01.33:258][321]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting3)
+[2017.08.17-17.01.36:920][711]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting5)
+[2017.08.17-17.01.42:064][227]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting2)
+[2017.08.17-17.01.46:469][723]Cmd: TRANSACTION UNDO
+[2017.08.17-17.01.46:469][723]LogEditorTransaction: Undo Move Actors
+[2017.08.17-17.01.46:635][735]Cmd: TRANSACTION UNDO
+[2017.08.17-17.01.46:635][735]LogEditorTransaction: Undo Move Actors
+[2017.08.17-17.01.46:796][747]Cmd: TRANSACTION UNDO
+[2017.08.17-17.01.46:796][747]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.17-17.01.49:334][ 14]Cmd: TRANSACTION UNDO
+[2017.08.17-17.01.49:334][ 14]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.17-17.01.49:647][ 46]Cmd: TRANSACTION UNDO
+[2017.08.17-17.01.49:647][ 46]LogEditorTransaction: Undo Move Actors
+[2017.08.17-17.01.49:946][ 76]Cmd: TRANSACTION UNDO
+[2017.08.17-17.01.49:946][ 76]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.17-17.01.50:249][103]Cmd: TRANSACTION UNDO
+[2017.08.17-17.01.50:249][103]LogEditorTransaction: Undo Move Actors
+[2017.08.17-17.01.50:261][103]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Painting.Painting:PersistentLevel.C_Painting3.CollisionCylinder) Component already registered.
+[2017.08.17-17.02.10:587][344]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting3)
+[2017.08.17-17.02.17:800][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2017.08.17-17.02.18:527][141]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting5)
+[2017.08.17-17.02.23:034][615]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting4)
+[2017.08.17-17.02.25:580][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DrinkingWall4)
+[2017.08.17-17.02.26:092][962]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting2)
+[2017.08.17-17.02.29:372][342]LogEditorViewport: Clicking on Actor (LMB): C_Painting_C (C_Painting6)
+[2017.08.17-17.02.41:935][704]BlueprintLog: New page: Compile C_Painting
+[2017.08.17-17.02.50:841][693]BlueprintLog: New page: Compile C_Painting
+[2017.08.17-17.03.03:727][108]BlueprintLog: New page: Compile C_Painting
+[2017.08.17-17.03.06:182][363]BlueprintLog: New page: Compile C_Painting
+[2017.08.17-17.03.08:042][534]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.17-17.03.08:064][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-17.03.08:064][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-17.03.08:065][534]PIE: New page: PIE session: Painting (17 Aug 2017 19:03:08)
+[2017.08.17-17.03.08:065][534]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Painting
+[2017.08.17-17.03.08:074][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009466s)
+[2017.08.17-17.03.08:075][534]LogAIModule: Creating AISystem for world Painting
+[2017.08.17-17.03.08:075][534]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2017.08.17-17.03.08:075][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Painting.Painting to /Game/Levels/UEDPIE_0_Painting.Painting (0.010614s)
+[2017.08.17-17.03.08:105][534]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.17-17.03.08:117][534]LogInit: FAudioDevice initialized.
+[2017.08.17-17.03.08:149][534]LogLoad: Game class is 'newmode_C'
+[2017.08.17-17.03.08:154][534]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Painting.Painting up for play (max tick rate 0) at 2017.08.17-18.03.08
+[2017.08.17-17.03.08:156][534]LogWorld: Bringing up level for play took: 0.006158
+[2017.08.17-17.03.08:157][534]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Painting 0.074
+[2017.08.17-17.03.08:158][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-17.03.08:160][534]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.17-17.03.08:160][534]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.17-17.03.08:160][534]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.17-17.03.12:467][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-17.03.12:527][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Painting.Painting:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Painting.Painting:PersistentLevel.Painting' with GeneratedClass '/Game/Levels/Painting.Painting_C' with ClassGeneratedBy '/Game/Levels/Painting.Painting:PersistentLevel.Painting'
+[2017.08.17-17.03.13:808][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Painting" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Painting.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.17-17.03.14:356][189]LogSavePackage: Save=487.51ms
+[2017.08.17-17.03.14:357][189]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Painting6B332FD245BBFD201FC0B28F486AF832.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Painting.umap'
+[2017.08.17-17.03.14:361][189]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Painting.umap
+[2017.08.17-17.03.17:614][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Painting/BP_BlueEasle" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_BlueEasle.uasset" SILENT=true
+[2017.08.17-17.03.17:702][417]LogSavePackage: Save=41.35ms
+[2017.08.17-17.03.17:702][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_BlueEasleC4C5DAE043F9E7F43AF82BB380CECCD9.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_BlueEasle.uasset'
+[2017.08.17-17.03.17:706][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_BlueEasle.uasset
+[2017.08.17-17.03.17:722][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Painting/BP_GreenEasle" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_GreenEasle.uasset" SILENT=true
+[2017.08.17-17.03.17:791][417]LogSavePackage: Save=23.60ms
+[2017.08.17-17.03.17:791][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_GreenEasle8B02A04749085A07FB6768ABAD225BFA.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_GreenEasle.uasset'
+[2017.08.17-17.03.17:795][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_GreenEasle.uasset
+[2017.08.17-17.03.17:809][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Painting/BP_GreenPaint" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_GreenPaint.uasset" SILENT=true
+[2017.08.17-17.03.17:894][417]LogSavePackage: Save=39.16ms
+[2017.08.17-17.03.17:894][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_GreenPaintFDC33A364DCA599AAFEC928B3C83164D.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_GreenPaint.uasset'
+[2017.08.17-17.03.17:898][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_GreenPaint.uasset
+[2017.08.17-17.03.17:913][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Painting/BP_PlayerEasle" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_PlayerEasle.uasset" SILENT=true
+[2017.08.17-17.03.17:969][417]LogSavePackage: Save=12.62ms
+[2017.08.17-17.03.17:969][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_PlayerEasle40B90E2648926B8964FDC2B83EB449ED.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_PlayerEasle.uasset'
+[2017.08.17-17.03.17:973][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_PlayerEasle.uasset
+[2017.08.17-17.03.17:988][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Painting/BP_RedEasle" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_RedEasle.uasset" SILENT=true
+[2017.08.17-17.03.18:055][417]LogSavePackage: Save=23.67ms
+[2017.08.17-17.03.18:055][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_RedEasle1647982B4517D353F74BE297E51E81A4.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_RedEasle.uasset'
+[2017.08.17-17.03.18:059][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_RedEasle.uasset
+[2017.08.17-17.03.18:074][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Painting/BP_RedPaint" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_RedPaint.uasset" SILENT=true
+[2017.08.17-17.03.18:157][417]LogSavePackage: Save=38.71ms
+[2017.08.17-17.03.18:157][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_RedPaint54745A174292403A1EAF2394D1F95450.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_RedPaint.uasset'
+[2017.08.17-17.03.18:161][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_RedPaint.uasset
+[2017.08.17-17.03.18:176][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Painting/BP_SpinningEasle" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_SpinningEasle.uasset" SILENT=true
+[2017.08.17-17.03.18:239][417]LogSavePackage: Save=19.26ms
+[2017.08.17-17.03.18:239][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_SpinningEasle2664A9994A4788D6ABE754B5F7B4CEA9.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_SpinningEasle.uasset'
+[2017.08.17-17.03.18:243][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_SpinningEasle.uasset
+[2017.08.17-17.03.18:258][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Painting/BP_YellowEasle" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_YellowEasle.uasset" SILENT=true
+[2017.08.17-17.03.18:324][417]LogSavePackage: Save=22.27ms
+[2017.08.17-17.03.18:324][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_YellowEasle39581A8948977C16A6995592CCFD9A2F.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_YellowEasle.uasset'
+[2017.08.17-17.03.18:328][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_YellowEasle.uasset
+[2017.08.17-17.03.18:342][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Painting/BP_YellowPaint" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_YellowPaint.uasset" SILENT=true
+[2017.08.17-17.03.18:424][417]LogSavePackage: Save=38.71ms
+[2017.08.17-17.03.18:424][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_YellowPaint78B085D24E49F8DAE1DBEA86C5963649.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_YellowPaint.uasset'
+[2017.08.17-17.03.18:428][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Painting/BP_YellowPaint.uasset
+[2017.08.17-17.03.18:444][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/C_Painting" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Characters/C_Painting.uasset" SILENT=true
+[2017.08.17-17.03.18:564][417]LogSavePackage: Save=76.86ms
+[2017.08.17-17.03.18:564][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/C_Painting5D49212B4224C77B3C7A8EB36A22AC78.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Characters/C_Painting.uasset'
+[2017.08.17-17.03.18:568][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Characters/C_Painting.uasset
+[2017.08.17-17.03.18:583][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnvironmentArt/lambert2" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/EnvironmentArt/lambert2.uasset" SILENT=true
+[2017.08.17-17.03.18:593][417]LogSavePackage: Save=8.80ms
+[2017.08.17-17.03.18:593][417]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/lambert2C029D3F3475ED526F55FE7AF48983473.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/EnvironmentArt/lambert2.uasset'
+[2017.08.17-17.03.18:596][417]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/EnvironmentArt/lambert2.uasset
+[2017.08.17-17.03.18:690][417]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.17-17.03.18:861][418]Cmd: QUIT_EDITOR
+[2017.08.17-17.03.19:781][418]LogExit: Preparing to exit.
+[2017.08.17-17.03.20:982][418]LogExit: Editor shut down
+[2017.08.17-17.03.20:985][418]LogExit: Transaction tracking system shut down
+[2017.08.17-17.03.21:093][418]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.17-17.03.21:093][418]LogExit: Object subsystem successfully closed.
+[2017.08.17-17.03.21:112][418]LogD3D11RHI: Shutdown
+[2017.08.17-17.03.21:112][418]LogD3D11RHI: CleanupD3DDevice
+[2017.08.17-17.03.21:253][418]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.17-17.03.21:260][418]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.08.17-17.03.21:274][418]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2017.08.17-17.03.21:274][418]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.08.17-17.03.21:274][418]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.08.17-17.03.21:274][418]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (526)
+[2017.08.17-17.03.21:274][418]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.17-17.03.21:274][418]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.17-17.03.21:274][418]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.17-17.03.21:274][418]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.17-17.03.21:274][418]LogDirectoryWatcher: A directory notification for 'E:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.17-17.03.21:275][418]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Collections/' was aborted.
+[2017.08.17-17.03.21:275][418]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Developers/Tom/Collections/' was aborted.
+[2017.08.17-17.03.21:275][418]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Collections/' was aborted.
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.17-17.03.21:275][418]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.17-17.03.21:845][418]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.17-17.03.21:846][418]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.17-17.03.21:846][418]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.17-17.03.21:846][418]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.17-17.03.21:846][418]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.17-17.03.21:846][418]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.17-17.03.21:846][418]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.17-17.03.21:846][418]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.17-17.03.21:901][418]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.17-17.03.21:901][418]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.17-17.03.21:901][418]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.17-17.03.21:901][418]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.17-17.03.21:901][418]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.17-17.03.21:901][418]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.17-17.03.21:901][418]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.17-17.03.21:901][418]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.17-17.03.21:901][418]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.17-17.03.21:901][418]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.17-17.03.21:907][418]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.17-17.03.21:989][418]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.17-17.03.21:990][418]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.17-17.03.21:990][418]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.17-17.03.21:990][418]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.17-17.03.21:991][418]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.17-17.03.21:991][418]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.17-17.03.21:991][418]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.17-17.03.21:991][418]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.17-17.03.21:991][418]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.17-17.03.21:991][418]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.17-17.03.21:991][418]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.17-17.03.21:991][418]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.17-17.03.21:991][418]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.17-17.03.22:093][418]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.17-17.03.22:193][418]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.17-17.03.22:193][418]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.17-17.03.22:193][418]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.17-17.03.22:193][418]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.17-17.03.22:193][418]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.17-17.03.22:193][418]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.17-17.03.22:193][418]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.17-17.03.22:193][418]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.17-17.03.22:193][418]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.17-17.03.22:193][418]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.17-17.03.22:194][418]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.17-17.03.22:196][418]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.17-17.03.22:196][418]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.17-17.03.22:196][418]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.17-17.03.22:196][418]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.17-17.03.22:196][418]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.17-17.03.22:196][418]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.17-17.03.22:297][418]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.17-17.03.22:297][418]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/' was aborted.
+[2017.08.17-17.03.22:297][418]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.17-17.03.22:297][418]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.17-17.03.22:301][418]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.17-17.03.22:301][418]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.17-17.03.22:301][418]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.17-17.03.22:301][418]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.17-17.03.22:301][418]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.17-17.03.22:301][418]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.17-17.03.22:301][418]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.17-17.03.22:301][418]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.17-17.03.22:301][418]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.17-17.03.22:367][418]LogDerivedDataCache: Shutdown
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.17-17.03.22:367][418]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.17-17.03.22:368][418]LogHMD: Oculus shutdown.
+[2017.08.17-17.03.22:368][418]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.17-17.03.22:368][418]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.17-17.03.22:368][418]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.17-17.03.22:368][418]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.17-17.03.22:368][418]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.17-17.03.22:368][418]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.17-17.03.22:368][418]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.17-17.03.22:368][418]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.17-17.03.22:368][418]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.17-17.03.22:368][418]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB560C72E-4196-77A9-BC12-B3B26EAB9329%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=9507d6a347edc37d65474c8629981c28%7Ccdc8881e81874f7b9309baf36bcfe432%7Cf9f02938-7094-4537-917c-c69c45de1e4a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.17-17.03.22:382][418]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.17-17.03.22:383][418]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.17-17.03.22:383][418]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.17-17.03.22:383][418]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.17-17.03.22:383][418]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.17-17.03.22:383][418]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.17-17.03.22:383][418]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.17-17.03.22:383][418]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.17-17.03.22:383][418]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.17-17.03.22:384][418]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.17-17.03.22:384][418]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.17-17.03.22:384][418]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.17-17.03.22:384][418]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.17-17.03.22:384][418]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.17-17.03.22:384][418]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.17-17.03.22:384][418]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.17-17.03.22:384][418]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.17-17.03.22:384][418]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.17-17.03.22:384][418]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.17-17.03.22:385][418]LogExit: Exiting.
+[2017.08.17-17.03.22:403][418]Log file closed, 08/17/17 18:03:22
