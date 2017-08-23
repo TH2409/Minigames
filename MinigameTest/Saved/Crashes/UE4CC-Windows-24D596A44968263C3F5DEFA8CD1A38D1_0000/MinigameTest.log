@@ -1,0 +1,644 @@
+﻿Log file open, 08/23/17 13:04:49
+LogInit:Display: Running engine for game: MinigameTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-725400637) SRandInit(-725400637).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081353
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.17.0(build = 424315) feature version = 0. Client runs version (prod = 1).1.17.0(build = 424315) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: E:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.23-12.04.50:368][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.23-12.04.50:368][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.23-12.04.50:377][  0]LogInit: Computer: RAMSAY
+[2017.08.23-12.04.50:377][  0]LogInit: User: Tom
+[2017.08.23-12.04.50:377][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.23-12.04.50:377][  0]LogInit: High frequency timer resolution =3.903984 MHz
+[2017.08.23-12.04.50:377][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.23-12.04.50:377][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.23-12.04.50:377][  0]LogMemory: Process Physical Memory: 279.98 MB used, 279.98 MB peak
+[2017.08.23-12.04.50:377][  0]LogMemory: Process Virtual Memory: 276.43 MB used, 276.43 MB peak
+[2017.08.23-12.04.50:377][  0]LogMemory: Physical Memory: 6574.38 MB used,  9751.70 MB free, 16326.08 MB total
+[2017.08.23-12.04.50:377][  0]LogMemory: Virtual Memory: 678.09 MB used,  9751.70 MB free, 134217728.00 MB total
+[2017.08.23-12.04.50:424][  0]LogInit: Using OS detected language (en-US).
+[2017.08.23-12.04.50:424][  0]LogInit: Using OS detected locale (en-GB).
+[2017.08.23-12.04.50:426][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.23-12.04.51:228][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.23-12.04.51:759][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.08.23-12.04.51:759][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.23-12.04.51:760][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.23-12.04.51:760][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.23-12.04.51:760][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.23-12.04.51:765][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.23-12.04.51:765][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.23-12.04.51:765][  0]LogWindows: EnumDisplayDevices:
+[2017.08.23-12.04.51:765][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.08.23-12.04.51:765][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.08.23-12.04.51:765][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.23-12.04.51:765][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.23-12.04.51:765][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.23-12.04.51:765][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.08.23-12.04.51:765][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.23-12.04.51:765][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.23-12.04.51:765][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.23-12.04.52:254][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.23-12.04.52:280][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.23-12.04.52:329][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Intermediate/Shaders/WorkingDirectory/10768/).
+[2017.08.23-12.04.52:329][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/80B9F413428EBB131DF86F923834DCC7/'.
+[2017.08.23-12.04.52:329][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.23-12.04.53:191][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.23-12.04.53:229][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.23-12.04.53:269][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.23-12.04.53:308][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.23-12.04.53:346][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.23-12.04.53:384][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.23-12.04.53:419][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.23-12.04.53:454][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.23-12.04.53:485][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.23-12.04.53:519][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.23-12.04.53:554][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.23-12.04.53:592][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.23-12.04.53:626][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.23-12.04.53:660][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.23-12.04.53:696][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.23-12.04.53:765][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.23-12.04.53:765][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.23-12.04.53:792][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.23-12.04.53:865][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.23-12.04.53:890][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.23-12.04.53:928][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.23-12.04.53:961][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.23-12.04.53:996][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.23-12.04.54:031][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.23-12.04.54:031][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.23-12.04.54:357][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.23-12.04.54:437][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.23-12.04.54:437][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.23-12.04.54:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.23-12.04.54:438][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.23-12.04.54:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.23-12.04.54:438][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.23-12.04.54:451][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.23-12.04.54:463][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.23-12.04.54:472][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.23-12.04.54:472][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.23-12.04.54:473][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.23-12.04.54:473][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.23-12.04.54:755][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.23-12.04.54:818][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.23-12.04.54:942][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.23-12.04.54:972][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.23-12.04.55:004][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.23-12.04.55:004][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.23-12.04.55:004][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.23-12.04.55:418][  0]LogNetVersion: MinigameTest , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2853374125)
+[2017.08.23-12.04.55:467][  0]LogAssetRegistry: FAssetRegistry took 0.0242 seconds to start up
+[2017.08.23-12.04.55:517][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.034712 seconds
+[2017.08.23-12.04.55:523][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.23-12.04.55:523][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.23-12.04.55:523][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.23-12.04.55:562][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.23-12.04.57:401][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.23-12.04.57:431][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.23-12.04.57:871][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.23-12.04.58:145][  0]SourceControl: Info Source control is disabled
+[2017.08.23-12.04.58:198][  0]SourceControl: Info Source control is disabled
+[2017.08.23-12.04.58:230][  0]SourceControl: Info Source control is disabled
+[2017.08.23-12.04.58:266][  0]SourceControl: Info Source control is disabled
+[2017.08.23-12.04.58:722][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.23-12.04.59:137][  0]LogEngine: Initializing Engine...
+[2017.08.23-12.05.04:820][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.08.23-12.05.04:821][  0]LogHMD: Oculus plugin initialized. Version: 4.16.3-3561208+++UE4+Release-4.16, LibOVR: 1.17.0, SDK: 1.12.0, built Jul 28 2017, 11:57:22
+[2017.08.23-12.05.04:987][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.23-12.05.04:987][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.23-12.05.05:071][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.23-12.05.05:084][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.05.05:097][  0]LogInit: FAudioDevice initialized.
+[2017.08.23-12.05.05:136][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.23-12.05.05:147][  0]LogInit: Texture streaming: Enabled
+[2017.08.23-12.05.05:207][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.23-12.05.05:348][  0]LogInit: Transaction tracking system initialized
+[2017.08.23-12.05.05:547][  0]BlueprintLog: New page: Editor Load
+[2017.08.23-12.05.06:147][  0]LocalizationService: Info Localization service is disabled
+[2017.08.23-12.05.06:589][  0]LogConsoleResponse:Display: 
+[2017.08.23-12.05.06:694][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.23-12.05.06:694][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.23-12.05.06:923][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/' took 0.02s
+[2017.08.23-12.05.07:371][  0]SourceControl: Info Source control is disabled
+[2017.08.23-12.05.07:371][  0]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.23-12.05.07:373][  0]LightingResults: New page: Lighting Build
+[2017.08.23-12.05.07:398][  0]MapCheck: New page: Map Check
+[2017.08.23-12.05.07:398][  0]LightingResults: New page: Lighting Build
+[2017.08.23-12.05.07:953][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.23-12.05.08:028][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.23-12.05.08:037][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.23-12.05.08:083][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.386ms to complete.
+[2017.08.23-12.05.08:083][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.712
+[2017.08.23-12.05.08:149][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.23-12.05.08:210][  0]LogCollectionManager: Loaded 0 collections in 0.001042 seconds
+[2017.08.23-12.05.08:277][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Collections/' took 0.01s
+[2017.08.23-12.05.08:277][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Developers/Tom/Collections/' took 0.01s
+[2017.08.23-12.05.08:277][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Collections/' took 0.01s
+[2017.08.23-12.05.08:277][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.23-12.05.08:285][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2329 classes and 491 folders.
+[2017.08.23-12.05.08:327][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.23-12.05.08:366][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.23-12.05.08:394][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.23-12.05.08:421][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.23-12.05.08:424][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.23-12.05.08:426][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.23-12.05.08:430][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.23-12.05.08:505][  0]LogRenderer: Reallocating scene render targets to support 1116x600 NumSamples 1 (Frame:1).
+[2017.08.23-12.05.08:601][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.23-12.05.08:650][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.23-12.05.08:650][  0]LogLoad: (Engine Initialization) Total time: 20.12 seconds
+[2017.08.23-12.05.08:650][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.08.23-12.05.08:650][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.23-12.05.08:650][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.23-12.05.08:661][  0]LogOcInput: OculusInput pre-init called
+[2017.08.23-12.05.08:671][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.17.0
+[2017.08.23-12.05.08:672][  0]LogHMD: Starting GearVRController plugin
+[2017.08.23-12.05.08:690][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.23-12.05.08:726][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.23-12.05.08:769][  1]LogAssetRegistry: Asset discovery search completed in 13.3232 seconds
+[2017.08.23-12.05.08:772][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.23-12.05.08:772][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.08.23-12.06.37:615][282]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Cooking.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.23-12.06.37:622][282]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.23-12.06.37:630][282]LightingResults: New page: Lighting Build
+[2017.08.23-12.06.37:630][282]LoadErrors: New page: Loading map: Cooking.umap
+[2017.08.23-12.06.37:632][282]MapCheck: New page: Map Check
+[2017.08.23-12.06.37:632][282]LightingResults: New page: Lighting Build
+[2017.08.23-12.06.38:283][282]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.06.38:331][282]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.23-12.06.38:383][282]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.23-12.06.38:445][282]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.334ms to complete.
+[2017.08.23-12.06.38:445][282]LogFileHelpers: Loading map 'Cooking' took 0.831
+[2017.08.23-12.07.01:575][551]LogEditorViewport: Clicking on Actor (LMB): BP_Uncanning_C (BP_Uncanning)
+[2017.08.23-12.07.03:426][696]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.08.23-12.07.04:280][696]LogSlate: Took 0.016908 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.23-12.07.04:514][697]LogSlate: Took 0.008031 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.23-12.07.05:857][850]LogRenderer: Reallocating scene render targets to support 1144x744 NumSamples 1 (Frame:1).
+[2017.08.23-12.07.12:257][492]LogStaticMesh: Building static mesh SM_CanOpener...
+[2017.08.23-12.07.12:304][492]LogStaticMesh: Built static mesh [0.05s] /Game/EnvironmentArt/SM_CanOpener.SM_CanOpener
+[2017.08.23-12.07.12:324][492]LogTexture:Display: Building textures: T_CanningStation_D (AutoDXT, 1024X1024)
+[2017.08.23-12.07.12:477][492]LogTexture:Display: Building textures: T_CanningStation_ORM (AutoDXT, 1024X1024)
+[2017.08.23-12.07.12:634][492]LogTexture:Display: Building textures: T_CanningStation_N (BC5, 1024X1024)
+[2017.08.23-12.07.12:701][492]LogMaterial: Missing cached shader map for material M_CanOpener, compiling. 
+[2017.08.23-12.07.16:288][892]LogEditorTransaction: Undo Modify Component(s)
+[2017.08.23-12.07.16:303][892]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.23-12.07.16:725][942]LogEditorTransaction: Undo Edit Static Mesh
+[2017.08.23-12.07.33:275][871]BlueprintLog: New page: Compile BP_Uncanning
+[2017.08.23-12.07.37:424][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.23-12.08.02:132][307]LogEditorViewport: Clicking on Actor (LMB): BP_Fridge_C (BP_Fridge)
+[2017.08.23-12.08.12:569][510]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.08.21:849][583]LogTexture:Display: Building textures: T_Fridge_D (AutoDXT, 2048X2048)
+[2017.08.23-12.08.22:311][583]LogTexture:Display: Building textures: T_Fridge_ORM (AutoDXT, 2048X2048)
+[2017.08.23-12.08.22:712][583]LogTexture:Display: Building textures: T_Fridge_N (BC5, 2048X2048)
+[2017.08.23-12.08.22:964][583]LogMaterial: Missing cached shader map for material M_Fridge, compiling. 
+[2017.08.23-12.08.22:978][583]LogStaticMesh: Building static mesh SM_Fridge...
+[2017.08.23-12.08.22:978][583]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.23-12.08.22:985][583]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_Fridge.SM_Fridge
+[2017.08.23-12.08.40:222][550]LogStaticMesh: Building static mesh SM_FridgeDoor...
+[2017.08.23-12.08.40:239][550]LogStaticMesh: Built static mesh [0.02s] /Game/EnvironmentArt/SM_FridgeDoor.SM_FridgeDoor
+[2017.08.23-12.08.56:183][401]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.10.29:828][423]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.11.47:393][612]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.12.02:332][333]LogEditorViewport: Clicking on Actor (LMB): C_CookingReginald_C (C_CookingReginald)
+[2017.08.23-12.12.04:123][521]LogEditorViewport: Clicking on Actor (LMB): C_CookingNewbury_C (C_CookingNewbury)
+[2017.08.23-12.12.05:638][690]LogEditorViewport: Clicking on Actor (LMB): C_CookingChad_C (C_CookingChad)
+[2017.08.23-12.12.06:698][807]LogEditorViewport: Clicking on Actor (LMB): C_CookingJeremia_C (C_CookingJeremia)
+[2017.08.23-12.12.14:764][739]LogEditorViewport: Clicking on Actor (LMB): C_CookingReginald_C (C_CookingReginald)
+[2017.08.23-12.12.25:232][903]BlueprintLog: New page: Compile Cooking
+[2017.08.23-12.12.26:954][ 85]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.12.27:024][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.12.27:024][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.12.27:025][ 85]PIE: New page: PIE session: Cooking (23 Aug 2017 14:12:27)
+[2017.08.23-12.12.27:025][ 85]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.12.27:031][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006179s)
+[2017.08.23-12.12.27:031][ 85]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.12.27:032][ 85]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.08.23-12.12.27:032][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.007185s)
+[2017.08.23-12.12.27:056][ 85]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.12.27:066][ 85]LogInit: FAudioDevice initialized.
+[2017.08.23-12.12.27:129][ 85]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.12.27:173][ 85]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.12.27
+[2017.08.23-12.12.27:193][ 85]LogWorld: Bringing up level for play took: 0.046088
+[2017.08.23-12.12.27:261][ 85]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.23-12.12.27:269][ 85]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking 0.084
+[2017.08.23-12.12.27:269][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.12.27:272][ 85]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.12.27:272][ 85]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.12.27:272][ 85]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.12.35:779][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.12.35:854][ 86]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.13.17:336][966]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.13.18:410][ 83]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.13.18:430][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.13.18:430][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.13.18:430][ 83]PIE: New page: PIE session: Cooking (23 Aug 2017 14:13:18)
+[2017.08.23-12.13.18:430][ 83]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.13.18:437][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007171s)
+[2017.08.23-12.13.18:438][ 83]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.13.18:438][ 83]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.08.23-12.13.18:438][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.007977s)
+[2017.08.23-12.13.18:469][ 83]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.13.18:478][ 83]LogInit: FAudioDevice initialized.
+[2017.08.23-12.13.18:525][ 83]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.13.18:528][ 83]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.13.18
+[2017.08.23-12.13.18:529][ 83]LogWorld: Bringing up level for play took: 0.002982
+[2017.08.23-12.13.18:529][ 83]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.23-12.13.18:531][ 83]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking -0.654
+[2017.08.23-12.13.18:531][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.13.18:532][ 83]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.13.18:532][ 83]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.13.18:533][ 83]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.13.18:563][ 83]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.08.23-12.13.25:278][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.13.25:364][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.13.47:174][452]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.13.47:911][527]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.13.47:932][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.13.47:932][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.13.47:932][527]PIE: New page: PIE session: Cooking (23 Aug 2017 14:13:47)
+[2017.08.23-12.13.47:932][527]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.13.47:939][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007611s)
+[2017.08.23-12.13.47:940][527]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.13.47:940][527]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2017.08.23-12.13.47:940][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.008647s)
+[2017.08.23-12.13.47:969][527]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.13.47:979][527]LogInit: FAudioDevice initialized.
+[2017.08.23-12.13.48:024][527]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.13.48:027][527]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.13.48
+[2017.08.23-12.13.48:028][527]LogWorld: Bringing up level for play took: 0.002795
+[2017.08.23-12.13.48:028][527]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.23-12.13.48:029][527]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking 0.844
+[2017.08.23-12.13.48:030][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.13.48:031][527]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.13.48:031][527]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.13.48:031][527]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.13.54:187][251]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.13.54:273][251]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.14.34:772][547]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.14.49:102][242]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.14.53:247][706]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.14.53:268][706]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.14.53:268][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.14.53:268][706]PIE: New page: PIE session: Cooking (23 Aug 2017 14:14:53)
+[2017.08.23-12.14.53:268][706]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.14.53:275][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006875s)
+[2017.08.23-12.14.53:275][706]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.14.53:276][706]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2017.08.23-12.14.53:276][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.007912s)
+[2017.08.23-12.14.53:306][706]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.14.53:315][706]LogInit: FAudioDevice initialized.
+[2017.08.23-12.14.53:348][706]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.14.53:351][706]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.14.53
+[2017.08.23-12.14.53:352][706]LogWorld: Bringing up level for play took: 0.003137
+[2017.08.23-12.14.53:353][706]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking 0.168
+[2017.08.23-12.14.53:353][706]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.14.53:355][706]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.14.53:355][706]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.14.53:355][706]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.14.59:236][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.14.59:306][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.15.10:213][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cooking/BP_Fridge" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Cooking/BP_Fridge.uasset" SILENT=true
+[2017.08.23-12.15.10:299][465]LogSavePackage: Save=30.44ms
+[2017.08.23-12.15.10:299][465]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_FridgeED4354E74EADA77848656B877E4E22F9.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Cooking/BP_Fridge.uasset'
+[2017.08.23-12.15.10:303][465]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Cooking/BP_Fridge.uasset
+[2017.08.23-12.15.10:329][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cooking/BP_Uncanning" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Cooking/BP_Uncanning.uasset" SILENT=true
+[2017.08.23-12.15.10:406][465]LogSavePackage: Save=27.37ms
+[2017.08.23-12.15.10:406][465]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_UncanningEB30B181439547ACD972ED93864C35F4.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Cooking/BP_Uncanning.uasset'
+[2017.08.23-12.15.10:410][465]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Cooking/BP_Uncanning.uasset
+[2017.08.23-12.15.10:480][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Cooking" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Cooking.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.23-12.15.10:874][465]LogSavePackage: Save=328.17ms
+[2017.08.23-12.15.10:874][465]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Cooking50F008AB44E0B25EFB83F68026B3CF14.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Cooking.umap'
+[2017.08.23-12.15.10:877][465]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Cooking.umap
+[2017.08.23-12.15.10:915][465]LogFileHelpers: Saving map 'Cooking' took 0.503
+[2017.08.23-12.15.10:918][465]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.23-12.15.10:927][465]LightingResults: New page: Lighting Build
+[2017.08.23-12.15.10:927][465]LoadErrors: New page: Loading map: Eating.umap
+[2017.08.23-12.15.10:966][465]MapCheck: New page: Map Check
+[2017.08.23-12.15.10:966][465]LightingResults: New page: Lighting Build
+[2017.08.23-12.15.11:820][465]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.23-12.15.12:266][465]LogAIModule: Creating AISystem for world Eating
+[2017.08.23-12.15.12:299][465]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.23-12.15.12:359][465]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.23-12.15.12:458][465]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.668ms to complete.
+[2017.08.23-12.15.12:458][465]LogFileHelpers: Loading map 'Eating' took 1.541
+[2017.08.23-12.15.15:820][824]LogEditorViewport: Clicking on Actor (LMB): BP_EatingNewbury_C (BP_EatingNewbury)
+[2017.08.23-12.16.02:064][253]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.16.02:763][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.23-12.16.09:254][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cooking/BP_Fridge" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Cooking/BP_Fridge.uasset" SILENT=true
+[2017.08.23-12.16.09:334][855]LogSavePackage: Save=28.96ms
+[2017.08.23-12.16.09:334][855]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_Fridge98A347EF4424C7F3CABE39938D97EB0A.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Cooking/BP_Fridge.uasset'
+[2017.08.23-12.16.09:338][855]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Cooking/BP_Fridge.uasset
+[2017.08.23-12.16.09:341][855]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Cooking.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.23-12.16.09:349][855]LightingResults: New page: Lighting Build
+[2017.08.23-12.16.09:349][855]LoadErrors: New page: Loading map: Cooking.umap
+[2017.08.23-12.16.09:350][855]MapCheck: New page: Map Check
+[2017.08.23-12.16.09:350][855]LightingResults: New page: Lighting Build
+[2017.08.23-12.16.09:427][855]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.16.09:449][855]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.23-12.16.09:501][855]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.23-12.16.09:607][855]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 105.994ms to complete.
+[2017.08.23-12.16.09:607][855]LogFileHelpers: Loading map 'Cooking' took 0.267
+[2017.08.23-12.16.10:714][970]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.16.10:739][970]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.10:739][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.16.10:739][970]PIE: New page: PIE session: Cooking (23 Aug 2017 14:16:10)
+[2017.08.23-12.16.10:739][970]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.16.10:745][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005897s)
+[2017.08.23-12.16.10:745][970]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.16.10:745][970]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2017.08.23-12.16.10:746][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.006743s)
+[2017.08.23-12.16.10:773][970]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.16.10:783][970]LogInit: FAudioDevice initialized.
+[2017.08.23-12.16.10:814][970]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.16.10:818][970]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.16.10
+[2017.08.23-12.16.10:818][970]LogWorld: Bringing up level for play took: 0.002970
+[2017.08.23-12.16.10:819][970]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking -0.366
+[2017.08.23-12.16.10:819][970]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.10:821][970]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.16.10:821][970]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.16.10:821][970]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.16.13:747][316]LogCharacterMovement: C_CookingReginald is stuck and failed to move! Velocity: X=146.41 Y=-581.86 Z=0.00 Location: X=-21.97 Y=-451.46 Z=108.04 Normal: X=-0.56 Y=0.80 Z=-0.22 PenetrationDepth:6.462 Actor:BP_Fridge_217 Component:SM_Fridge1 BoneName:None (0 other events since notify)
+[2017.08.23-12.16.14:917][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.14:953][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.18:058][797]LogEditorViewport: Clicking on Actor (LMB): BP_Fridge_C (BP_Fridge)
+[2017.08.23-12.16.24:452][502]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.16.25:210][578]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.16.25:230][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.25:230][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.16.25:230][578]PIE: New page: PIE session: Cooking (23 Aug 2017 14:16:25)
+[2017.08.23-12.16.25:230][578]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.16.25:238][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007848s)
+[2017.08.23-12.16.25:239][578]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.16.25:239][578]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2017.08.23-12.16.25:239][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.008745s)
+[2017.08.23-12.16.25:262][578]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.16.25:274][578]LogInit: FAudioDevice initialized.
+[2017.08.23-12.16.25:319][578]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.16.25:322][578]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.16.25
+[2017.08.23-12.16.25:323][578]LogWorld: Bringing up level for play took: 0.002680
+[2017.08.23-12.16.25:323][578]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.23-12.16.25:325][578]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking 0.14
+[2017.08.23-12.16.25:325][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.25:327][578]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.16.25:327][578]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.16.25:327][578]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.16.29:370][ 51]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.29:429][ 51]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.46:803][107]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.16.47:463][171]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.16.47:484][171]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.47:484][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.16.47:484][171]PIE: New page: PIE session: Cooking (23 Aug 2017 14:16:47)
+[2017.08.23-12.16.47:484][171]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.16.47:490][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006307s)
+[2017.08.23-12.16.47:491][171]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.16.47:491][171]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2017.08.23-12.16.47:491][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.007134s)
+[2017.08.23-12.16.47:518][171]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.16.47:527][171]LogInit: FAudioDevice initialized.
+[2017.08.23-12.16.47:572][171]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.16.47:575][171]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.16.47
+[2017.08.23-12.16.47:576][171]LogWorld: Bringing up level for play took: 0.002809
+[2017.08.23-12.16.47:576][171]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.23-12.16.47:578][171]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking 0.392
+[2017.08.23-12.16.47:578][171]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.47:580][171]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.16.47:580][171]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.16.47:580][171]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.16.51:670][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.51:728][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.53:059][804]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.16.53:080][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.53:080][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.16.53:080][804]PIE: New page: PIE session: Cooking (23 Aug 2017 14:16:53)
+[2017.08.23-12.16.53:080][804]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.16.53:087][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007023s)
+[2017.08.23-12.16.53:088][804]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.16.53:088][804]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2017.08.23-12.16.53:088][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.007792s)
+[2017.08.23-12.16.53:113][804]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.16.53:124][804]LogInit: FAudioDevice initialized.
+[2017.08.23-12.16.53:166][804]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.16.53:170][804]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.16.53
+[2017.08.23-12.16.53:171][804]LogWorld: Bringing up level for play took: 0.003892
+[2017.08.23-12.16.53:171][804]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.23-12.16.53:172][804]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking -0.013
+[2017.08.23-12.16.53:172][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.53:173][804]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.16.53:173][804]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.16.53:173][804]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.16.59:183][516]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.16.59:242][516]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.17.06:089][321]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.17.23:836][406]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.17.25:641][608]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.17.25:662][608]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.17.25:662][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.17.25:662][608]PIE: New page: PIE session: Cooking (23 Aug 2017 14:17:25)
+[2017.08.23-12.17.25:662][608]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.17.25:670][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008341s)
+[2017.08.23-12.17.25:671][608]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.17.25:671][608]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2017.08.23-12.17.25:671][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.009323s)
+[2017.08.23-12.17.25:697][608]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.17.25:709][608]LogInit: FAudioDevice initialized.
+[2017.08.23-12.17.25:756][608]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.17.25:759][608]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.17.25
+[2017.08.23-12.17.25:760][608]LogWorld: Bringing up level for play took: 0.002633
+[2017.08.23-12.17.25:760][608]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.23-12.17.25:761][608]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking 0.576
+[2017.08.23-12.17.25:762][608]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.17.25:762][608]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.17.25:763][608]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.17.25:763][608]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.17.31:256][258]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.17.31:317][258]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.17.38:698][104]BlueprintLog: New page: Compile BP_Fridge
+[2017.08.23-12.17.39:423][173]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.17.39:445][173]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.17.39:445][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.17.39:445][173]PIE: New page: PIE session: Cooking (23 Aug 2017 14:17:39)
+[2017.08.23-12.17.39:445][173]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.17.39:452][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006609s)
+[2017.08.23-12.17.39:452][173]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.17.39:452][173]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2017.08.23-12.17.39:453][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.007608s)
+[2017.08.23-12.17.39:478][173]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.17.39:490][173]LogInit: FAudioDevice initialized.
+[2017.08.23-12.17.39:531][173]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.17.39:535][173]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.17.39
+[2017.08.23-12.17.39:536][173]LogWorld: Bringing up level for play took: 0.003408
+[2017.08.23-12.17.39:536][173]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.23-12.17.39:538][173]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking 0.352
+[2017.08.23-12.17.39:538][173]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.17.39:540][173]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.17.39:540][173]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.17.39:540][173]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.17.46:210][956]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.17.46:270][956]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.17.52:673][674]LogEditorViewport: Clicking on Actor (LMB): BP_Uncanning_C (BP_Uncanning)
+[2017.08.23-12.18.09:107][427]LogStaticMesh: Building static mesh SM_Can...
+[2017.08.23-12.18.09:115][427]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_Can.SM_Can
+[2017.08.23-12.18.28:955][704]BlueprintLog: New page: Compile BP_Uncanning
+[2017.08.23-12.19.50:254][202]BlueprintLog: New page: Compile BP_Uncanning
+[2017.08.23-12.20.00:953][416]BlueprintLog: New page: Compile BP_Uncanning
+[2017.08.23-12.20.05:701][958]BlueprintLog: New page: Compile BP_Uncanning
+[2017.08.23-12.20.55:153][787]BlueprintLog: New page: Compile BP_Uncanning
+[2017.08.23-12.21.05:520][980]PIE:Warning: Warning Constraint in '/Engine/Transient.World_30:PersistentLevel.BP_Eels_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2017.08.23-12.21.13:369][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.23-12.21.19:263][525]BlueprintLog: New page: Compile Cooking
+[2017.08.23-12.21.20:056][607]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.21.20:079][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.21.20:079][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.21.20:080][607]PIE: New page: PIE session: Cooking (23 Aug 2017 14:21:20)
+[2017.08.23-12.21.20:080][607]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.21.20:087][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007204s)
+[2017.08.23-12.21.20:087][607]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.21.20:088][607]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2017.08.23-12.21.20:088][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.008205s)
+[2017.08.23-12.21.20:117][607]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.21.20:128][607]LogInit: FAudioDevice initialized.
+[2017.08.23-12.21.20:175][607]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.21.20:177][607]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.21.20
+[2017.08.23-12.21.20:178][607]LogWorld: Bringing up level for play took: 0.002567
+[2017.08.23-12.21.20:178][607]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.23-12.21.20:181][607]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking 0.996
+[2017.08.23-12.21.20:181][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.21.20:183][607]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.21.20:183][607]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.21.20:183][607]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.21.29:136][673]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.21.29:227][673]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.21.34:085][245]BlueprintLog: New page: Compile Cooking
+[2017.08.23-12.21.44:764][344]LogEditorViewport: Clicking on Actor (LMB): BP_CookingStation_C (BP_CookingStation)
+[2017.08.23-12.22.12:521][546]BlueprintLog: New page: Compile BP_CookingStation
+[2017.08.23-12.22.13:955][674]LogTexture:Display: Building textures: T_HobOven_D (AutoDXT, 2048X2048)
+[2017.08.23-12.22.14:459][674]LogTexture:Display: Building textures: T_HobOven_ORM (AutoDXT, 2048X2048)
+[2017.08.23-12.22.14:876][674]LogTexture:Display: Building textures: T_HobOven_N (BC5, 2048X2048)
+[2017.08.23-12.22.15:137][674]LogMaterial: Missing cached shader map for material M_HobOven, compiling. 
+[2017.08.23-12.22.15:152][674]LogStaticMesh: Building static mesh SM_HobOven...
+[2017.08.23-12.22.15:153][674]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.23-12.22.15:190][674]LogStaticMesh: Built static mesh [0.04s] /Game/EnvironmentArt/SM_HobOven.SM_HobOven
+[2017.08.23-12.22.33:911][871]BlueprintLog: New page: Compile BP_CookingStation
+[2017.08.23-12.22.42:353][712]LogStaticMesh: Building static mesh SM_HobOvenDoor...
+[2017.08.23-12.22.42:365][712]LogStaticMesh: Built static mesh [0.01s] /Game/EnvironmentArt/SM_HobOvenDoor.SM_HobOvenDoor
+[2017.08.23-12.22.42:369][712]LogMaterial: Missing cached shader map for material M_HobOvenTranslucent, compiling. 
+[2017.08.23-12.23.14:439][ 73]BlueprintLog: New page: Compile BP_CookingStation
+[2017.08.23-12.23.18:769][486]LogEditorViewport: Clicking on Actor (LMB): BP_Fridge_C (BP_Fridge)
+[2017.08.23-12.24.04:942][840]BlueprintLog: New page: Compile BP_CookingStation
+[2017.08.23-12.25.54:373][689]BlueprintLog: New page: Compile BP_CookingStation
+[2017.08.23-12.26.05:981][955]LogEditorViewport: Clicking on Actor (LMB): C_CookingNewbury_C (C_CookingNewbury)
+[2017.08.23-12.26.06:840][ 47]LogEditorViewport: Clicking on Actor (LMB): C_CookingReginald_C (C_CookingReginald)
+[2017.08.23-12.26.13:703][832]BlueprintLog: New page: Compile Cooking
+[2017.08.23-12.26.16:742][178]LogEditorViewport: Clicking on Actor (LMB): C_CookingReginald_C (C_CookingReginald)
+[2017.08.23-12.26.24:241][ 19]BlueprintLog: New page: Compile C_CookingReginald
+[2017.08.23-12.26.25:043][ 93]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-12.26.25:067][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.26.25:067][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-12.26.25:067][ 93]PIE: New page: PIE session: Cooking (23 Aug 2017 14:26:25)
+[2017.08.23-12.26.25:067][ 93]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Cooking
+[2017.08.23-12.26.25:075][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007591s)
+[2017.08.23-12.26.25:075][ 93]LogAIModule: Creating AISystem for world Cooking
+[2017.08.23-12.26.25:075][ 93]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2017.08.23-12.26.25:076][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Cooking.Cooking to /Game/Levels/UEDPIE_0_Cooking.Cooking (0.008807s)
+[2017.08.23-12.26.25:105][ 93]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.23-12.26.25:120][ 93]LogInit: FAudioDevice initialized.
+[2017.08.23-12.26.25:164][ 93]LogLoad: Game class is 'newmode_C'
+[2017.08.23-12.26.25:168][ 93]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Cooking.Cooking up for play (max tick rate 0) at 2017.08.23-13.26.25
+[2017.08.23-12.26.25:169][ 93]LogWorld: Bringing up level for play took: 0.004346
+[2017.08.23-12.26.25:170][ 93]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.23-12.26.25:173][ 93]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Cooking -0.012
+[2017.08.23-12.26.25:173][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.26.25:176][ 93]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.23-12.26.25:176][ 93]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.23-12.26.25:176][ 93]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.23-12.26.30:889][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.26.30:979][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Cooking.Cooking:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking' with GeneratedClass '/Game/Levels/Cooking.Cooking_C' with ClassGeneratedBy '/Game/Levels/Cooking.Cooking:PersistentLevel.Cooking'
+[2017.08.23-12.26.36:083][365]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.23-12.26.36:143][365]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.060 s
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: 
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: Stack: 
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008B6DE2B6
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008B48B8C2
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008B4A1E86
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000086427556
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x0000000083C2D27B
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000082FB24AA
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000082E572CC
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000082E5A6D9
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000082F78035
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000873DDB57
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000873E4B61
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000876048D3
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008743F604
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000874177FC
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008740814C
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008B6D15B0
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008B6BB7D1
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008B6D33DB
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008B6B7B22
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: USER32.dll!0x00000000E0E6BC50
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: USER32.dll!0x00000000E0E6B5CF
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008B6D3CE6
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor.exe!0x000000002291DB44
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor.exe!0x000000002290F0B0
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor.exe!0x000000002290F12A
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor.exe!0x0000000022920CF9
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: UE4Editor.exe!0x00000000229225F7
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: KERNEL32.DLL!0x00000000DE7F2774
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: ntdll.dll!0x00000000E12F0D51
+[2017.08.23-12.26.36:144][365]LogOutputDevice:Error: 
+[2017.08.23-12.26.36:153][365]LogStats:                SubmitErrorReport -  0.000 s
