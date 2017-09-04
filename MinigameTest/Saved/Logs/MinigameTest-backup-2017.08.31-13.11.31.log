@@ -1,0 +1,1202 @@
+﻿Log file open, 08/31/17 10:57:32
+LogInit:Display: Running engine for game: MinigameTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1298074288) SRandInit(-1298074288).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 2.744509
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.17.0(build = 424315) feature version = 0. Client runs version (prod = 1).1.17.0(build = 424315) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: E:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.31-09.57.33:784][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.31-09.57.33:784][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.31-09.57.33:856][  0]LogInit: Computer: RAMSAY
+[2017.08.31-09.57.33:856][  0]LogInit: User: Tom
+[2017.08.31-09.57.33:856][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.31-09.57.33:856][  0]LogInit: High frequency timer resolution =3.903983 MHz
+[2017.08.31-09.57.33:857][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.31-09.57.33:857][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.31-09.57.33:857][  0]LogMemory: Process Physical Memory: 279.74 MB used, 279.74 MB peak
+[2017.08.31-09.57.33:857][  0]LogMemory: Process Virtual Memory: 264.16 MB used, 264.16 MB peak
+[2017.08.31-09.57.33:857][  0]LogMemory: Physical Memory: 5974.35 MB used,  10351.73 MB free, 16326.08 MB total
+[2017.08.31-09.57.33:857][  0]LogMemory: Virtual Memory: 666.09 MB used,  10351.73 MB free, 134217728.00 MB total
+[2017.08.31-09.57.34:418][  0]LogInit: Using OS detected language (en-US).
+[2017.08.31-09.57.34:418][  0]LogInit: Using OS detected locale (en-GB).
+[2017.08.31-09.57.34:588][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.31-09.57.36:477][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.31-09.57.37:024][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.08.31-09.57.37:024][  0]LogD3D11RHI:       2016/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.31-09.57.37:026][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.31-09.57.37:026][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.31-09.57.37:026][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.31-09.57.37:032][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.31-09.57.37:032][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.31-09.57.37:032][  0]LogWindows: EnumDisplayDevices:
+[2017.08.31-09.57.37:032][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.08.31-09.57.37:033][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.08.31-09.57.37:033][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.31-09.57.37:033][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.31-09.57.37:033][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.31-09.57.37:033][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.08.31-09.57.37:033][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.31-09.57.37:033][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.31-09.57.37:033][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.31-09.57.37:531][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.31-09.57.37:768][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.31-09.57.37:850][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Intermediate/Shaders/WorkingDirectory/1076/).
+[2017.08.31-09.57.37:850][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/289E57684DABE70A6689038F9B9646FA/'.
+[2017.08.31-09.57.37:852][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.31-09.57.41:466][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.31-09.57.41:509][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.31-09.57.41:557][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.31-09.57.41:593][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.31-09.57.41:642][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.31-09.57.41:679][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.31-09.57.41:716][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.31-09.57.41:753][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.31-09.57.41:785][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.31-09.57.41:826][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.31-09.57.41:862][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.31-09.57.41:897][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.31-09.57.41:933][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.31-09.57.41:968][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.31-09.57.42:003][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.31-09.57.42:074][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.31-09.57.42:074][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.31-09.57.42:101][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.31-09.57.42:223][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.31-09.57.42:243][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.31-09.57.42:278][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.31-09.57.42:313][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.31-09.57.42:348][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.31-09.57.42:410][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.31-09.57.42:410][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.31-09.57.43:302][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.31-09.57.43:645][  0]LogDerivedDataCache: Loaded boot cache 0.34s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.31-09.57.43:645][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.31-09.57.43:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.31-09.57.43:645][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.31-09.57.43:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.31-09.57.43:645][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.31-09.57.43:693][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.31-09.57.43:705][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.31-09.57.43:746][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.31-09.57.43:815][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.31-09.57.43:847][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.31-09.57.43:847][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.31-09.57.48:912][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.31-09.57.49:474][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.31-09.57.49:964][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.31-09.57.50:081][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.31-09.57.50:138][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.31-09.57.50:138][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.31-09.57.50:138][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.31-09.57.53:466][  0]LogNetVersion: MinigameTest , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2853374125)
+[2017.08.31-09.57.53:754][  0]LogAssetRegistry: FAssetRegistry took 0.0463 seconds to start up
+[2017.08.31-09.57.53:852][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.084163 seconds
+[2017.08.31-09.57.53:857][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.31-09.57.53:857][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.31-09.57.53:857][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.31-09.57.53:894][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.31-09.58.10:743][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.31-09.58.10:788][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.31-09.58.12:062][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.31-09.58.12:864][  0]SourceControl: Info Source control is disabled
+[2017.08.31-09.58.13:425][  0]SourceControl: Info Source control is disabled
+[2017.08.31-09.58.13:495][  0]SourceControl: Info Source control is disabled
+[2017.08.31-09.58.13:603][  0]SourceControl: Info Source control is disabled
+[2017.08.31-09.58.14:879][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.31-09.58.15:873][  0]LogEngine: Initializing Engine...
+[2017.08.31-09.58.22:047][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.08.31-09.58.22:696][  0]LogHMD: Oculus plugin initialized. Version: 4.16.3-3561208+++UE4+Release-4.16, LibOVR: 1.17.0, SDK: 1.12.0, built Jul 28 2017, 11:57:22
+[2017.08.31-09.58.23:856][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.31-09.58.23:856][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.31-09.58.24:285][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.31-09.58.24:337][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.31-09.58.24:355][  0]LogInit: FAudioDevice initialized.
+[2017.08.31-09.58.24:399][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Tom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.31-09.58.24:429][  0]LogInit: Texture streaming: Enabled
+[2017.08.31-09.58.24:671][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.31-09.58.25:040][  0]LogInit: Transaction tracking system initialized
+[2017.08.31-09.58.25:546][  0]BlueprintLog: New page: Editor Load
+[2017.08.31-09.58.27:169][  0]LocalizationService: Info Localization service is disabled
+[2017.08.31-09.58.28:126][  0]LogConsoleResponse:Display: 
+[2017.08.31-09.58.30:904][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/' took 0.02s
+[2017.08.31-09.58.30:904][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.31-09.58.30:904][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.31-09.58.33:728][  0]SourceControl: Info Source control is disabled
+[2017.08.31-09.58.33:765][  0]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.31-09.58.33:768][  0]LightingResults: New page: Lighting Build
+[2017.08.31-09.58.33:867][  0]MapCheck: New page: Map Check
+[2017.08.31-09.58.33:867][  0]LightingResults: New page: Lighting Build
+[2017.08.31-09.58.34:905][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.31-09.58.35:228][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.31-09.58.35:290][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.31-09.58.35:351][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.385ms to complete.
+[2017.08.31-09.58.35:351][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.600
+[2017.08.31-09.58.36:045][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.31-09.58.36:574][  0]LogCollectionManager: Loaded 0 collections in 0.001534 seconds
+[2017.08.31-09.58.36:719][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Collections/' took 0.01s
+[2017.08.31-09.58.36:719][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Developers/Tom/Collections/' took 0.01s
+[2017.08.31-09.58.36:719][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Collections/' took 0.01s
+[2017.08.31-09.58.36:719][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.31-09.58.36:752][  0]LogContentBrowser: Native class hierarchy populated in 0.0325 seconds. Added 2329 classes and 491 folders.
+[2017.08.31-09.58.36:849][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.31-09.58.37:573][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.31-09.58.37:628][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.31-09.58.37:932][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.31-09.58.38:050][  0]LogSlate: Took 0.019295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.31-09.58.38:064][  0]LogSlate: Took 0.012446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.31-09.58.38:104][  0]LogSlate: Took 0.018946 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.31-09.58.38:399][  0]LogRenderer: Reallocating scene render targets to support 1116x600 NumSamples 1 (Frame:1).
+[2017.08.31-09.58.38:640][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.31-09.58.38:748][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.31-09.58.38:748][  0]LogLoad: (Engine Initialization) Total time: 74.46 seconds
+[2017.08.31-09.58.38:748][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.39 seconds
+[2017.08.31-09.58.38:748][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.31-09.58.38:748][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.31-09.58.38:759][  0]LogOcInput: OculusInput pre-init called
+[2017.08.31-09.58.38:770][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.17.0
+[2017.08.31-09.58.38:770][  0]LogHMD: Starting GearVRController plugin
+[2017.08.31-09.58.38:864][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.31-09.58.38:970][  0]LogSlate: Took 0.012937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.31-09.58.39:116][  2]LogAssetRegistry: Asset discovery search completed in 45.3842 seconds
+[2017.08.31-09.58.39:118][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.31-09.58.39:118][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2017.08.31-09.58.46:748][833]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Cooking.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.31-09.58.46:764][833]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.31-09.58.46:772][833]LightingResults: New page: Lighting Build
+[2017.08.31-09.58.46:772][833]LoadErrors: New page: Loading map: Cooking.umap
+[2017.08.31-09.58.46:780][833]MapCheck: New page: Map Check
+[2017.08.31-09.58.46:780][833]LightingResults: New page: Lighting Build
+[2017.08.31-09.58.47:894][833]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.31-09.58.48:054][833]LogMaterial: Missing cached shader map for material M_JellyingStation, compiling. 
+[2017.08.31-09.58.48:527][833]LogAIModule: Creating AISystem for world Cooking
+[2017.08.31-09.58.48:630][833]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.31-09.58.48:756][833]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.31-09.58.48:869][833]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 113.104ms to complete.
+[2017.08.31-09.58.48:869][833]LogFileHelpers: Loading map 'Cooking' took 2.127
+[2017.08.31-10.09.08:640][450]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.31-10.09.08:653][450]LightingResults: New page: Lighting Build
+[2017.08.31-10.09.08:654][450]LoadErrors: New page: Loading map: Eating.umap
+[2017.08.31-10.09.08:655][450]MapCheck: New page: Map Check
+[2017.08.31-10.09.08:655][450]LightingResults: New page: Lighting Build
+[2017.08.31-10.09.09:709][450]LogAIModule: Creating AISystem for world Eating
+[2017.08.31-10.09.09:768][450]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.31-10.09.09:829][450]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.31-10.09.09:970][450]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 140.828ms to complete.
+[2017.08.31-10.09.09:970][450]LogFileHelpers: Loading map 'Eating' took 1.331
+[2017.08.31-10.13.44:447][437]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.08.31-10.13.46:920][574]LogRenderer: Reallocating scene render targets to support 1144x744 NumSamples 1 (Frame:1).
+[2017.08.31-10.13.47:662][651]LogSlate: Took 0.011524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.31-10.14.00:359][131]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.31-10.15.59:947][ 98]BlueprintLog: New page: Compile BP_LobsterSign
+[2017.08.31-10.16.37:800][455]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:800][455]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:800][455]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:800][455]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:808][456]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:808][456]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:808][456]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:808][456]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:817][457]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:817][457]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:817][457]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:817][457]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:824][458]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:824][458]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:824][458]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:824][458]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:833][459]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:833][459]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:833][459]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:833][459]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:841][460]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:841][460]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:841][460]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:841][460]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:849][461]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:849][461]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:849][461]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:849][461]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:857][462]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:857][462]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:857][462]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:857][462]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:866][463]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:866][463]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:867][463]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:867][463]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:874][464]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:874][464]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:874][464]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:874][464]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:883][465]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:883][465]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:883][465]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:883][465]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:891][466]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:891][466]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:891][466]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:891][466]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:899][467]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:899][467]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:900][467]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:900][467]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:907][468]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:907][468]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:907][468]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:907][468]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:916][469]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:916][469]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:916][469]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:916][469]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:924][470]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:924][470]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:924][470]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:924][470]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:933][471]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:933][471]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:933][471]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:933][471]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:941][472]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:941][472]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:941][472]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:941][472]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:950][473]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:950][473]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:950][473]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:950][473]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:957][474]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:957][474]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:957][474]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:957][474]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:966][475]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:966][475]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:967][475]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:967][475]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:974][476]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:974][476]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:974][476]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:974][476]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:983][477]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:983][477]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:983][477]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:983][477]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:990][478]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:990][478]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.37:991][478]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.37:991][478]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:000][479]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:000][479]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:000][479]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:000][479]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:007][480]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:007][480]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:007][480]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:007][480]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:016][481]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:016][481]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:016][481]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:016][481]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:024][482]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:024][482]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:024][482]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:024][482]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:033][483]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:033][483]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:033][483]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:033][483]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:040][484]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:040][484]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:041][484]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:041][484]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:049][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:049][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:049][485]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:049][485]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:057][486]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:057][486]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:057][486]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:057][486]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:066][487]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:066][487]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:066][487]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:066][487]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:074][488]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:074][488]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:074][488]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:074][488]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:083][489]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:083][489]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:083][489]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:083][489]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:091][490]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:091][490]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:091][490]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:091][490]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:100][491]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:100][491]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:101][491]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:101][491]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:107][492]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:107][492]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:108][492]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:108][492]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:117][493]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:117][493]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:117][493]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:117][493]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:124][494]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:124][494]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:124][494]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:124][494]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:133][495]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:133][495]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:133][495]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:133][495]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:141][496]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:141][496]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:141][496]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:141][496]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:149][497]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:149][497]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:150][497]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:150][497]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:157][498]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:157][498]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:157][498]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:157][498]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:166][499]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:166][499]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:166][499]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:166][499]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:174][500]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:174][500]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:174][500]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:174][500]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:183][501]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:183][501]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:183][501]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:183][501]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:191][502]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:191][502]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:191][502]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:191][502]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:200][503]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:200][503]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:200][503]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:200][503]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:207][504]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:207][504]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:207][504]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:207][504]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:216][505]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:216][505]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:216][505]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:216][505]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:224][506]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:224][506]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:224][506]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:224][506]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:233][507]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:233][507]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:233][507]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:233][507]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:241][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:241][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.16.38:241][508]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.08.31-10.16.38:241][508]LogPhysics:Warning: ForeachShape(Convex): [/Game/EnvironmentArt/SM_FoodLobster.SM_FoodLobster] ScaledElem[0] invalid
+[2017.08.31-10.17.04:271][547]BlueprintLog: New page: Compile BP_LobsterSign
+[2017.08.31-10.17.15:211][690]Cmd: TRANSACTION UNDO
+[2017.08.31-10.17.15:211][690]LogEditorTransaction: Undo Scale Actors
+[2017.08.31-10.19.14:521][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Eating" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Eating_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.31-10.19.15:034][757]LogSavePackage: Save=448.86ms
+[2017.08.31-10.19.15:034][757]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Eating_Auto1C5E36A0749E79945F8C2D1BEC2541AB5.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Eating_Auto1.umap'
+[2017.08.31-10.19.15:037][757]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Eating_Auto1.umap
+[2017.08.31-10.19.15:038][757]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Eating' took 0.562
+[2017.08.31-10.19.15:038][757]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.562
+[2017.08.31-10.19.15:041][757]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Cooking/BP_LobsterSign] ([1] browsable assets)...
+[2017.08.31-10.19.15:054][757]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Cooking/BP_LobsterSign.BP_LobsterSign]
+[2017.08.31-10.19.15:054][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Cooking/BP_LobsterSign]
+[2017.08.31-10.19.15:089][757]LogSavePackage: Save=33.30ms
+[2017.08.31-10.19.15:089][757]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_LobsterSign_Auto1E95EF0C347A94CC590C16495DE6E652B.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_LobsterSign_Auto1.uasset'
+[2017.08.31-10.19.15:092][757]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_LobsterSign_Auto1.uasset
+[2017.08.31-10.19.15:092][757]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.08.31-10.19.36:421][219]BlueprintLog: New page: Compile BP_LobsterSign
+[2017.08.31-10.20.40:447][488]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh2)
+[2017.08.31-10.20.42:555][731]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh2)
+[2017.08.31-10.20.43:456][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2017.08.31-10.20.43:869][879]LogEditorViewport: Clicking on Actor (LMB): BP_LobsterSign_C (BP_LobsterSign2)
+[2017.08.31-10.20.44:104][902]Cmd: DELETE
+[2017.08.31-10.20.44:104][902]Cmd: ACTOR DELETE
+[2017.08.31-10.20.44:154][902]LogEditorActor: Deleted Actor: BP_LobsterSign_C
+[2017.08.31-10.20.44:169][902]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.08.31-10.20.57:042][876]LogSlate: Took 0.020479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.31-10.22.11:795][480]BlueprintLog: New page: Compile BP_SnailSign
+[2017.08.31-10.22.15:588][884]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.31-10.22.19:330][256]LogEditorViewport: Clicking on Actor (LMB): BP_LobsterSign_C (BP_LobsterSign)
+[2017.08.31-10.22.23:282][657]LogEditorViewport: Clicking on Actor (context menu): BP_LobsterSign_C (BP_LobsterSign2)
+[2017.08.31-10.22.25:210][857]EditorErrors: New page: Actor Reattachment
+[2017.08.31-10.23.25:501][ 87]BlueprintLog: New page: Compile BP_CheeseSign
+[2017.08.31-10.23.40:707][751]LogEditorViewport: Clicking on Actor (context menu): BP_SnailSign_C (BP_LobsterSign3)
+[2017.08.31-10.23.41:733][858]EditorErrors: New page: Actor Reattachment
+[2017.08.31-10.24.56:685][235]BlueprintLog: New page: Compile BP_PheasantSign
+[2017.08.31-10.27.23:695][828]LogEditorViewport: Clicking on Actor (LMB): BP_CheeseSign_C (BP_LobsterSign3)
+[2017.08.31-10.27.44:882][200]LogEditorViewport: Clicking on Actor (context menu): BP_CheeseSign_C (BP_LobsterSign4)
+[2017.08.31-10.27.45:904][309]EditorErrors: New page: Actor Reattachment
+[2017.08.31-10.28.47:085][990]BlueprintLog: New page: Compile BP_CaviarSign
+[2017.08.31-10.29.13:746][ 71]LogEditorViewport: Clicking on Actor (context menu): BP_PheasantSign_C (BP_LobsterSign5)
+[2017.08.31-10.29.14:769][176]EditorErrors: New page: Actor Reattachment
+[2017.08.31-10.29.23:098][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Eating" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Eating_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.31-10.29.23:609][135]LogSavePackage: Save=449.06ms
+[2017.08.31-10.29.23:609][135]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Eating_Auto25F35BF3D4541A25B8174798636A285B9.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Eating_Auto2.umap'
+[2017.08.31-10.29.23:612][135]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Eating_Auto2.umap
+[2017.08.31-10.29.23:614][135]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Eating' took 0.535
+[2017.08.31-10.29.23:614][135]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.535
+[2017.08.31-10.29.23:616][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Cooking/BP_LobsterSign] ([1] browsable assets)...
+[2017.08.31-10.29.23:630][135]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Cooking/BP_LobsterSign.BP_LobsterSign]
+[2017.08.31-10.29.23:630][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Cooking/BP_LobsterSign]
+[2017.08.31-10.29.23:648][135]LogSavePackage: Save=16.58ms
+[2017.08.31-10.29.23:648][135]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_LobsterSign_Auto2414C9CA044CA6103E8DCC38F3C9D26D9.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_LobsterSign_Auto2.uasset'
+[2017.08.31-10.29.23:650][135]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_LobsterSign_Auto2.uasset
+[2017.08.31-10.29.23:651][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Cooking/BP_SnailSign] ([1] browsable assets)...
+[2017.08.31-10.29.23:655][135]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Cooking/BP_SnailSign.BP_SnailSign]
+[2017.08.31-10.29.23:655][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Cooking/BP_SnailSign]
+[2017.08.31-10.29.23:671][135]LogSavePackage: Save=14.68ms
+[2017.08.31-10.29.23:671][135]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_SnailSign_Auto2B80DF80F4B6627A7B6501C88BD75427E.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_SnailSign_Auto2.uasset'
+[2017.08.31-10.29.23:673][135]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_SnailSign_Auto2.uasset
+[2017.08.31-10.29.23:675][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Cooking/BP_CheeseSign] ([1] browsable assets)...
+[2017.08.31-10.29.23:678][135]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Cooking/BP_CheeseSign.BP_CheeseSign]
+[2017.08.31-10.29.23:679][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Cooking/BP_CheeseSign]
+[2017.08.31-10.29.23:693][135]LogSavePackage: Save=12.39ms
+[2017.08.31-10.29.23:693][135]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_CheeseSign_Auto225AC6FD94105BE9012F2DEA3BB7597E2.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_CheeseSign_Auto2.uasset'
+[2017.08.31-10.29.23:695][135]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_CheeseSign_Auto2.uasset
+[2017.08.31-10.29.23:696][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Cooking/BP_PheasantSign] ([1] browsable assets)...
+[2017.08.31-10.29.23:699][135]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Cooking/BP_PheasantSign.BP_PheasantSign]
+[2017.08.31-10.29.23:699][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Cooking/BP_PheasantSign]
+[2017.08.31-10.29.23:713][135]LogSavePackage: Save=11.98ms
+[2017.08.31-10.29.23:713][135]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_PheasantSign_Auto2E5770CB94BCC1452C202ADBEEDCCFCB6.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_PheasantSign_Auto2.uasset'
+[2017.08.31-10.29.23:716][135]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_PheasantSign_Auto2.uasset
+[2017.08.31-10.29.23:717][135]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Cooking/BP_CaviarSign] ([1] browsable assets)...
+[2017.08.31-10.29.23:721][135]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Cooking/BP_CaviarSign.BP_CaviarSign]
+[2017.08.31-10.29.23:721][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Cooking/BP_CaviarSign]
+[2017.08.31-10.29.23:735][135]LogSavePackage: Save=12.48ms
+[2017.08.31-10.29.23:735][135]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_CaviarSign_Auto2B614909A4AC36CAA56EEEE960EB73469.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_CaviarSign_Auto2.uasset'
+[2017.08.31-10.29.23:737][135]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Blueprints/Cooking/BP_CaviarSign_Auto2.uasset
+[2017.08.31-10.29.23:737][135]LogFileHelpers: Auto-saving content packages took 0.122
+[2017.08.31-10.31.30:102][543]BlueprintLog: New page: Compile BP_EelsSign
+[2017.08.31-10.31.39:099][497]LogEditorViewport: Clicking on Actor (context menu): BP_CaviarSign_C (BP_LobsterSign6)
+[2017.08.31-10.31.40:253][618]EditorErrors: New page: Actor Reattachment
+[2017.08.31-10.32.32:832][802]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-10.32.32:918][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.32.32:918][802]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.31-10.32.32:918][802]LogPlayLevel: [PlayLevel] Compiling Eating before play...
+[2017.08.31-10.32.33:027][802]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2017.08.31-10.32.33:045][802]PIE: New page: PIE session: Eating (31 Aug 2017 12:32:33)
+[2017.08.31-10.32.33:045][802]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.31-10.32.33:068][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022896s)
+[2017.08.31-10.32.33:069][802]LogAIModule: Creating AISystem for world Eating
+[2017.08.31-10.32.33:069][802]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2017.08.31-10.32.33:069][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.024084s)
+[2017.08.31-10.32.33:109][802]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.31-10.32.33:120][802]LogInit: FAudioDevice initialized.
+[2017.08.31-10.32.33:176][802]LogLoad: Game class is 'newmode_C'
+[2017.08.31-10.32.33:190][802]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.31-11.32.33
+[2017.08.31-10.32.33:246][802]LogWorld: Bringing up level for play took: 0.058054
+[2017.08.31-10.32.33:323][802]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.31-10.32.33:334][802]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 0.151
+[2017.08.31-10.32.33:334][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.32.33:336][802]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.31-10.32.33:336][802]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.31-10.32.33:337][802]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.31-10.32.39:726][549]Cmd: LevelEditor.ToggleImmersive
+[2017.08.31-10.32.39:867][550]LogRenderer: Reallocating scene render targets to support 1328x744 NumSamples 1 (Frame:749).
+[2017.08.31-10.32.39:926][551]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:751).
+[2017.08.31-10.32.47:912][223]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_3
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:0966
+[2017.08.31-10.32.47:912][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.08.31-10.32.47:912][223]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_3
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:0906
+[2017.08.31-10.32.47:912][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3
+[2017.08.31-10.32.47:912][223]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_3
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:08A6
+[2017.08.31-10.32.47:912][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4
+[2017.08.31-10.32.47:912][223]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_3
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:0846
+[2017.08.31-10.32.47:912][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.08.31-10.32.47:912][223]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_3
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:07E6
+[2017.08.31-10.32.47:912][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6
+[2017.08.31-10.32.59:762][ 82]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.32.59:864][ 82]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.33.05:899][508]LogEditorViewport: Clicking on Actor (LMB): BP_EatingNewbury_C (BP_EatingNewbury)
+[2017.08.31-10.33.07:032][584]LogEditorViewport: Clicking on Actor (CTRL LMB): C_Eating_C (C_EatingNewbury)
+[2017.08.31-10.33.09:311][741]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_EelsSign_C (BP_LobsterSign6)
+[2017.08.31-10.33.10:345][811]LogEditorViewport: Clicking on Actor (CTRL LMB): C_Eating_C (C_EatingYvonne)
+[2017.08.31-10.33.11:432][885]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_EatingYvonne_C (BP_EatingYvonne)
+[2017.08.31-10.33.12:183][934]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_CaviarSign_C (BP_LobsterSign5)
+[2017.08.31-10.33.13:115][998]LogEditorViewport: Clicking on Actor (CTRL LMB): C_Eating_C (C_EatingReginald)
+[2017.08.31-10.33.13:639][ 31]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_EatingReginald_C (BP_EatingReginald)
+[2017.08.31-10.33.14:464][ 86]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PheasantSign_C (BP_LobsterSign4)
+[2017.08.31-10.33.23:935][738]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-10.33.23:960][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.33.23:960][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-10.33.23:961][738]PIE: New page: PIE session: Eating (31 Aug 2017 12:33:23)
+[2017.08.31-10.33.23:961][738]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.31-10.33.23:971][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010796s)
+[2017.08.31-10.33.23:972][738]LogAIModule: Creating AISystem for world Eating
+[2017.08.31-10.33.23:972][738]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2017.08.31-10.33.23:972][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.011864s)
+[2017.08.31-10.33.24:002][738]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.31-10.33.24:012][738]LogInit: FAudioDevice initialized.
+[2017.08.31-10.33.24:049][738]LogLoad: Game class is 'newmode_C'
+[2017.08.31-10.33.24:053][738]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.31-11.33.24
+[2017.08.31-10.33.24:054][738]LogWorld: Bringing up level for play took: 0.003345
+[2017.08.31-10.33.24:055][738]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 0.872
+[2017.08.31-10.33.24:055][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.33.24:055][738]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.31-10.33.24:055][738]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.31-10.33.24:055][738]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.31-10.33.37:335][ 90]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_3
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:0966
+[2017.08.31-10.33.37:335][ 90]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.08.31-10.33.37:335][ 90]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_3
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:0906
+[2017.08.31-10.33.37:335][ 90]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3
+[2017.08.31-10.33.37:336][ 90]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_3
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:08A6
+[2017.08.31-10.33.37:336][ 90]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4
+[2017.08.31-10.33.37:336][ 90]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_3
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:0846
+[2017.08.31-10.33.37:336][ 90]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.08.31-10.33.37:336][ 90]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_3
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:07E6
+[2017.08.31-10.33.37:336][ 90]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6
+[2017.08.31-10.33.47:379][901]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.31-10.33.47:379][901]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors of length 0!
+[2017.08.31-10.33.48:732][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.33.48:776][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.33.52:577][309]PIE:Warning: Warning Constraint in '/Engine/Transient.World_42:PersistentLevel.BP_Eels_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2017.08.31-10.34.00:115][145]BlueprintLog: New page: Compile Eating
+[2017.08.31-10.34.03:477][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor)
+[2017.08.31-10.34.06:258][734]LogEditorViewport: Clicking on Actor (LMB): C_Eating_C (C_EatingYvonne)
+[2017.08.31-10.34.07:846][908]LogEditorViewport: Clicking on Actor (LMB): BP_EelsSign_C (BP_LobsterSign6)
+[2017.08.31-10.34.09:144][ 53]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_CaviarSign_C (BP_LobsterSign5)
+[2017.08.31-10.34.11:235][294]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PheasantSign_C (BP_LobsterSign4)
+[2017.08.31-10.34.18:564][ 71]LogEditorViewport: Clicking on Actor (LMB): BP_LobsterSign_C (BP_LobsterSign)
+[2017.08.31-10.34.19:535][182]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_SnailSign_C (BP_LobsterSign2)
+[2017.08.31-10.34.20:821][329]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_CheeseSign_C (BP_LobsterSign3)
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.SKEL_BP_CaviarSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.BP_CaviarSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.BP_CaviarSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.BP_CaviarSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.BP_CaviarSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.BP_CaviarSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.BP_CaviarSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.SKEL_BP_CaviarSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.SKEL_BP_CaviarSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.SKEL_BP_CaviarSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.SKEL_BP_CaviarSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.SKEL_BP_CaviarSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.SKEL_BP_CaviarSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:074][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CaviarSign.BP_CaviarSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_CaviarSign.PackageMetaData'
+[2017.08.31-10.34.43:103][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.SKEL_BP_CheeseSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:103][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.BP_CheeseSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:103][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.BP_CheeseSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.BP_CheeseSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.BP_CheeseSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.BP_CheeseSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.BP_CheeseSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.SKEL_BP_CheeseSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.SKEL_BP_CheeseSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.SKEL_BP_CheeseSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.SKEL_BP_CheeseSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.SKEL_BP_CheeseSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.SKEL_BP_CheeseSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:104][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_CheeseSign.BP_CheeseSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_CheeseSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.SKEL_BP_EelsSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.BP_EelsSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.BP_EelsSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.BP_EelsSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.BP_EelsSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.BP_EelsSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.BP_EelsSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.SKEL_BP_EelsSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.SKEL_BP_EelsSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.SKEL_BP_EelsSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.SKEL_BP_EelsSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.SKEL_BP_EelsSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.SKEL_BP_EelsSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:134][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_EelsSign.BP_EelsSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_EelsSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.SKEL_BP_LobsterSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.SKEL_BP_LobsterSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.SKEL_BP_LobsterSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.SKEL_BP_LobsterSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.SKEL_BP_LobsterSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.SKEL_BP_LobsterSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.SKEL_BP_LobsterSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:163][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_LobsterSign.BP_LobsterSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_LobsterSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.SKEL_BP_PheasantSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.BP_PheasantSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.BP_PheasantSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.BP_PheasantSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.BP_PheasantSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.BP_PheasantSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.BP_PheasantSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.SKEL_BP_PheasantSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.SKEL_BP_PheasantSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.SKEL_BP_PheasantSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.SKEL_BP_PheasantSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.SKEL_BP_PheasantSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.SKEL_BP_PheasantSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:191][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_PheasantSign.BP_PheasantSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_PheasantSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.SKEL_BP_SnailSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.BP_SnailSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.BP_SnailSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.SKEL_BP_SnailSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.SKEL_BP_SnailSign_C:StaticMesh5' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.SKEL_BP_SnailSign_C:StaticMesh4' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.SKEL_BP_SnailSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.SKEL_BP_SnailSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.SKEL_BP_SnailSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.SKEL_BP_SnailSign_C:StaticMesh' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.SKEL_BP_SnailSign_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.BP_SnailSign_C' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.BP_SnailSign_C:StaticMesh1' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.BP_SnailSign_C:StaticMesh2' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.BP_SnailSign_C:StaticMesh3' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.BP_SnailSign_C:StaticMesh4' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.BP_SnailSign_C:StaticMesh5' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:219][982]LogMetaData: Removing '/Game/Blueprints/Eating/BP_SnailSign.BP_SnailSign_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Cooking/BP_SnailSign.PackageMetaData'
+[2017.08.31-10.34.43:263][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_CaviarSign" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_CaviarSign.uasset" SILENT=true
+[2017.08.31-10.34.43:277][982]LogSavePackage: Save=11.89ms
+[2017.08.31-10.34.43:277][982]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_CaviarSign36CEA8A547FAD657E9E9EF8AB5FCE77F.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_CaviarSign.uasset'
+[2017.08.31-10.34.43:281][982]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_CaviarSign.uasset
+[2017.08.31-10.34.43:287][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_CheeseSign" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_CheeseSign.uasset" SILENT=true
+[2017.08.31-10.34.43:301][982]LogSavePackage: Save=12.46ms
+[2017.08.31-10.34.43:301][982]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_CheeseSignAD0C3F584AF821DF5F8CA0B7B55CC832.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_CheeseSign.uasset'
+[2017.08.31-10.34.43:305][982]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_CheeseSign.uasset
+[2017.08.31-10.34.43:315][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_EelsSign" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EelsSign.uasset" SILENT=true
+[2017.08.31-10.34.43:330][982]LogSavePackage: Save=12.54ms
+[2017.08.31-10.34.43:330][982]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_EelsSignC1A01BBE4673D834F5B56EB2071CDA07.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EelsSign.uasset'
+[2017.08.31-10.34.43:333][982]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_EelsSign.uasset
+[2017.08.31-10.34.43:349][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_LobsterSign" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_LobsterSign.uasset" SILENT=true
+[2017.08.31-10.34.43:367][982]LogSavePackage: Save=17.03ms
+[2017.08.31-10.34.43:367][982]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_LobsterSign0EE745B4460E0B516DEFABA91DFCF191.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_LobsterSign.uasset'
+[2017.08.31-10.34.43:371][982]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_LobsterSign.uasset
+[2017.08.31-10.34.43:377][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_PheasantSign" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_PheasantSign.uasset" SILENT=true
+[2017.08.31-10.34.43:391][982]LogSavePackage: Save=12.73ms
+[2017.08.31-10.34.43:391][982]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_PheasantSignF2AB03F742BF759C441B949AFC7F3A52.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_PheasantSign.uasset'
+[2017.08.31-10.34.43:396][982]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_PheasantSign.uasset
+[2017.08.31-10.34.43:402][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Eating/BP_SnailSign" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_SnailSign.uasset" SILENT=true
+[2017.08.31-10.34.43:418][982]LogSavePackage: Save=15.41ms
+[2017.08.31-10.34.43:419][982]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/BP_SnailSignC9B67A3040285E4AEBF26FBB903538F1.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_SnailSign.uasset'
+[2017.08.31-10.34.43:423][982]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Blueprints/Eating/BP_SnailSign.uasset
+[2017.08.31-10.38.23:798][727]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_EelsSign_C (BP_LobsterSign6)
+[2017.08.31-10.38.24:869][850]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_CaviarSign_C (BP_LobsterSign5)
+[2017.08.31-10.38.26:096][992]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_PheasantSign_C (BP_LobsterSign4)
+[2017.08.31-10.42.11:654][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Eating" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Eating_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.31-10.42.12:169][375]LogSavePackage: Save=454.83ms
+[2017.08.31-10.42.12:169][375]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Eating_Auto369877EFC4D0F5E14BC71ED998DA062D2.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Eating_Auto3.umap'
+[2017.08.31-10.42.12:172][375]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Levels/Eating_Auto3.umap
+[2017.08.31-10.42.12:174][375]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Eating' took 0.543
+[2017.08.31-10.42.12:174][375]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.543
+[2017.08.31-10.42.12:176][375]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sequences/S_EatingSigns] ([1] browsable assets)...
+[2017.08.31-10.42.12:176][375]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sequences/S_EatingSigns]
+[2017.08.31-10.42.12:183][375]LogSavePackage: Save=5.27ms
+[2017.08.31-10.42.12:183][375]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/S_EatingSigns_Auto3E18F3032478C885FA2EC77B90E4AA60A.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Sequences/S_EatingSigns_Auto3.uasset'
+[2017.08.31-10.42.12:184][375]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Autosaves/Game/Sequences/S_EatingSigns_Auto3.uasset
+[2017.08.31-10.42.12:185][375]LogFileHelpers: Auto-saving content packages took 0.010
+[2017.08.31-10.45.33:408][ 10]LogEditorViewport: Clicking on Actor (LMB): BP_CaviarSign_C (BP_LobsterSign5)
+[2017.08.31-10.48.28:999][679]BlueprintLog: New page: Compile Eating
+[2017.08.31-10.48.30:727][861]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-10.48.30:751][861]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.48.30:751][861]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.31-10.48.30:751][861]LogPlayLevel: [PlayLevel] Compiling BP_LobsterSign before play...
+[2017.08.31-10.48.30:962][861]LogPlayLevel: [PlayLevel] Compiling BP_SnailSign before play...
+[2017.08.31-10.48.31:105][861]LogPlayLevel: [PlayLevel] Compiling BP_CheeseSign before play...
+[2017.08.31-10.48.31:248][861]LogPlayLevel: [PlayLevel] Compiling BP_PheasantSign before play...
+[2017.08.31-10.48.31:391][861]LogPlayLevel: [PlayLevel] Compiling BP_EelsSign before play...
+[2017.08.31-10.48.31:555][861]LogPlayLevel: PlayLevel: Blueprint regeneration took 803 ms (5 blueprints)
+[2017.08.31-10.48.31:555][861]PIE: New page: PIE session: Eating (31 Aug 2017 12:48:31)
+[2017.08.31-10.48.31:555][861]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.31-10.48.31:566][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011131s)
+[2017.08.31-10.48.31:567][861]LogAIModule: Creating AISystem for world Eating
+[2017.08.31-10.48.31:567][861]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2017.08.31-10.48.31:567][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.012289s)
+[2017.08.31-10.48.31:593][861]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.31-10.48.31:603][861]LogInit: FAudioDevice initialized.
+[2017.08.31-10.48.31:632][861]LogLoad: Game class is 'newmode_C'
+[2017.08.31-10.48.31:635][861]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.31-11.48.31
+[2017.08.31-10.48.31:636][861]LogWorld: Bringing up level for play took: 0.003179
+[2017.08.31-10.48.31:637][861]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating 0.454
+[2017.08.31-10.48.31:637][861]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.48.31:638][861]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.31-10.48.31:638][861]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.31-10.48.31:638][861]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.31-10.48.44:287][372]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_1
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:09AB
+[2017.08.31-10.48.44:287][372]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.08.31-10.48.44:287][372]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_1
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:094B
+[2017.08.31-10.48.44:287][372]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3
+[2017.08.31-10.48.44:287][372]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_1
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:08EB
+[2017.08.31-10.48.44:287][372]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4
+[2017.08.31-10.48.44:287][372]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_1
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:088B
+[2017.08.31-10.48.44:287][372]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.08.31-10.48.44:288][372]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_1
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:082B
+[2017.08.31-10.48.44:288][372]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6
+[2017.08.31-10.48.49:079][946]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.48.49:129][946]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.49.05:961][914]BlueprintLog: New page: Compile Eating
+[2017.08.31-10.49.06:924][ 14]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-10.49.06:950][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.49.06:950][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-10.49.06:950][ 14]PIE: New page: PIE session: Eating (31 Aug 2017 12:49:06)
+[2017.08.31-10.49.06:950][ 14]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Eating
+[2017.08.31-10.49.06:960][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009793s)
+[2017.08.31-10.49.06:961][ 14]LogAIModule: Creating AISystem for world Eating
+[2017.08.31-10.49.06:961][ 14]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2017.08.31-10.49.06:961][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Eating.Eating to /Game/Levels/UEDPIE_0_Eating.Eating (0.010726s)
+[2017.08.31-10.49.06:988][ 14]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.31-10.49.06:998][ 14]LogInit: FAudioDevice initialized.
+[2017.08.31-10.49.07:041][ 14]LogLoad: Game class is 'newmode_C'
+[2017.08.31-10.49.07:045][ 14]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Eating.Eating up for play (max tick rate 0) at 2017.08.31-11.49.07
+[2017.08.31-10.49.07:045][ 14]LogWorld: Bringing up level for play took: 0.003544
+[2017.08.31-10.49.07:046][ 14]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.31-10.49.07:049][ 14]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Eating -0.133
+[2017.08.31-10.49.07:050][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.49.07:052][ 14]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.31-10.49.07:052][ 14]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.31-10.49.07:052][ 14]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.31-10.49.20:664][640]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_2
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:09FC
+[2017.08.31-10.49.20:664][640]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue2
+[2017.08.31-10.49.20:664][640]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_2
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:099C
+[2017.08.31-10.49.20:665][640]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue3
+[2017.08.31-10.49.20:665][640]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_2
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:093C
+[2017.08.31-10.49.20:665][640]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue4
+[2017.08.31-10.49.20:665][640]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_2
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:08DC
+[2017.08.31-10.49.20:665][640]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue5
+[2017.08.31-10.49.20:665][640]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6
+	Eating_C /Game/Levels/UEDPIE_0_Eating.Eating:PersistentLevel.Eating_C_2
+	Function /Game/Levels/Eating.Eating_C:ExecuteUbergraph_Eating:087C
+[2017.08.31-10.49.20:665][640]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6 from function: 'ExecuteUbergraph_Eating' from node: Possess in graph: EventGraph in object: Eating with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue6
+[2017.08.31-10.49.34:111][183]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.31-10.49.34:111][183]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.31-10.49.34:111][183]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors of length 0!
+[2017.08.31-10.49.34:710][254]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors5 of length 0!
+[2017.08.31-10.49.34:710][254]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors6 of length 0!
+[2017.08.31-10.49.34:710][254]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAttachedActors_OutActors of length 0!
+[2017.08.31-10.50.00:348][280]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.50.00:421][280]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Eating.Eating:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Eating.Eating:PersistentLevel.Eating' with GeneratedClass '/Game/Levels/Eating.Eating_C' with ClassGeneratedBy '/Game/Levels/Eating.Eating:PersistentLevel.Eating'
+[2017.08.31-10.50.02:487][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Eating" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.31-10.50.03:029][499]LogSavePackage: Save=465.10ms
+[2017.08.31-10.50.03:029][499]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/EatingF8CCCFCB4F669C4014F86CAEDFF47A1A.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap'
+[2017.08.31-10.50.03:034][499]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Eating.umap
+[2017.08.31-10.50.03:078][499]LogFileHelpers: Saving map 'Eating' took 0.730
+[2017.08.31-10.50.20:335][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sequences/S_EatingSigns" FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Sequences/S_EatingSigns.uasset" SILENT=true
+[2017.08.31-10.50.20:344][367]LogSavePackage: Save=6.83ms
+[2017.08.31-10.50.20:344][367]LogSavePackage: Moving 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/S_EatingSigns0D04E6BE43B175D80537FCACC7F1B8D5.tmp' to 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Sequences/S_EatingSigns.uasset'
+[2017.08.31-10.50.20:348][367]LogSavePackage:Display: Finished SavePackage C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Sequences/S_EatingSigns.uasset
+[2017.08.31-10.50.20:352][367]Cmd: MAP LOAD FILE="C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Levels/Dancing.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.31-10.50.20:363][367]LightingResults: New page: Lighting Build
+[2017.08.31-10.50.20:364][367]LoadErrors: New page: Loading map: Dancing.umap
+[2017.08.31-10.50.20:366][367]MapCheck: New page: Map Check
+[2017.08.31-10.50.20:366][367]LightingResults: New page: Lighting Build
+[2017.08.31-10.50.20:657][367]LogAIModule: Creating AISystem for world Dancing
+[2017.08.31-10.50.20:684][367]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.31-10.50.20:744][367]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.31-10.50.20:885][367]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 140.846ms to complete.
+[2017.08.31-10.50.20:885][367]LogFileHelpers: Loading map 'Dancing' took 0.535
+[2017.08.31-10.50.27:092][773]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Dancing.Dancing:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Dancing.Dancing:PersistentLevel.Dancing' with GeneratedClass '/Game/Levels/Dancing.Dancing_C' with ClassGeneratedBy '/Game/Levels/Dancing.Dancing:PersistentLevel.Dancing'
+[2017.08.31-10.50.27:092][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-10.50.27:092][773]PIE: New page: SIE session: Dancing (31 Aug 2017 12:50:27)
+[2017.08.31-10.50.27:092][773]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Dancing
+[2017.08.31-10.50.27:102][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009893s)
+[2017.08.31-10.50.27:102][773]LogAIModule: Creating AISystem for world Dancing
+[2017.08.31-10.50.27:102][773]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2017.08.31-10.50.27:103][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Dancing.Dancing to /Game/Levels/UEDPIE_0_Dancing.Dancing (0.010758s)
+[2017.08.31-10.50.27:126][773]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.31-10.50.27:136][773]LogInit: FAudioDevice initialized.
+[2017.08.31-10.50.27:177][773]LogLoad: Game class is 'newmode_C'
+[2017.08.31-10.50.27:181][773]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Dancing.Dancing up for play (max tick rate 0) at 2017.08.31-11.50.27
+[2017.08.31-10.50.27:187][773]LogWorld: Bringing up level for play took: 0.008863
+[2017.08.31-10.50.27:188][773]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.31-10.50.27:188][773]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Dancing 0.005
+[2017.08.31-10.50.27:248][773]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Dancing.Dancing:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Dancing.Dancing:PersistentLevel.Dancing' with GeneratedClass '/Game/Levels/Dancing.Dancing_C' with ClassGeneratedBy '/Game/Levels/Dancing.Dancing:PersistentLevel.Dancing'
+[2017.08.31-10.50.27:248][773]LogInput:Error: Duplicate mapping of key Gamepad_LeftY for axis MoveUp
+[2017.08.31-10.50.27:248][773]LogInput:Error: Duplicate mapping of key Gamepad_LeftX for axis MoveRight
+[2017.08.31-10.50.27:248][773]LogInput:Error: Duplicate mapping of key Gamepad_RightX for axis Turn
+[2017.08.31-10.50.48:536][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Dancing.Dancing:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Dancing.Dancing:PersistentLevel.Dancing' with GeneratedClass '/Game/Levels/Dancing.Dancing_C' with ClassGeneratedBy '/Game/Levels/Dancing.Dancing:PersistentLevel.Dancing'
+[2017.08.31-10.50.48:594][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Dancing.Dancing:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Dancing.Dancing:PersistentLevel.Dancing' with GeneratedClass '/Game/Levels/Dancing.Dancing_C' with ClassGeneratedBy '/Game/Levels/Dancing.Dancing:PersistentLevel.Dancing'
+[2017.08.31-10.55.35:840][629]Cmd: QUIT_EDITOR
+[2017.08.31-10.55.36:606][629]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.31-10.55.36:619][629]LogExit: Preparing to exit.
+[2017.08.31-10.55.37:163][629]LogExit: Editor shut down
+[2017.08.31-10.55.37:187][629]LogExit: Transaction tracking system shut down
+[2017.08.31-10.55.37:562][629]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.31-10.55.37:562][629]LogExit: Object subsystem successfully closed.
+[2017.08.31-10.55.37:613][629]LogD3D11RHI: Shutdown
+[2017.08.31-10.55.37:613][629]LogD3D11RHI: CleanupD3DDevice
+[2017.08.31-10.55.37:876][629]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.31-10.55.38:077][629]LogModuleManager: Shutting down and abandoning module SequencerWidgets (534)
+[2017.08.31-10.55.38:077][629]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.08.31-10.55.38:077][629]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2017.08.31-10.55.38:077][629]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.31-10.55.38:077][629]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.31-10.55.38:077][629]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.31-10.55.38:077][629]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.31-10.55.38:077][629]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.31-10.55.38:077][629]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.31-10.55.38:077][629]LogDirectoryWatcher: A directory notification for 'E:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.31-10.55.38:081][629]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.31-10.55.38:081][629]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.31-10.55.38:081][629]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.31-10.55.38:081][629]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Collections/' was aborted.
+[2017.08.31-10.55.38:081][629]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/Developers/Tom/Collections/' was aborted.
+[2017.08.31-10.55.38:081][629]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Saved/Collections/' was aborted.
+[2017.08.31-10.55.38:081][629]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.31-10.55.38:081][629]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.31-10.55.38:081][629]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.31-10.55.38:082][629]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.31-10.55.38:094][629]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.31-10.55.38:106][629]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.31-10.55.38:106][629]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.31-10.55.38:119][629]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.31-10.55.38:119][629]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.31-10.55.38:134][629]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.31-10.55.38:134][629]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.31-10.55.38:134][629]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.31-10.55.38:644][629]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.31-10.55.38:644][629]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.31-10.55.38:644][629]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.31-10.55.38:661][629]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.31-10.55.38:671][629]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.31-10.55.38:671][629]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.31-10.55.38:681][629]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.31-10.55.38:681][629]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.31-10.55.38:693][629]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.31-10.55.38:693][629]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.31-10.55.38:694][629]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.31-10.55.38:700][629]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.31-10.55.38:700][629]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.31-10.55.38:700][629]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.31-10.55.38:700][629]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.31-10.55.38:700][629]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.31-10.55.38:700][629]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.31-10.55.38:701][629]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.31-10.55.38:701][629]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.31-10.55.38:701][629]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.31-10.55.38:723][629]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.31-10.55.38:732][629]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.31-10.55.38:764][629]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.31-10.55.38:800][629]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.31-10.55.38:853][629]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.31-10.55.38:853][629]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.31-10.55.38:879][629]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.31-10.55.38:898][629]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.31-10.55.38:898][629]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.31-10.55.38:898][629]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.31-10.55.38:898][629]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.31-10.55.38:905][629]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.31-10.55.38:905][629]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.31-10.55.38:905][629]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.31-10.55.38:915][629]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.31-10.55.38:916][629]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.31-10.55.38:916][629]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.31-10.55.38:937][629]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.31-10.55.38:937][629]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.31-10.55.38:937][629]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.31-10.55.38:951][629]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.31-10.55.38:951][629]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.31-10.55.38:951][629]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.31-10.55.38:951][629]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.31-10.55.38:951][629]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.31-10.55.38:967][629]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.31-10.55.38:967][629]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.31-10.55.38:967][629]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.31-10.55.38:967][629]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.31-10.55.38:967][629]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.31-10.55.38:967][629]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.31-10.55.38:967][629]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.31-10.55.38:967][629]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.31-10.55.38:967][629]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.31-10.55.39:062][629]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.31-10.55.39:077][629]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.31-10.55.39:084][629]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.31-10.55.39:084][629]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.31-10.55.39:095][629]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.31-10.55.39:096][629]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.31-10.55.39:096][629]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.31-10.55.39:096][629]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.31-10.55.39:096][629]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.31-10.55.39:096][629]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.31-10.55.39:096][629]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.31-10.55.39:096][629]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.31-10.55.39:096][629]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.31-10.55.39:097][629]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.31-10.55.39:097][629]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.31-10.55.39:097][629]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.31-10.55.39:097][629]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.31-10.55.39:097][629]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.31-10.55.39:097][629]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.31-10.55.39:097][629]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.31-10.55.39:197][629]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.31-10.55.39:298][629]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.31-10.55.39:298][629]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.31-10.55.39:298][629]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.31-10.55.39:298][629]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.31-10.55.39:298][629]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.31-10.55.39:298][629]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.31-10.55.39:299][629]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.31-10.55.39:299][629]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.31-10.55.39:309][629]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.31-10.55.39:309][629]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.31-10.55.39:309][629]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.31-10.55.39:309][629]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.31-10.55.39:309][629]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.31-10.55.39:309][629]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.31-10.55.39:309][629]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.31-10.55.39:309][629]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.31-10.55.39:322][629]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.31-10.55.39:322][629]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.31-10.55.39:336][629]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.31-10.55.39:336][629]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.31-10.55.39:347][629]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.31-10.55.39:361][629]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.31-10.55.39:368][629]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.31-10.55.39:368][629]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.31-10.55.39:382][629]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.31-10.55.39:382][629]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.31-10.55.39:382][629]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.31-10.55.39:408][629]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.31-10.55.39:408][629]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.31-10.55.39:410][629]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.31-10.55.39:410][629]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.31-10.55.39:410][629]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.31-10.55.39:410][629]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.31-10.55.39:410][629]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.31-10.55.39:410][629]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.31-10.55.39:468][629]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.31-10.55.39:468][629]LogDirectoryWatcher: A directory notification for 'C:/Users/Tom/Documents/GitHub/Minigames/MinigameTest/Content/' was aborted.
+[2017.08.31-10.55.39:468][629]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.31-10.55.39:468][629]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.31-10.55.39:472][629]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.31-10.55.39:476][629]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.31-10.55.39:476][629]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.31-10.55.39:476][629]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.31-10.55.39:476][629]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.31-10.55.39:476][629]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.31-10.55.39:476][629]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.31-10.55.39:476][629]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.31-10.55.39:476][629]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.31-10.55.39:502][629]LogDerivedDataCache: Shutdown
+[2017.08.31-10.55.39:502][629]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.31-10.55.39:502][629]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.31-10.55.39:502][629]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.31-10.55.39:514][629]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.31-10.55.39:521][629]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.31-10.55.39:521][629]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.31-10.55.39:551][629]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.31-10.55.39:552][629]LogHMD: Oculus shutdown.
+[2017.08.31-10.55.39:552][629]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.31-10.55.39:552][629]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.31-10.55.39:552][629]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.31-10.55.39:552][629]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.31-10.55.39:552][629]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.31-10.55.39:552][629]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.31-10.55.39:578][629]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.31-10.55.39:597][629]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.31-10.55.39:597][629]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.31-10.55.39:597][629]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEA37FDF0-47FD-F4B5-D228-86820EFEC094%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=9507d6a347edc37d65474c8629981c28%7Ccdc8881e81874f7b9309baf36bcfe432%7Cf9f02938-7094-4537-917c-c69c45de1e4a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.31-10.55.39:628][629]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.31-10.55.39:630][629]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.31-10.55.39:650][629]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.31-10.55.39:667][629]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.31-10.55.39:667][629]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.31-10.55.39:677][629]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.31-10.55.39:677][629]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.31-10.55.39:677][629]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.31-10.55.39:677][629]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.31-10.55.39:696][629]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.31-10.55.39:726][629]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.31-10.55.39:726][629]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.31-10.55.39:726][629]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.31-10.55.39:726][629]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.31-10.55.39:726][629]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.31-10.55.39:726][629]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.31-10.55.39:726][629]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.31-10.55.39:726][629]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.31-10.55.39:726][629]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.31-10.55.39:728][629]LogExit: Exiting.
+[2017.08.31-10.55.39:753][629]Log file closed, 08/31/17 11:55:39
